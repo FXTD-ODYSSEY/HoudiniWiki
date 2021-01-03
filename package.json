@@ -1,0 +1,19 @@
+{
+  "name": "houdiniwiki",
+  "version": "1.0.0",
+  "description": "Summary & Tips for my Houdini Learning Experience.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FXTD-ODYSSEY/HoudiniWiki.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FXTD-ODYSSEY/HoudiniWiki/issues"
+  },
+  "homepage": "https://github.com/FXTD-ODYSSEY/HoudiniWiki#readme"
+}

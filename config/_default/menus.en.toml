@@ -1,0 +1,37 @@
+[[main]]
+  identifier = "examples"
+  name = "Examples"
+  url = "1_examples"
+  weight = 1
+
+[[main]]
+  identifier = "nodes"
+  name = "Nodes"
+  url = "2_nodes"
+  weight = 2
+
+[[main]]
+  identifier = "vex"
+  name = "Vex"
+  url = "3_vex"
+  weight = 3
+  
+[[main]]
+  identifier = "python"
+  name = "Python"
+  url = "4_python"
+  weight = 4
+
+[[main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "blog"
+  weight = 5
+
+
+[[main]]
+  identifier = "updates"
+  name = "Updates"
+  url = "updates"
+  weight = 6
+  
