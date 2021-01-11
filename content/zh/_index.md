@@ -1,6 +1,6 @@
 ---
-title: Houdini Wiki
-description: Houdini Wiki - Houdini Summuary & Tips
+title: Houdini 百科
+description: Houdini 总结 & 经验
 date: 2021-1-2T04:15:05+09:00
 draft: false
 # updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
@@ -8,15 +8,15 @@ landing:
   height: 500
   image: logo.png
   title:
-    - Houdini Wiki
+    - Houdini 百科
   text:
-    - Houdini Summuary & Tips
+    - Houdini 总结 & 经验
   titleColor:
   textColor:
   spaceBetweenTitleText: 25
   buttons:
     - link: docs
-      text: Go To Wiki
+      text: 进入百科
       color: primary
   # backgroundImage: 
   #   src: images/landscape.jpg
@@ -26,9 +26,9 @@ landing:
 sections:
   - bgcolor: teal
     type: card
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+    description: "Houdini 软件学习汇总整理平台，致力于将知识脉络整理清楚，方便以后查阅学习。"
     header: 
-      title: Why Zdoc
+      title: Houdini 百科
       hlcolor: "#8bc34a"
       color: '#fff'
       fontSize: 32

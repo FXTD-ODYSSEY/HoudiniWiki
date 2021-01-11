@@ -1,10 +1,14 @@
 baseURL = "http://example.org"
 title = "Houdini Wiki"
-theme = "zdoc"
+# theme = ["zdoc","zzo"]
+theme = ["zdoc"]
 
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
+
+summaryLength = 70
+buildFuture = true
 
 copyright = "&copy;{year}, All Rights Reserved"
 timeout = 10000
@@ -36,6 +40,9 @@ enableEditBtn = true
 
 [outputs]
   home = ["HTML", "RSS", "SearchIndex"]
+  section = ["HTML", "RSS", "SearchIndex"]
+  taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
+  taxonomy = ["HTML", "RSS", "SearchIndex"]
 
 [outputFormats]
   [outputFormats.SearchIndex]
@@ -44,6 +51,8 @@ enableEditBtn = true
     isPlainText = true
     notAlternative = true
 
+
 [taxonomies]
-  tag = "tags"
   category = "categories"
+  tag = "tags"
+  series = "series"

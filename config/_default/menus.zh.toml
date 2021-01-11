@@ -35,3 +35,19 @@
   url = "updates"
   weight = 6
   
+
+[[main]]
+  identifier = "gallery"
+  name = "Gallery"
+  url = "gallery"
+  weight = 4
+    
+[[main]]
+  parent = "gallery"
+  name = "Cartoon"
+  url = "gallery/cartoon"
+
+[[main]]
+  parent = "gallery"
+  name = "Photo"
+  url = "gallery/photo"
