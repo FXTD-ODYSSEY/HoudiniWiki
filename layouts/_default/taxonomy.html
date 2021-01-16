@@ -1,0 +1,90 @@
+{{ define "main" }}
+{{ $title := .Title }}
+<div class="top">
+  <header class="header__wrapper bgcolor__header">
+    {{ with .Site.GetPage "section" "blog" }}
+      {{ if eq .Params.blogHeaderType "img" }}
+        {{ partial "header/blog-header.html" . }}
+      {{ else }}
+        <div class="divider">
+          <div class="lmr">
+            {{ partial "header/blog-header.html" . }}
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+  </header>
+</div>
+
+<div class="mid blog__bg">
+      {{if (len .RegularPages) }}
+      <main class="main blog__bg">
+      <div class="sv">
+      <div class="blog-post">
+          {{ range .RegularPages }}
+            {{ .Render "summary" }}
+          {{ end }}
+        
+        {{ partial "main/component/pagination.html" . }}
+      </div>
+      <div class="blog-tags">
+        {{ partial "main/component/tag-cloud" . }}
+      </div>
+      
+    </div>
+  </main>
+  {{ else }}
+    <header class="header basicflex-column">
+      <h3 class="terms__title capitalize h3">{{ $title }}</h3>
+    </header>
+    <main class="terms main">  
+      <div class="terms__list">
+        {{ range $index, $element := .Data.Terms }}
+        {{ if $index }}
+          <a href="{{ .Page.RelPermalink }}" class="terms__item {{ if lt (len $element) 5 }}is-small{{ else if lt (len $element) 10 }}is-normal{{ else if lt (len $element) 20 }}is-medium{{ else if ge (len $element) 20 }}is-large{{ end }}">
+            <span class="terms__{{ lower  $title }}">
+              {{ $element.Page.Title }}
+            </span>
+            <span class="terms__len">({{ printf "%#v" (len $element) }})</span>
+          </a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </main>
+    {{ end }}
+</div>
+
+<script>
+  var singleViewElem = document.querySelectorAll('.sv');
+  var postElem = document.querySelector('.blog-post');
+  var tagsElem = document.querySelector('.blog-tags');
+
+  enquire.register("screen and (max-width:1280px)", {
+    match: function () {
+      singleViewElem.forEach(function (elem) {
+        postElem.className = "blog-post";
+        tagsElem.className = "blog-tags";
+      });
+    },
+    unmatch: function () {
+      singleViewElem.forEach(function (elem) {
+        postElem.className = "blog-post";
+        tagsElem.className = "blog-tags";
+      });
+    },
+  }).register("screen and (max-width:769px)", {
+    match: function () {
+      singleViewElem.forEach(function (elem) {
+        postElem.className = "blog-total";
+        tagsElem.className = "hide";
+      });
+    },
+    unmatch: function () {
+      singleViewElem.forEach(function (elem) {
+        postElem.className = "blog-post";
+        tagsElem.className = "blog-tags";
+      });
+    },
+  });
+</script>
+{{ end }}

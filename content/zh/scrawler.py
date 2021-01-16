@@ -77,48 +77,54 @@ def generate_data():
         with open(os.path.join(typ_path, "_index.md"), "w", encoding="utf-8") as f:
             f.write(text.strip())
 
-        # node_html = get_html(link)
-        # node_soup = BeautifulSoup(node_html, "html.parser")
-        # for li in node_soup.find_all("li", {"class": "item"}):
+        node_html = get_html(link)
+        node_soup = BeautifulSoup(node_html, "html.parser")
+        for li in node_soup.find_all("li", {"class": "item"}):
 
-        #     a = li.find("a", {"class": "node"})
-        #     if not a:
-        #         continue
-        #     summary = li.find("p", {"class": "summary"})
-        #     node_summary = summary.text.replace("\n", " ") if summary else ""
-        #     node_summary = node_summary.replace("'","\\'")
-        #     node_summary = node_summary.replace('"','\\"')
-        #     node_summary = node_summary.replace(":","-")
-        #     node_title = a.text.replace(":","-")
-        #     node_href = a.attrs["href"]
-        #     # print("===================================")
-        #     # print(node_title,node_href)
+            a = li.find("a", {"class": "node"})
+            if not a:
+                continue
+            summary = li.find("p", {"class": "summary"})
+            node_summary = summary.text.replace("\n", " ") if summary else ""
+            node_summary = node_summary.replace("'","\\'")
+            node_summary = node_summary.replace('"','\\"')
+            node_summary = node_summary.replace(":","-")
+            node_title = a.text.replace(":","-")
+            node_href = a.attrs["href"]
+            # print("===================================")
+            # print(node_title,node_href)
 
-        #     node_md = node_href.replace(".html", ".md")
-        #     node_md = os.path.basename(node_md)
-        #     if node_md == "index.md":
-        #         continue
+            node_md = node_href.replace(".html", ".md")
+            node_md = os.path.basename(node_md)
+            if node_md == "index.md":
+                continue
 
-        #     node_web_url = f"{web_link}/{node_href}"
+            node_web_url = f"{web_link}/{node_href}"
 
-        #     node_url = f"{link}/{node_href}"
+            node_url = f"{link}/{node_href}"
 
-        #     node_content = dedent(
-        #         f"""
-        #         ---
-        #         title: {node_title}
-        #         description: {node_summary}
-        #         date: {time.strftime("%Y-%m-%d", time.localtime()) }
-        #         draft: false
-        #         ---
+            node_content = dedent(
+                f"""
+                ---
+                title: {node_title}
+                description: {node_summary}
+                date: {time.strftime("%Y-%m-%d", time.localtime()) }
+                draft: true
+                ---
                     
-        #         {node_web_url}
+                {node_web_url}
                 
-        #         """
-        #     )
+                """
+            )
+            
+            folder = os.path.join(typ_path, "_official")
+            
+            if not os.path.exists(folder):
+                os.mkdir(folder)
 
-        #     with open(os.path.join(typ_path, node_md), "w", encoding="utf-8") as f:
-        #         f.write(node_content.strip())
+            path = os.path.join(folder, node_md)
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(node_content.strip())
 
 
 if __name__ == "__main__":

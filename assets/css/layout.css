@@ -1,0 +1,36 @@
+.divider {
+	grid-template-columns: minmax(200px, 20vw) minmax(350px, 60vw) minmax(
+			240px,
+			10vw
+		);
+}
+
+.menu__list li {
+	max-width: none;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+		Lato, Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+.single__contents p {
+	font-style: initial;
+	font-size: 16px;
+	margin-right: 1rem;
+	padding: 1rem;
+	line-height: 2;
+}
+
+.single__contents blockquote{
+    padding: 0;
+    /* border-top-right-radius:20px;
+    border-bottom-right-radius:20px; */
+}
+.theme__dark .single__contents blockquote {
+	background-color: hsla(207, 44%, 25%, 1);
+}
+
+.theme__light .single__contents blockquote {
+	background-color: #ecf7fe;
+}

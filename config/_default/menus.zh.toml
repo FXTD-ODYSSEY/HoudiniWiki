@@ -21,19 +21,25 @@
   name = "Python"
   url = "4_python"
   weight = 4
+  
+[[main]]
+  identifier = "labs"
+  name = "Labs"
+  url = "5_labs"
+  weight = 5
 
 [[main]]
   identifier = "blog"
   name = "博客"
   url = "blog"
-  weight = 5
+  weight = 6
 
 
 [[main]]
   identifier = "updates"
   name = "更新记录"
   url = "updates"
-  weight = 6
+  weight = 7
   
 
 [[main]]

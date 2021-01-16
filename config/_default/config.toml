@@ -2,6 +2,7 @@ baseURL = "http://example.org"
 title = "Houdini Wiki"
 # theme = ["zdoc","zzo"]
 theme = ["zdoc"]
+# theme = ["zzo"]
 
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = true
@@ -15,6 +16,7 @@ timeout = 10000
 enableEmoji = true
 paginate = 13
 rssLimit = 100
+disableAliases = true
 
 googleAnalytics = ""
 
@@ -40,9 +42,9 @@ enableEditBtn = true
 
 [outputs]
   home = ["HTML", "RSS", "SearchIndex"]
-  section = ["HTML", "RSS", "SearchIndex"]
-  taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
-  taxonomy = ["HTML", "RSS", "SearchIndex"]
+  # section = ["HTML", "RSS", "SearchIndex"]
+  # taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
+  # taxonomy = ["HTML", "RSS", "SearchIndex"]
 
 [outputFormats]
   [outputFormats.SearchIndex]
@@ -55,4 +57,23 @@ enableEditBtn = true
 [taxonomies]
   category = "categories"
   tag = "tags"
-  series = "series"
+  version = "version"
+  level = "level"
+  nodes = "nodes"
+  pipeline = "pipeline"
+
+
+[related]
+
+threshold = 80
+includeNewer = true
+toLower = false
+
+[[related.indices]]
+name = "keywords"
+weight = 100
+[[related.indices]]
+name = "date"
+weight = 10
+pattern = "2006"
+
