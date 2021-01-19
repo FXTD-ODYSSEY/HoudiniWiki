@@ -37,6 +37,6 @@ level:
 
 ## 链接
 
-https://discourse.gohugo.io/
-https://gohugo.io/documentation/
-https://themes.gohugo.io/
+https://discourse.gohugo.io/    
+https://gohugo.io/documentation/    
+https://themes.gohugo.io/    
