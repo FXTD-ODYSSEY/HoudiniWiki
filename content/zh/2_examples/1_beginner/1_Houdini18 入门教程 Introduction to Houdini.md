@@ -6,20 +6,40 @@ date: 2021-01-16
 pan: 
 video: 
 weight: 1
-aliases: [/7943B98E]
+slug: 7943b98e
 version: houdini18
-organization: Rohan Dalvi
+producer: Rohan Dalvi
 level: beginner
 tags: 
   - Rohan Dalvi
 nodes:
   - SOP
-pipeline:
+pipeline: 
   - modeling
 
 ---
 
 ## 前言
+[About]({{< ref  "2_Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsenal.md" >}})
+
+
+{{< relink node="/zh/1_nodes/sop/37b24259" nodeName="attributeCreate" >}} 
+testAAA
+{{</ relink >}}
+
+---
+
+This is a footnote.[^1]
+[^1]: {{< relink node="/zh/1_nodes/sop/37b24259" nodeName="attributeCreate" >}} 
+
+{{</ relink >}} 
+
+This is a footnote.[^2]
+[^2]: TEST
+
+{{< relink node="/zh/1_nodes/sop/37b24259" nodeName="attributeCreate" >}} 
+testAAA124141
+{{</ relink >}}
 
 > &emsp;&emsp;最近罗列了 Houdini 全面学习的教程菜单 [链接](https://blog.l0v0.com/about/todo.html)
 > &emsp;&emsp;目前还没有明确的学习计划，毕竟想搞的东西很多，总是会有些莫名其妙的东西占据了优先度（没错说的正是前两周突然就干起来的 字幕上传工具）

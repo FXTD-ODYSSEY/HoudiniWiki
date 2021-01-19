@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-
+collect Houdini wiki information
 """
 
 from __future__ import division
@@ -18,7 +18,8 @@ from bs4 import BeautifulSoup, element
 from textwrap import dedent
 
 DIR = os.path.dirname(__file__)
-nodes_path = os.path.join(DIR, "2_Nodes")
+lang = "zh"
+nodes_path = os.path.join(DIR, lang, "2_Nodes")
 
 
 def get_html(url):
@@ -86,10 +87,10 @@ def generate_data():
                 continue
             summary = li.find("p", {"class": "summary"})
             node_summary = summary.text.replace("\n", " ") if summary else ""
-            node_summary = node_summary.replace("'","\\'")
-            node_summary = node_summary.replace('"','\\"')
-            node_summary = node_summary.replace(":","-")
-            node_title = a.text.replace(":","-")
+            node_summary = node_summary.replace("'", "\\'")
+            node_summary = node_summary.replace('"', '\\"')
+            node_summary = node_summary.replace(":", "-")
+            node_title = a.text.replace(":", "-")
             node_href = a.attrs["href"]
             # print("===================================")
             # print(node_title,node_href)
@@ -116,9 +117,9 @@ def generate_data():
                 
                 """
             )
-            
+
             folder = os.path.join(typ_path, "_official")
-            
+
             if not os.path.exists(folder):
                 os.mkdir(folder)
 

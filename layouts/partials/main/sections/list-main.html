@@ -19,4 +19,47 @@
   <article class="single__contents" data-dir="{{ $.Param " languagedir" | default "ltr" }}">
     {{ .Content }}
   </article>
+
+  {{ partial "main/component/related.html" . }}
+
+  <div class="link_container" style="margin-bottom:5px">
+    {{ if eq .Page.Section "1_nodes" }}
+      {{ $slug := .Page.Params.slug | default ""}}
+      {{ range $post_id, $data := index .Site.Data.links $slug }}
+        {{ $path := path.Join (index $data "path") $post_id}}
+        
+        <div class="expand">
+          <button type="button" class="expand__button" aria-label="Expand Button" style="margin:0">
+            <span class="expand-icon expand-icon__right">
+                {{ partial "svgs/arrow-right.svg" (dict "width" 24 "height" 24) }}
+            </span>
+            
+            {{index $data "title"}} &nbsp; <a href="{{$path}}">↩︎</a>
+          </button>
+          <div class="expand__content relink__content">
+            {{range index $data "links"}}
+              
+              {{ $link := add $path (add "#" (index . "id"))}}
+
+              <div class="notices note" style="padding: 0.1rem;margin: 0;">
+                <a href="{{ $link }}" style="margin-right: 0;">
+                  <img src="/logo.png" > 
+                  <span>跳转链接</span>
+                </a>
+                <p style="margin-right: 0;">
+                  {{ index . "inner" | markdownify}}
+                </p>
+              </div>
+
+            {{end}}
+            
+          </div>
+        </div>
+        
+      {{end}}
+
+    {{end}}
+  </div>
+    
+  <!-- <div style="margin-bottom:5px"></div> -->
 </div>

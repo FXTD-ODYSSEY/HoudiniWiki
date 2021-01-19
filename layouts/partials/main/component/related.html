@@ -1,0 +1,11 @@
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<div class="related" style="margin:1rem">
+	<h2>关联推荐</h2>
+	<ul>
+		{{ range . }}
+		<li title="{{ .Title }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+		{{ end }}
+	</ul>
+</div>
+{{ end }}

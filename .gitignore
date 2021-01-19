@@ -1,3 +1,5 @@
 public/
 resources/
 .vscode/
+themes/hugo-theme-learn
+_official/

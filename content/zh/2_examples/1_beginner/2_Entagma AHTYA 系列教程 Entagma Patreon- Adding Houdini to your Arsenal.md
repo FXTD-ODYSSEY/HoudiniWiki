@@ -6,9 +6,9 @@ date: 2021-01-16
 pan: 
 video: 
 weight: 2
-aliases: [/32DBB101]
+slug: 32dbb101
 version: houdini18
-organization: Rohan Dalvi
+producer: Rohan Dalvi
 level: intermediate
 tags: 
   - Rohan Dalvi
@@ -20,6 +20,14 @@ pipeline:
 ---
 
 ## 前言
+
+{{< relink node="/zh/1_nodes/sop/37b24259" nodeName="attributeCreate" >}} 
+12341
+{{</ relink >}}
+
+{{< relink node="/zh/1_nodes/sop/37b24259" nodeName="attributeCreate" >}} 
+a213t42
+{{</ relink >}}
 
 ```Python
 import os

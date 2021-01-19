@@ -3,77 +3,91 @@ title = "Houdini Wiki"
 # theme = ["zdoc","zzo"]
 theme = ["zdoc"]
 # theme = ["zzo"]
+enableInlineShortcodes = true
 
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
 
-summaryLength = 70
 buildFuture = true
+summaryLength = 70
 
 copyright = "&copy;{year}, All Rights Reserved"
-timeout = 10000
+disableAliases = true
 enableEmoji = true
 paginate = 13
 rssLimit = 100
-disableAliases = true
+timeout = 10000
 
 googleAnalytics = ""
 
 enableEditBtn = true
 
+publishDir = "docs"
 # disableKinds = ["taxonomyTerm"]
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      hardWraps = true
-      unsafe = true
-      xHTML = true
-  [markup.highlight]
-    codeFences = true
-    lineNos = true
-    lineNumbersInTable = true
-    noClasses = false
-  [markup.tableOfContents]
-    endLevel = 4
-    ordered = false
-    startLevel = 2
+[markup.goldmark]
+[markup.goldmark.renderer]
+hardWraps = true
+unsafe = true
+xHTML = true
+[markup.highlight]
+codeFences = true
+lineNos = true
+lineNumbersInTable = true
+noClasses = false
+[markup.tableOfContents]
+endLevel = 4
+ordered = false
+startLevel = 2
 
 [outputs]
-  home = ["HTML", "RSS", "SearchIndex"]
-  # section = ["HTML", "RSS", "SearchIndex"]
-  # taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
-  # taxonomy = ["HTML", "RSS", "SearchIndex"]
+home = ["HTML", "RSS", "SearchIndex"]
+# section = ["HTML", "RSS", "SearchIndex"]
+# taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
+# taxonomy = ["HTML", "RSS", "SearchIndex"]
 
 [outputFormats]
-  [outputFormats.SearchIndex]
-    mediaType = "application/json"
-    baseName = "index"
-    isPlainText = true
-    notAlternative = true
+[outputFormats.SearchIndex]
+baseName = "index"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+
+[permalinks]
+  posts = "/:year/:month/:filename/"
 
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
-  version = "version"
-  level = "level"
-  nodes = "nodes"
-  pipeline = "pipeline"
-
+category = "categories"
+level = "level"
+nodes = "nodes"
+pipeline = "pipeline"
+producer = "producer"
+tag = "tags"
+version = "version"
 
 [related]
 
-threshold = 80
 includeNewer = true
+threshold = 80
 toLower = false
 
 [[related.indices]]
-name = "keywords"
-weight = 100
-[[related.indices]]
 name = "date"
-weight = 10
 pattern = "2006"
-
+weight = 10
+[[related.indices]]
+name = "pipeline"
+weight = 30
+[[related.indices]]
+name = "nodes"
+weight = 40
+[[related.indices]]
+name = "level"
+weight = 10
+[[related.indices]]
+name = "version"
+weight = 10

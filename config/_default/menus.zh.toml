@@ -1,15 +1,17 @@
-[[main]]
-  identifier = "examples"
-  name = "案例"
-  url = "1_examples"
-  weight = 1
+
 
 [[main]]
   identifier = "nodes"
   name = "节点"
-  url = "2_nodes"
-  weight = 2
+  url = "1_nodes"
+  weight = 1
 
+[[main]]
+  identifier = "examples"
+  name = "案例"
+  url = "2_examples"
+  weight = 2
+  
 [[main]]
   identifier = "vex"
   name = "Vex"
@@ -23,37 +25,27 @@
   weight = 4
   
 [[main]]
-  identifier = "labs"
-  name = "Labs"
-  url = "5_labs"
+  identifier = "game"
+  name = "游戏"
+  url = "5_game"
   weight = 5
+
+[[main]]
+  identifier = "math"
+  name = "数学"
+  url = "6_math"
+  weight = 6
 
 [[main]]
   identifier = "blog"
   name = "博客"
   url = "blog"
-  weight = 6
+  weight = 7
 
 
 [[main]]
   identifier = "updates"
   name = "更新记录"
   url = "updates"
-  weight = 7
+  weight = 8
   
-
-[[main]]
-  identifier = "gallery"
-  name = "Gallery"
-  url = "gallery"
-  weight = 4
-    
-[[main]]
-  parent = "gallery"
-  name = "Cartoon"
-  url = "gallery/cartoon"
-
-[[main]]
-  parent = "gallery"
-  name = "Photo"
-  url = "gallery/photo"
