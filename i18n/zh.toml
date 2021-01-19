@@ -21,3 +21,15 @@ other = "作者"
 
 [edit-this-page]
 other = "编辑"
+
+[BinaryPrefix-kilobyte]
+other = "kb"
+
+[Attachments-title]
+other = "相关附件"
+
+[Nodes-link]
+other = "案例链接"
+
+[Related]
+other = "关联推荐"

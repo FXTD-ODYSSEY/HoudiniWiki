@@ -1,36 +1,45 @@
-{{ $_hugo_config := `{ "version": 1 }` }}
-<section class="attachments {{ with .Get "style"}}{{.}}{{ end }}">
-	<label>
-		<i class="fas fa-paperclip" aria-hidden="true"></i>
-		{{with .Get "title"}}{{.}}{{else}}{{T "Attachments-label"}}{{end}}
-	</label>
-	{{if eq .Page.File.BaseFileName "index"}}
-		{{$.Scratch.Add "filesName" "files"}}
-	{{else}}
-		{{$.Scratch.Add "filesName" (printf "%s.files" .Page.File.BaseFileName)}}
-	{{end}}
-	<div class="attachments-files">
-	{{ range (readDir (printf "./content/%s%s" .Page.File.Dir ($.Scratch.Get "filesName")) ) }}
-		{{ $fileDir := replace $.Page.File.Dir "\\" "/" }}
-		{{if ($.Get "pattern")}}
-			{{if (findRE ($.Get "pattern") .Name)}}
-				<li>
-					<a href="{{ (printf "%s%s/%s" $fileDir ($.Scratch.Get "filesName") .Name) | relURL }}" >
-						{{.Name}}
-					</a>
-					({{div .Size 1024 }} {{T "BinaryPrefix-kilobyte"}})
-				</li>
-			{{end}}
-		{{else}}
-			<li>
-				<a href="{{ (printf "%s%s/%s" $fileDir ($.Scratch.Get "filesName") .Name) | relURL }}" >
-					{{.Name}}
-				</a>
-				({{div .Size 1024 }} {{T "BinaryPrefix-kilobyte"}})
-			</li>
-		{{end}}
-	{{end}}
-	</div>
-	{{.Inner}}
-</section>
+{{.Inner}}
+
+{{.Page}}
+
+<div class="expand" style="border-bottom: 5px solid #8BC34A;
+border-right: 5px solid#8BC34A;
+border-left: 5px solid #8BC34A;
+border-radius:5px;
+">
+    <button type="button" class="expand__button" aria-label="Expand Button" style="margin-bottom: 0;">
+        <span class="expand-icon expand-icon__right">
+            {{ partial "svgs/arrow-right.svg" (dict "width" 24 "height" 24) }}
+        </span>
+        {{T "Attachments-title"}}
+    </button>
+    <div class="expand__content">
+        <!-- TODO cdn 加速下载 -->
+        {{ $slug := (.Page.Params.slug | default "") }}
+        {{ $target := path.Join "/static" $slug}}
+        {{ $target := path.Join $target ("files")}}
+        {{ range (readDir $target) }}
+        
+            {{if ($.Get "pattern")}}
+                {{if (findRE ($.Get "pattern") .Name)}}
+                    <li>
+                        <a href="" >
+                            {{.Name}}
+                        </a>
+                        ({{div .Size 1024 }} {{T "BinaryPrefix-kilobyte"}})
+                    </li>
+                {{end}}
+            {{else}}
+                <li>
+                    <a href="{{ (printf "/%s/files/%s" $slug .Name)}}" >
+                        {{.Name}}
+                    </a>
+                    ({{div .Size 1024 }} {{T "BinaryPrefix-kilobyte"}})
+                </li>
+            {{end}}
+        
+        {{ end }}
+        
+    </div>
+</div>
 

@@ -1,11 +1,18 @@
-{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ $related := .Site.RegularPages.Related . | first 10 }}
 {{ with $related }}
-<div class="related" style="margin:1rem">
-	<h2>关联推荐</h2>
-	<ul>
+
+<div class="expand">
+	<button type="button" class="expand__button" aria-label="Expand Button">
+	  <span class="expand-icon expand-icon__right">
+		  {{ partial "svgs/arrow-right.svg" (dict "width" 24 "height" 24) }}
+	  </span>
+	  {{T "Related"}}
+	</button>
+	<div class="expand__content">
 		{{ range . }}
-		<li title="{{ .Title }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+			<li title="{{ .Title }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 		{{ end }}
-	</ul>
-</div>
+	</div>
+  </div>
+  
 {{ end }}

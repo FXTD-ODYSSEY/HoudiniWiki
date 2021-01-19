@@ -8,7 +8,7 @@ Summary & Tips for my Houdini Learning Experience.
 - [ ] ~~整合 zzo 的顶部下拉菜单配置支持~~ 不需要
 - [ ] 整合 zzo 主题的 图表 功能
 - [x] 通过 shortcode 快速链接 wiki Nodes
-- [ ] shortcode attachment
+- [x] shortcode attachment
 - [ ] ~~resizeable sidebar~~
 - [x] 接入 Related Content
 - [ ] ~~搜索 algolia 部署~~

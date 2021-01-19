@@ -20,7 +20,11 @@ pipeline:
 ---
 
 ## 前言
+
 [About]({{< ref  "2_Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsenal.md" >}})
+
+
+{{< attachments />}}
 
 
 {{< relink node="/zh/1_nodes/sop/37b24259" nodeName="attributeCreate" >}} 
