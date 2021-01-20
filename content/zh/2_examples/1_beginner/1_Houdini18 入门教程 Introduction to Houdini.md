@@ -21,15 +21,68 @@ pipeline:
 
 ## 前言
 
-[About]({{< ref  "2_Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsenal.md" >}})
 
-测试
-测试
-测试
+{{<revealjs theme="moon" progress="true">}}
+
+# In the morning
+
+___
+
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+___
+
+## Breakfast
+
+- Eat eggs
+- Drink coffee
+
+---
+
+# In the evening
+
+___
+
+## Dinner
+
+- Eat spaghetti
+- Drink wine
+
+___
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
+
+{{</revealjs>}}
+
+
+
+{{< columns >}} <!-- begin columns block -->
+# Left Content
+Lorem markdownum insigne...
+
+<---> <!-- magic separator, between columns -->
+
+# Mid Content
+Lorem markdownum insigne...
+
+<---> <!-- magic separator, between columns -->
+
+# Right Content
+Lorem markdownum insigne...
+{{< /columns >}}
 
 {{< relink node="/zh/1_nodes/sop/37b24259" nodeName="attributeCreate" >}} 
 testAAA
 {{</ relink >}}
+
+[About]({{< ref  "2_Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsenal.md" >}})
 
 ---
 

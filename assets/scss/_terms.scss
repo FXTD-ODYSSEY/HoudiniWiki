@@ -1,6 +1,9 @@
 @import 'abstracts/mixins';
 @import 'abstracts/functions';
 @import 'abstracts/flexbox';
+@import 'columns';
+@import 'panel';
+@import '_diagram';
 .terms {
   @include flexbox();
   @include align-items(center);

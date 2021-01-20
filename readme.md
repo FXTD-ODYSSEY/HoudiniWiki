@@ -4,9 +4,9 @@ Summary & Tips for my Houdini Learning Experience.
 
 ## todo_list:
 
-- [ ] 整合 zzo 的 ppt 功能
+- [x] 整合 zzo 的 ppt 功能
 - [ ] ~~整合 zzo 的顶部下拉菜单配置支持~~ 不需要
-- [ ] 整合 zzo 主题的 图表 功能
+- [x] 整合 zzo 主题的 图表 功能
 - [x] 通过 shortcode 快速链接 wiki Nodes
 - [x] shortcode attachment
 - [ ] ~~resizeable sidebar~~
@@ -16,8 +16,8 @@ Summary & Tips for my Houdini Learning Experience.
 - [x] 导航添加 tooltip
 - [x] ~~抓取官方文档的链接填充到 WIKI ~~ 数量太多
 - [x] 线上 CI 自动部署到个人服务器
-- [ ] 搜索采用 cdn 路径加速
-- [ ] 术语支持
+- [x] 搜索采用 cdn 路径加速
+- [ ] ~~术语支持~~
 - [ ] ~~列出页面中所有的外链~~ [论坛链接](https://discourse.gohugo.io/t/how-can-i-generate-list-of-references-used-in-each-post/15157/6)
 
 
