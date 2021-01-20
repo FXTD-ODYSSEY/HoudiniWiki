@@ -36,12 +36,13 @@ jobs:
         with:
           # SSH private key
           key: ${{ secrets.SERVER_SSH }}
-          known_hosts: ${{ secrets.SERVER_IP }} ${{ secrets.SERVER_SSH_PUB }}
+          known_hosts: ${{ secrets.SERVER_SSH_PUB }}
+          name: blog
           config: |                                         # will be appended!
             Host l0v0.com
               HostName ${{ secrets.SERVER_IP }}
               User git
-              IdentityFile ~/.ssh/id_rsa
+              IdentityFile ~/.ssh/blog
       # - name: push to Server
           
       - name: push repo
