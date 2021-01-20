@@ -36,6 +36,7 @@ jobs:
         with:
           # SSH private key
           key: ${{ secrets.SERVER_SSH }}
+          known_hosts: ${{ secrets.SERVER_IP }}
           config: |                                         # will be appended!
             Host l0v0.com
               HostName ${{ secrets.SERVER_IP }}
