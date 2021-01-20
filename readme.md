@@ -12,10 +12,12 @@ Summary & Tips for my Houdini Learning Experience.
 - [ ] ~~resizeable sidebar~~
 - [x] 接入 Related Content
 - [ ] ~~搜索 algolia 部署~~
-- [ ] search 支持标题搜索
+- [x] search 支持标题搜索
 - [x] 导航添加 tooltip
 - [x] ~~抓取官方文档的链接填充到 WIKI ~~ 数量太多
-- [ ] 线上部署
+- [x] 线上 CI 自动部署到个人服务器
+- [ ] 搜索采用 cdn 路径加速
+- [ ] 术语支持
 - [ ] ~~列出页面中所有的外链~~ [论坛链接](https://discourse.gohugo.io/t/how-can-i-generate-list-of-references-used-in-each-post/15157/6)
 
 
