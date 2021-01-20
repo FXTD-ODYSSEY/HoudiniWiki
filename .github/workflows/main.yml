@@ -46,6 +46,6 @@ jobs:
           
       - name: push repo
         run: | 
+          git remote add server git@l0v0.com:/home/git/repos/HoudiniWiki.git 
           git checkout gh-pages
-          git remote add remote git@l0v0.com:/home/git/repos/HoudiniWiki.git 
-          git push remote gh-pages
+          git push server gh-pages
