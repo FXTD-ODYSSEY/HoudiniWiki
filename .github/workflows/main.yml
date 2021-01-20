@@ -45,4 +45,4 @@ jobs:
       # - name: push to Server
           
       - name: push repo
-        run: git push remote gh-pages
+        run: git remote add remote git@l0v0.com:/home/git/repos/HoudiniWiki.git |git push remote gh-pages
