@@ -36,7 +36,7 @@ jobs:
         with:
           # SSH private key
           key: ${{ secrets.SERVER_SSH }}
-          known_hosts: l0v0.com,${{ secrets.SERVER_IP }} ${{ secrets.SERVER_SSH_PUB }}
+          known_hosts: ${{ secrets.SERVER_IP }} ${{ secrets.SERVER_SSH_PUB }}
           config: |                                         # will be appended!
             Host l0v0.com
               HostName ${{ secrets.SERVER_IP }}
@@ -46,6 +46,7 @@ jobs:
           
       - name: push repo
         run: | 
+          ssh-keygen -R ${{ secrets.SERVER_IP }}
           git remote add server git@l0v0.com:/home/git/repos/HoudiniWiki.git 
           git checkout gh-pages
           git push server gh-pages
