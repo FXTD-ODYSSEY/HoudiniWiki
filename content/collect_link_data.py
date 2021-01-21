@@ -8,8 +8,6 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import absolute_import
 
-from requests.api import post
-from requests.models import encode_multipart_formdata
 
 __author__ = "timmyliang"
 __email__ = "820472580@qq.com"
