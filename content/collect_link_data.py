@@ -18,7 +18,7 @@ __date__ = "2021-01-17 22:25:48"
 import os
 import re
 import json
-import posixpath
+from codecs import open
 from collections import defaultdict
 
 DIR = os.path.dirname(__file__)
@@ -47,9 +47,8 @@ def main():
             match = re.search(r"title\d*:\d*(.*)", config)
             title = match.group(1).strip()
             # print(config)
-            print(title)
             node_links = defaultdict(list)
-            regx = r"""<\D*relink(?:"[^"]*"['"]*|'['"]*|.*?)+>(?:.|\n)*?<\D*\/\D*relink\D*>"""
+            regx = r"""<[ ]*relink(?:"[^"]*"['"]*|'['"]*|.*?)+>(?:.|\n)*?<\D*\/\D*relink\D*>"""
             for i, relink in enumerate(re.findall(regx, md), 1):
                 match = re.search(r">\}\}((?:.|\n)*?)\{\{<", relink)
                 inner = match.group(1).strip()
