@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rohan Dalvi on Houdini Wiki</title>
+    <link>https://hou.l0v0.com/zh/1_examples/5_rohan-dalvi/</link>
+    <description>Recent content in Rohan Dalvi on Houdini Wiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
+    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://hou.l0v0.com/zh/1_examples/5_rohan-dalvi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Houdini18 入门教程 Introduction to Houdini</title>
+        <link>https://hou.l0v0.com/zh/1_examples/5_rohan-dalvi/7943b98e/</link>
+        <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://hou.l0v0.com/zh/1_examples/5_rohan-dalvi/7943b98e/</guid>
+        <description>前言 # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___ ## Dinner - Eat spaghetti - Drink wine ___ ## Going to sleep - Get in bed - Count sheep function initSlides() { Reveal.initialize({ controls : false, center: true , history: false , progress: &#34;true&#34; ,</description>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Houdini Wiki</title><link>https://hou.l0v0.com/zh/blog/</link><description>Recent content in Blog on Houdini Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><managingEditor>zzossig@gmail.com (zzossig)</managingEditor><webMaster>zzossig@gmail.com (zzossig)</webMaster><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate><atom:link href="https://hou.l0v0.com/zh/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>ShortCodes 汇总</title><link>https://hou.l0v0.com/zh/blog/91d7f687/</link><pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate><author>zzossig@gmail.com (zzossig)</author><guid>https://hou.l0v0.com/zh/blog/91d7f687/</guid><description>幻灯片 # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___ ## Dinner - Eat spaghetti - Drink wine ___ ## Going to sleep - Get in bed - Count sheep function initSlides() { Reveal.initialize({ controls : false, center: true , history: false , progress: "true"</description></item><item><title>图标功能支持</title><link>https://hou.l0v0.com/zh/blog/9ee9a447/</link><pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate><author>zzossig@gmail.com (zzossig)</author><guid>https://hou.l0v0.com/zh/blog/9ee9a447/</guid><description>wavedrom { &amp;quot;signal&amp;quot;: [ {&amp;quot;name&amp;quot;: &amp;quot;CLK&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;p.....|...&amp;quot;}, {&amp;quot;name&amp;quot;:&amp;quot;DAT&amp;quot;, &amp;quot;wave&amp;quot;:&amp;quot;x.345x|=.x&amp;quot;, &amp;quot;data&amp;quot;:[&amp;quot;A&amp;quot;,&amp;quot;B&amp;quot;,&amp;quot;C&amp;quot;,&amp;quot;D&amp;quot;]}, {&amp;quot;name&amp;quot;: &amp;quot;REQ&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;0.1..0|1.0&amp;quot;}, {}, {&amp;quot;name&amp;quot;: &amp;quot;ACK&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;1.....|01.&amp;quot;} ] } Viz digraph G { subgraph cluster_0 { style=filled; color=lightgrey; node [style=filled,color=white]; a0 -&amp;gt; a1 -&amp;gt; a2 -&amp;gt; a3; label = &amp;quot;process #1&amp;quot;; } subgraph cluster_1 { node [style=filled]; b0 -&amp;gt; b1 -&amp;gt; b2 -&amp;gt; b3; label = &amp;quot;process #2&amp;quot;; color=blue } start -&amp;gt; a0; start -&amp;gt; b0; a1</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Houdini Wiki</title>
+    <link>https://hou.l0v0.com/zh/blog/</link>
+    <description>Recent content in Blog on Houdini Wiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
+    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="https://hou.l0v0.com/zh/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+    
+  </channel>
+</rss>
