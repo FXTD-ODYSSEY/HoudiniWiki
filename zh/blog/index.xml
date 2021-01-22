@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Houdini Wiki</title>
+    <title>博客 on Houdini Wiki</title>
     <link>https://hou.l0v0.com/zh/blog/</link>
-    <description>Recent content in Blog on Houdini Wiki</description>
+    <description>Recent content in 博客 on Houdini Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
@@ -15,6 +15,15 @@
     
     
     
+      
+      <item>
+        <title>翻译</title>
+        <link>https://hou.l0v0.com/zh/blog/translate/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://hou.l0v0.com/zh/blog/translate/</guid>
+        <description></description>
+      </item>
       
     
   </channel>

@@ -18,7 +18,7 @@
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/zh/1_examples/1_beginner/</loc>
+    <loc>https://hou.l0v0.com/zh/1_learning/1_beginner/</loc>
     <lastmod>2021-01-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/zh/1_examples/5_rohan-dalvi/7943b98e/</loc>
+    <loc>https://hou.l0v0.com/zh/1_learning/1_beginner/7943b98e/</loc>
     <lastmod>2021-01-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,12 +73,12 @@
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/zh/1_examples/4_entagma/32dbb101/</loc>
+    <loc>https://hou.l0v0.com/zh/1_learning/1_beginner/32dbb101/</loc>
     <lastmod>2021-01-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/zh/1_examples/2_intermediate/</loc>
+    <loc>https://hou.l0v0.com/zh/1_learning/2_intermediate/</loc>
     <lastmod>2021-01-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -93,17 +93,7 @@
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/zh/1_examples/3_advanced/</loc>
-    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hou.l0v0.com/zh/1_examples/4_entagma/</loc>
-    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hou.l0v0.com/zh/1_examples/5_rohan-dalvi/</loc>
+    <loc>https://hou.l0v0.com/zh/1_learning/3_advanced/</loc>
     <lastmod>2021-01-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -159,6 +149,11 @@
   
   <url>
     <loc>https://hou.l0v0.com/zh/level/beginner/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hou.l0v0.com/zh/producer/entagma/</loc>
     <lastmod>2021-01-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -263,23 +258,8 @@
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/zh/1_examples/</loc>
+    <loc>https://hou.l0v0.com/zh/1_learning/</loc>
     <lastmod>2021-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hou.l0v0.com/zh/blog/</loc>
-    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hou.l0v0.com/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://hou.l0v0.com/zh/blog/"
-                />
   </url>
   
   <url>
@@ -318,6 +298,21 @@
   </url>
   
   <url>
+    <loc>https://hou.l0v0.com/zh/blog/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hou.l0v0.com/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://hou.l0v0.com/zh/blog/"
+                />
+  </url>
+  
+  <url>
     <loc>https://hou.l0v0.com/zh/updates/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
     <xhtml:link
@@ -340,6 +335,16 @@
   <url>
     <loc>https://hou.l0v0.com/zh/2_game/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hou.l0v0.com/zh/blog/translate/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hou.l0v0.com/zh/archive/</loc>
+    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
   </url>
   
   <url>

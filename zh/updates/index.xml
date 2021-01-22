@@ -40,7 +40,7 @@
         <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
         <guid>https://hou.l0v0.com/zh/updates/log/</guid>
-        <description>2021-01-22 考虑翻译模块 分类页面 做一个时间抽页面 2021-01-21 CI 支持 跑 python 脚本生成 links.json 数据 完善 默认 _index 内容 | 决定采用中文输出内容 完善 优化 reveal.js 全屏提示 SEO 支持 顶部下来菜单支持</description>
+        <description>2021-01-22 制作一个卡片页面显示链接 添加翻译模块 文章显示 video 和 pan 信息 做一个时间轴页面 2021-01-21 CI 支持 跑 python 脚本生成 links.json 数据 完善 默认 _index 内容 | 决定采用中文输出内容 完善 优</description>
       </item>
       
     
