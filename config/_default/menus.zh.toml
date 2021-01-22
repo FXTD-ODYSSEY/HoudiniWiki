@@ -5,29 +5,33 @@
   url = "1_examples"
   weight = 1
 
-[[main]]
-  identifier = "game"
-  name = "游戏"
-  url = "2_game"
-  weight = 2
+  [[main]]
+    parent = "examples"
+    identifier = "game"
+    name = "游戏"
+    url = "2_game"
+    weight = 2
 
-[[main]]
-  identifier = "vex"
-  name = "Vex"
-  url = "3_vex"
-  weight = 3
-  
-[[main]]
-  identifier = "python"
-  name = "Python"
-  url = "4_python"
-  weight = 4
+  [[main]]
+    parent = "examples"
+    identifier = "vex"
+    name = "Vex"
+    url = "3_vex"
+    weight = 3
+    
+  [[main]]
+    parent = "examples"
+    identifier = "python"
+    name = "Python"
+    url = "4_python"
+    weight = 4
 
-[[main]]
-  identifier = "math"
-  name = "数学"
-  url = "5_math"
-  weight = 5
+  [[main]]
+    parent = "examples"
+    identifier = "math"
+    name = "数学"
+    url = "5_math"
+    weight = 5
 
 [[main]]
   identifier = "nodes"
@@ -101,7 +105,7 @@
 [[main]]
   identifier = "categories"
   name = "分类"
-  url = "producer/"
+  url = "archive/"
   weight = 15
 
   [[main]]
