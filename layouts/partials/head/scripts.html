@@ -1,3 +1,31 @@
+<!-- SEO 支持 -->
+
+{{ $google := .Site.Params.google_site_verification}}
+{{ $bing := .Site.Params.bing_site_verification}}
+{{ $baidu := .Site.Params.baidu_site_verification}}
+{{ $qihu := .Site.Params.qihu_site_verification}}
+
+{{ if $google }}
+<meta name="google-site-verification" content="{{$google}}">
+{{ end }}
+
+{{ if $bing }}
+<meta name="msvalidate.01" content="{{$bing}}">
+{{ end }}
+
+
+{{ if $bing }}
+<meta name="baidu-site-verification" content="{{$bing}}">
+{{ end }}
+
+{{ if $qihu }}
+<meta name="360-site-verification" content="{{$qihu}}">
+{{ end }}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/styles/vs2015.min.css">
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/highlight.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
+
 {{ if .Site.Params.custom_js }}
 {{ range .Site.Params.custom_js }}
   {{ $custom_template := resources.Get . }}
@@ -184,7 +212,8 @@
   <script defer src="{{ $js.viz_render.url }}" integrity="{{ $js.viz_render.sri }}" crossorigin="anonymous"></script>
 {{ end }}
 
-
+{{ partial "head/clipboard-script.html" . }}
+{{ partial "head/codeblock-script.html" . }}
 
 <script>
   "use strict";
@@ -307,7 +336,23 @@
       });
     }
     // =================================================================
+    
+    // =========================== vex for highlight.js ============================
+    var vex = "language-vex";
+    Array.prototype.forEach.call(document.querySelectorAll("[class^=" + vex + "]"), function (block) {
 
+      hljs.initHighlightingOnLoad();
+      hljs.lineNumbersBlock(block);
+      var newElem = document.createElement('span');
+      newElem.className = 'copy-to-clipboard';
+      newElem.text = 'copy-to-clipboard';
+      newElem.setAttribute('title', 'Copy to clipboard');
+      // 用来 copy
+      newElem.setAttribute('content', block.textContent);
+      block.after(newElem);
+      //$(block).append('<span class="copy-to-clipboard" title="Copy to clipboard"></span>');
+
+    });
 
 
     // =========================== chart.js ============================

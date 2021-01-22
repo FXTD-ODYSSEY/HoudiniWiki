@@ -1,0 +1,19 @@
+<!-- 自动识别 视频格式 转用 video 但是会破坏 markdown 和 Hexo 博客不兼容，所以放弃使用 -->
+{{ $exts := slice "wmv" "asf" "asx" "mpg" "mpeg" "mpe" "rm" "rmvb" "mpg" "mpeg" "mpe" "3gp" "mov" "mp4" "m4v" "avi" "dat" "mkv" "flv" "vob"}}
+<p class="md__image">
+  {{$destination := .Destination }} 
+  {{$isVideo := false }} 
+  {{ range $exts}}
+    {{ if strings.HasSuffix $destination . }}
+      {{$isVideo = true }} 
+    {{ end }}
+  {{ end }}
+  
+  {{$url := .Destination | default "" }}
+  {{if $isVideo}}
+    <video src="{{ $url }}" autoplay="autoplay" loop="loop" style="width: 100%; height:100%;"></video>
+  {{ else }}
+    <img src="{{ $url }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+  {{ end }}
+
+</p>

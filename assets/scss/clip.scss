@@ -1,0 +1,68 @@
+code[data-lang] {
+    &::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: z('grid');
+      padding: 2px 7px;
+      width: 100%;
+      height: 30px;
+      line-height: 1.9;
+      font-size: 13.8px;
+      font-weight: bold;
+      display: inline-block;      
+      content: attr(data-lang);
+
+ 
+    }
+  }
+
+p > code:not([class^="language"]) {
+	padding: 0.25rem 0.5rem;
+}
+
+code + .copy-to-clipboard {
+	position: absolute;
+	right: 4px;
+	top: 5px;
+	border-radius: 2px;
+	z-index: z("clipboard");
+	@include transition(all, 0.2s, ease);
+}
+
+.copy-to-clipboard {
+	background-position: 50% 50%;
+	background-size: 16px 16px;
+	background-repeat: no-repeat;
+	width: 27px;
+	height: 1.45rem;
+	top: -1px;
+	vertical-align: middle;
+	position: relative;
+	margin-left: -0.2rem;
+	cursor: pointer;
+	border-radius: 0 2px 2px 0;
+	margin-bottom: 1px;
+
+	@include clippy();
+	@include transition(all, 0.2s, ease);
+	position: absolute;
+	right: 4px;
+	top: 5px;
+	border-radius: 2px;
+	z-index: z("clipboard");
+}
+.language-code .copy-to-clipboard {
+	position: absolute;
+	right: 4px;
+	top: 5px;
+	border-radius: 2px;
+	z-index: z("clipboard");
+}
+.highlight > .copy-to-clipboard {
+	position: absolute;
+	right: 4px;
+	top: 5px;
+	border-radius: 2px;
+	z-index: z("clipboard");
+}

@@ -1,12 +1,12 @@
 ---
 title: ShortCodes 汇总
 author: 智伤帝
-description: 博客支持的 ShortCodes 汇总
+description: 网站支持的 Hugo ShortCodes 汇总
 date: 2021-01-20
 weight: 1
 slug: 91d7f687
 tags: 
-  - ShortCodes
+  - HoudiniWiki
 ---
 
 ## 幻灯片

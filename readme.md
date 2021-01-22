@@ -18,6 +18,7 @@ Summary & Tips for my Houdini Learning Experience.
 - [x] 线上 CI 自动部署到个人服务器
 - [x] 搜索采用 cdn 路径加速
 - [ ] ~~术语支持~~
+- [ ] Vex 高亮支持
 - [ ] ~~列出页面中所有的外链~~ [论坛链接](https://discourse.gohugo.io/t/how-can-i-generate-list-of-references-used-in-each-post/15157/6)
 
 

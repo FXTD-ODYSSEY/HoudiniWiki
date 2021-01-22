@@ -25,6 +25,7 @@ enableEditBtn = true
 
 publishDir = "docs"
 # disableKinds = ["taxonomyTerm"]
+minify = false
 
 [markup]
 [markup.goldmark]
@@ -55,11 +56,6 @@ isPlainText = true
 mediaType = "application/json"
 notAlternative = true
 
-
-[permalinks]
-  posts = "/:year/:month/:filename/"
-
-
 [taxonomies]
 category = "categories"
 level = "level"
@@ -75,10 +71,10 @@ includeNewer = true
 threshold = 80
 toLower = false
 
-[[related.indices]]
-name = "date"
-pattern = "2006"
-weight = 10
+# [[related.indices]]
+# name = "date"
+# pattern = "2006"
+# weight = 10
 [[related.indices]]
 name = "pipeline"
 weight = 30
@@ -87,7 +83,7 @@ name = "nodes"
 weight = 40
 [[related.indices]]
 name = "level"
-weight = 10
+weight = 5
 [[related.indices]]
 name = "version"
-weight = 10
+weight = 5

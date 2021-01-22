@@ -82,8 +82,6 @@ Lorem markdownum insigne...
 testAAA
 {{</ relink >}}
 
-[About]({{< ref  "2_Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsenal.md" >}})
-
 ---
 
 This is a footnote.[^1]

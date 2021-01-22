@@ -1,3 +1,5 @@
+$z-indexes: ("drawer", "modal", "dropdown", "navbar", "header", "gtt", "clipboard", "grid", "search-btn", "search", "menu", "content", "landing", "footer", "taxo", "toc", "gallery-mask", "section-title", "highlight");
+
 @function z($name) {
   @if index($z-indexes, $name) {
     @return (length($z-indexes) - index($z-indexes, $name)) + 1;

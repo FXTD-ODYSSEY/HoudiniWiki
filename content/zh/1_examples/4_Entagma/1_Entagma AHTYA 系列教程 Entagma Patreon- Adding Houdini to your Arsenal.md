@@ -9,7 +9,7 @@ weight: 2
 slug: 32dbb101
 version: houdini18
 producer: Rohan Dalvi
-level: intermediate
+level: beginner
 tags: 
   - Rohan Dalvi
 nodes:
@@ -120,7 +120,9 @@ f@weight = rand(@primnum);
 
 ## VOP SOP 变形
 
-<video src="//cdn.jsdelivr.net/gh/FXTD-odyssey/FXTD-odyssey.github.io@master/post_img/dd8eb095/02.mp4" autoplay="autoplay" loop="loop" style="width: 100%; height:100%;"></video>
+
+![alt](//cdn.jsdelivr.net/gh/FXTD-odyssey/FXTD-odyssey.github.io@master/post_img/dd8eb095/02.mp4)
+
 
 > &emsp;&emsp;这个效果除了 Vop Sop 用 turbulance noise 还可以用 mountain 节点，但是显然没有那么灵活。
 

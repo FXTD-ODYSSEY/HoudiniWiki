@@ -19,7 +19,7 @@ from textwrap import dedent
 
 DIR = os.path.dirname(__file__)
 lang = "zh"
-nodes_path = os.path.join(DIR, lang, "2_Nodes")
+nodes_path = os.path.join(DIR, lang, "1_nodes")
 
 
 def get_html(url):

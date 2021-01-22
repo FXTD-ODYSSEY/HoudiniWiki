@@ -114,21 +114,21 @@ div.notices {
 
 div.notices a {
 	display: block;
-    height: 30px;
-    background: #728fcb;
-    margin-right: 1rem;
-    /* padding-left: 1rem; */
+	height: 30px;
+	background: #728fcb;
+	margin-right: 1rem;
+	/* padding-left: 1rem; */
 }
 
 div.notices img {
 	height: 30px;
-    display: inline;
-    padding: 5px;
+	display: inline;
+	padding: 5px;
 }
 
 div.notices span {
 	position: absolute;
-    color: orange;
+	color: orange;
 }
 
 div.notices span:hover {
@@ -151,3 +151,71 @@ div.notices p {
     padding: 5px;
     margin-bottom: 5px;
 } */
+
+/* VEX 语言高亮 */
+
+pre .hljs-vex_built_in {
+	color: #66cccc;
+}
+pre .hljs-vex_type {
+	color: #ed77ed;
+}
+pre .hljs-vex_operator {
+	color: #ed77ed;
+}
+pre .hljs-vex_string {
+	color: #63c563;
+}
+/* 这个部分Houdini没有高亮 有需要的话可以自己设置  */
+pre .hljs-vex_context {
+	color: #ed77ed;
+}
+pre .hljs-vex_variable {
+	color: #eecd10;
+}
+pre .hljs-vex_function {
+	color: #66d9ef;
+}
+pre .hljs-vex_title {
+	color: #66d9ef;
+}
+pre .hljs-vex_comment {
+	color: #b1b15b;
+}
+/* pre .vex_number{color:#7163d7} */
+
+/* for block of numbers */
+.hljs-ln-n {
+	text-align: right !important;
+	margin-left: 0.2rem;
+	margin-right: 0.5rem;
+	padding: 0 0.4em;
+	color: #666;
+}
+.hljs-ln {
+	margin-top: 0.5rem;
+}
+.vex {
+	margin-top: 1.6rem;
+}
+.hljs::after {
+	background:#262838;
+	position: absolute;
+	top: 2px;
+	right: 0;
+	z-index: 13;
+	padding: 0.125rem 0.25rem;
+	height: 26px;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-size: 0.85rem;
+	line-height: 1.5;
+	display: inline-block;
+	border-top-left-radius: 0.2rem;
+	content: attr(data-lang);
+}
+
+/* for block of code */
+.single__contents pre:not(.chroma) {
+	padding: 0;
+}

@@ -1,9 +1,13 @@
 @import 'abstracts/mixins';
 @import 'abstracts/functions';
 @import 'abstracts/flexbox';
+@import '_diagram';
+@import '_tooltip';
 @import 'columns';
 @import 'panel';
-@import '_diagram';
+@import 'menu';
+@import 'clip';
+
 .terms {
   @include flexbox();
   @include align-items(center);

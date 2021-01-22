@@ -2,10 +2,26 @@ logoText = "Hoduini Wiki"
 logoType = "short" # long, short
 description = "Houdini Wiki - Houdini Summuary & Tips "
 custom_css = ["css/layout.css","css/jquery-ui.min.css","css/tags.css","scss/_terms.scss"]
-custom_js = ["js/fuse.min.js","js/jquery.min.js","js/jquery-ui.min.js","js/main.js"]
+custom_js = ["js/fuse.min.js","js/jquery.min.js","js/jquery-ui.min.js","js/main.js","js/vex.js"]
 useFaviconGenerator = true # https://www.favicon-generator.org/
 meta_image = ""
 themecolor = ""
+
+# Google Webmaster tools verification setting
+# See: https://www.google.com/webmasters/
+google_site_verification = "google15d1ccb0af66991a"
+
+# Bing Webmaster tools verification setting
+# See: https://www.bing.com/webmaster/
+bing_site_verification = "D306EED72EF12BF89A2A951583FF91C7"
+
+# Baidu Webmaster tools verification setting
+# See: https://ziyuan.baidu.com/site/
+baidu_site_verification = "code-h4xzW8Z4a6"
+
+# 360 Webmaster tools verification setting
+# see http://zhanzhang.so.com/
+qihu_site_verification = "48ce68b0e3754c994b6e79677b842d48"
 
 
 enableLandingBackground = false
