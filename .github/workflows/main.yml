@@ -52,5 +52,6 @@ jobs:
         run: | 
           git remote add server git@l0v0.com:/home/git/repos/HoudiniWiki.git 
           git checkout gh-pages
+          git stash
           git pull origin gh-pages
           git push server gh-pages
