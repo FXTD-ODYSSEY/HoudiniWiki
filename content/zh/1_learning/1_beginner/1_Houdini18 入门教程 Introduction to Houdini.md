@@ -11,7 +11,6 @@ version: houdini18
 producer: Rohan Dalvi
 level: beginner
 tags: 
-  - Rohan Dalvi
 nodes:
   - SOP
 pipeline: 

@@ -47,6 +47,28 @@ other = "搜索"
 [tags]
 other = "标签"
 
+[tags-video]
+other = "视频链接"
+
+[tags-pan]
+other = "百度云链接"
+
+[tags-level]
+other = "难度"
+
+[tags-producer]
+other = "出品方"
+
+[tags-pipeline]
+other = "流程"
+
+[tags-version]
+other = "houdini 版本"
+
+[tags-nodes]
+other = "houdini 模块"
+
+
 [categories]
 other = "分类"
 

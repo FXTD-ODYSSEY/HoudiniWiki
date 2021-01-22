@@ -8,13 +8,74 @@
     {{ partial "main/component/article-meta.html" . }}
   </div>
 
-  {{ if .Params.tags }}
+  
   <div class="tags">
-    {{range .Params.tags}}
-    <a class="tag-link" href="{{ "tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ if .Params.producer }}
+      {{ with .Params.producer}}
+        <span class="tag__label">{{ T "tags-producer"}}:</span>
+        <a class="tag-link tag_color_1" href="{{ "producer/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+      {{end}}
+    {{end}}
+
+    {{ if .Params.level }}
+      {{ with .Params.level}}
+        <span class="tag__label">{{ T "tags-level"}}:</span>
+        <a class="tag-link tag_color_4" href="{{ "level/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+      {{end}}
+    {{end}}
+
+    {{ if .Params.version }}
+      {{ with .Params.version}}
+        <span class="tag__label">{{ T "tags-version"}}:</span>
+        <a class="tag-link tag_color_3" href="{{ "version/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+      {{end}}
     {{end}}
   </div>
+
+  {{ if .Params.nodes }}
+    <div class="tags">
+      <span class="tag__label">{{ T "tags-nodes"}}:</span>
+      {{range .Params.nodes}}
+      <a class="tag-link tag_color_{{ index (seq 6 | shuffle ) 1 }}" href="{{ "nodes/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    </div>
+    {{end}}
   {{end}}
+
+  {{ if .Params.pipeline }}
+    <div class="tags">
+      <span class="tag__label">{{ T "tags-pipeline"}}:</span>
+      {{range .Params.pipeline}}
+      <a class="tag-link tag_color_{{ index (seq 6 | shuffle ) 1 }}" href="{{ "pipeline/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    </div>
+    {{end}}
+  {{end}}
+
+  {{ if .Params.tags }}
+    <div class="tags">
+      <span class="tag__label">{{ T "tags"}}:</span>
+      {{range .Params.tags}}
+      <a class="tag-link tag_color_{{ index (seq 6 | shuffle ) 0 }}" href="{{ "tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    </div>
+    {{end}}
+  {{end}}
+  
+
+  {{ if .Params.pan }}
+  
+  <div class="tags">
+    <span class="tag__label">{{ T "tags-pan"}}:</span>
+    {{ .Params.pan | markdownify }}
+  </div>
+  {{end}}
+
+  {{ if .Params.video }}
+  
+  <div class="tags">
+    <span class="tag__label">{{ T "tags-video"}}:</span>
+    {{ .Params.video | markdownify }}
+  </div>
+  {{end}}
+
 
   <article class="single__contents" data-dir="{{ $.Param " languagedir" | default "ltr" }}">
     {{ .Content }}

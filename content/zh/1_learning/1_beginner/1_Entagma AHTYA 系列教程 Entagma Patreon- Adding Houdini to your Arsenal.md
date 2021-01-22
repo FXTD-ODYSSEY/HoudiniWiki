@@ -3,12 +3,12 @@ title: Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsena
 author: 智伤帝
 description: Entagma Houdini 入门系列教程
 date: 2021-01-16
-pan: 
-video: 
+pan: "https://pan.baidu.com/s/1kW9HBZT 密码: 123"
+video: https://www.bilibili.com/video/BV18z4y1S77y
 weight: 2
 slug: 32dbb101
 version: houdini18
-producer: Rohan Dalvi
+producer: Entagma
 level: beginner
 tags: 
   - Rohan Dalvi

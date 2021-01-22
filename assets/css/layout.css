@@ -222,3 +222,56 @@ pre .hljs-vex_comment {
 .theme__dark .header{
 	background: mediumpurple;
 }
+
+.tag__label{
+	margin-right: 1rem;
+}
+
+.tag_color_1 {
+	background:#007bff !important;
+}
+.tag_color_1:before {
+	border-color: transparent #007bff transparent transparent !important;
+}
+
+.tag_color_2 {
+	background:#6c757d !important;
+}
+.tag_color_2:before {
+	border-color: transparent #6c757d transparent transparent !important;
+}
+
+.tag_color_3 {
+	background:#28a745 !important;
+}
+.tag_color_3:before {
+	border-color: transparent #28a745 transparent transparent !important;
+}
+
+.tag_color_4 {
+	background:#dc3545 !important;
+}
+.tag_color_4:before {
+	border-color: transparent #dc3545 transparent transparent !important;
+}
+
+.tag_color_5 {
+	background:#ffc107 !important;
+}
+.tag_color_5:before {
+	border-color: transparent #ffc107 transparent transparent !important;
+}
+
+.tag_color_6 {
+	background:#17a2b8 !important;
+}
+.tag_color_6:before {
+	border-color: transparent #17a2b8 transparent transparent !important;
+}
+
+.tag_color_7 {
+	background:#343a40 !important;
+}
+.tag_color_7:before {
+	border-color: transparent #343a40 transparent transparent !important;
+}

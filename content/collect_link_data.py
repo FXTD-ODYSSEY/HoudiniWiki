@@ -21,7 +21,7 @@ from collections import defaultdict
 
 DIR = os.path.dirname(__file__)
 lang = "zh"
-example_path = os.path.join(DIR, lang, "2_examples")
+example_path = os.path.join(DIR, lang)
 output_path = os.path.join(DIR, "..", "data", "links.json")
 
 
@@ -41,6 +41,8 @@ def main():
             # NOTE 正则匹配 relink short code block
             config = md.split("---")[1]
             match = re.search(r"slug\d*:\d*(.*)", config)
+            if not match:
+                continue
             post_id = match.group(1).strip()
             match = re.search(r"title\d*:\d*(.*)", config)
             title = match.group(1).strip()

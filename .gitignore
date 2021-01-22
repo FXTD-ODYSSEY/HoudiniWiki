@@ -3,3 +3,4 @@ resources/
 .vscode/
 themes/hugo-theme-learn
 _official/
+data/links.json
