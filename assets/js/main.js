@@ -7,6 +7,12 @@ $(".menu__title").each(function () {
         track: true,
     })
 });
+$(".menu__title--collapse-text").each(function () {
+    $(this).attr("title", $(this).text())
+    $(this).tooltip({
+        track: true
+    })
+})
 $(".related").tooltip({
     track: true,
 })

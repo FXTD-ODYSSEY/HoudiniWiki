@@ -3,9 +3,10 @@ title: "学习路线"
 # description: "test post index"
 date: 2021-01-14
 draft: false
+toc: false
 ---
 
-### Houdini 基础入门   
+### Houdini 基础入门  
 
 - [x] 基础核心技术训练视频教程 [链接](https://www.bilibili.com/video/BV1pW411H7nV)
 - [ ] Houdini18官方入门教程 [链接](https://www.bilibili.com/video/BV1qf4y1B7D3/)
@@ -96,4 +97,3 @@ draft: false
 - [ ] Entagma系列 泡面番 [链接](https://www.bilibili.com/video/BV1a7411q7ny)
 - [ ] VFXforce集锦 [链接](https://www.vfxforce.cn/page/2?s=procedural)
 - [ ] CG猎人系列教程 - [链接](https://space.bilibili.com/20391302)
-

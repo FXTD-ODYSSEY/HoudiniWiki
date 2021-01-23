@@ -1,0 +1,11 @@
+{{ if $.Param "enableEditBtn" }}
+  {{ $root := .}}
+  {{ with .FirstSection }}
+    {{$url := replace ($root.File.Path | relLangURL) `\` `/`}}
+    <a href="{{ .Params.editBaseURL | default ($.Param `editBaseURL`) }}{{ strings.TrimSuffix `/` $url }}" target="_blank" rel="noreferrer">
+      <button class="editBtn" aria-label="Edit This Page Button">
+        {{ i18n "edit-this-page" | default "EDIT THIS PAGE" }}
+      </button>
+    </a>
+  {{ end }}
+{{ end }}

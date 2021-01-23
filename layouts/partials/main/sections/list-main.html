@@ -75,7 +75,12 @@
     {{ .Params.video | markdownify }}
   </div>
   {{end}}
-
+  
+  {{ $toc := .Params.toc | default true }}
+  {{ $section_to_display :=  .Sections | default .Pages }}
+  {{ if and $section_to_display $toc }}
+    {{ partial "main/sections/list-section.html" (dict "context" . "section_to_display" $section_to_display) }}
+  {{ end }}
 
   <article class="single__contents" data-dir="{{ $.Param " languagedir" | default "ltr" }}">
     {{ .Content }}

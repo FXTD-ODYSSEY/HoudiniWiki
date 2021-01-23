@@ -1,0 +1,18 @@
+<div class="list-section">
+  {{ range .section_to_display }}
+    <div class="list-section__item">
+      <a href="{{ .Permalink }}" class="list-section__item--link">
+        {{ .Title }}
+      </a>
+      <div class="list-section__item--desc">
+        {{ .Description }}
+      </div>
+      
+    {{ $section_to_display :=  .Sections | default .Pages }}
+    {{ if $section_to_display}}
+      {{ partial "main/sections/list-section.html" (dict "context" . "section_to_display" $section_to_display) }}
+    {{ end }}
+
+    </div>
+  {{ end }}
+  </div>

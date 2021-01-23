@@ -3,11 +3,13 @@ title: "更新日志"
 # description: "test post index"
 date: 2021-01-21
 draft: false
+weight: 20
 ---
 
 ## 2021-01-23
 
 > - [ ] ~~制作一个卡片页面显示 pan 链接~~
+> - [X] 完善默认 _index.md 罗列
 > - [x] 修复幻灯片全屏显示功能
 > - [x] 编辑按钮指向
 
