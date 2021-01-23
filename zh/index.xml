@@ -9,7 +9,7 @@
     <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
     <webMaster>zzossig@gmail.com (zzossig)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hou.l0v0.com/zh/index.xml" rel="self" type="application/rss+xml" />
     
@@ -22,43 +22,16 @@
         <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
         <guid>https://hou.l0v0.com/zh/updates/features/91d7f687/</guid>
-        <description>幻灯片 # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___ ## Dinner - Eat spaghetti - Drink wine ___ ## Going to sleep - Get in bed - Count sheep function initSlides() { Reveal.initialize({ controls : false, center: true , history: false , progress: &#34;true&#34;</description>
+        <description>幻灯片 全屏 # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___ ## Dinner - Eat spaghetti - Drink wine ___ ## Going to sleep - Get in bed - Count sheep function initSlides() { Reveal.initialize({ controls : false, center: true , history: false ,</description>
       </item>
       
       <item>
-        <title>使用手册</title>
-        <link>https://hou.l0v0.com/zh/updates/help/8ebbb118/</link>
-        <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-        <author>zzossig@gmail.com (zzossig)</author>
-        <guid>https://hou.l0v0.com/zh/updates/help/8ebbb118/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>图标功能支持</title>
+        <title>图表功能支持</title>
         <link>https://hou.l0v0.com/zh/updates/features/9ee9a447/</link>
         <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
         <guid>https://hou.l0v0.com/zh/updates/features/9ee9a447/</guid>
         <description>wavedrom { &amp;quot;signal&amp;quot;: [ {&amp;quot;name&amp;quot;: &amp;quot;CLK&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;p.....|...&amp;quot;}, {&amp;quot;name&amp;quot;:&amp;quot;DAT&amp;quot;, &amp;quot;wave&amp;quot;:&amp;quot;x.345x|=.x&amp;quot;, &amp;quot;data&amp;quot;:[&amp;quot;A&amp;quot;,&amp;quot;B&amp;quot;,&amp;quot;C&amp;quot;,&amp;quot;D&amp;quot;]}, {&amp;quot;name&amp;quot;: &amp;quot;REQ&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;0.1..0|1.0&amp;quot;}, {}, {&amp;quot;name&amp;quot;: &amp;quot;ACK&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;1.....|01.&amp;quot;} ] } Viz digraph G { subgraph cluster_0 { style=filled; color=lightgrey; node [style=filled,color=white]; a0 -&amp;gt; a1 -&amp;gt; a2 -&amp;gt; a3; label = &amp;quot;process #1&amp;quot;; } subgraph cluster_1 { node [style=filled]; b0 -&amp;gt; b1 -&amp;gt; b2 -&amp;gt; b3; label = &amp;quot;process #2&amp;quot;; color=blue } start -&amp;gt; a0; start -&amp;gt; b0; a1</description>
-      </item>
-      
-      <item>
-        <title>Houdini18 入门教程 Introduction to Houdini</title>
-        <link>https://hou.l0v0.com/zh/1_learning/1_beginner/7943b98e/</link>
-        <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
-        <author>zzossig@gmail.com (zzossig)</author>
-        <guid>https://hou.l0v0.com/zh/1_learning/1_beginner/7943b98e/</guid>
-        <description>前言 # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___ ## Dinner - Eat spaghetti - Drink wine ___ ## Going to sleep - Get in bed - Count sheep function initSlides() { Reveal.initialize({ controls : false, center: true , history: false , progress: &#34;true&#34; ,</description>
-      </item>
-      
-      <item>
-        <title>Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsenal</title>
-        <link>https://hou.l0v0.com/zh/1_learning/1_beginner/32dbb101/</link>
-        <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
-        <author>zzossig@gmail.com (zzossig)</author>
-        <guid>https://hou.l0v0.com/zh/1_learning/1_beginner/32dbb101/</guid>
-        <description>前言 attributeCreate 12341 attributeCreate a213t42 1 2 import os 最近罗列了 Houdini 全面学习的教程菜单 链接 目前还没有明确的学习计划，毕竟想搞的东西很多，总是会有些莫名其妙的东西占据了优先度（没</description>
       </item>
       
       <item>
@@ -72,10 +45,10 @@
       
       <item>
         <title>Attribute Copy</title>
-        <link>https://hou.l0v0.com/zh/10_nodes/sop/37b24259/</link>
+        <link>https://hou.l0v0.com/zh/20_nodes/sop/37b24259/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>https://hou.l0v0.com/zh/10_nodes/sop/37b24259/</guid>
+        <guid>https://hou.l0v0.com/zh/20_nodes/sop/37b24259/</guid>
         <description>https://www.sidefx.com/docs/houdini/nodes/sop/attribcopy.html</description>
       </item>
       

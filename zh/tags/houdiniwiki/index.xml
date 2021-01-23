@@ -22,20 +22,11 @@
         <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
         <guid>https://hou.l0v0.com/zh/updates/features/91d7f687/</guid>
-        <description>幻灯片 # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___ ## Dinner - Eat spaghetti - Drink wine ___ ## Going to sleep - Get in bed - Count sheep function initSlides() { Reveal.initialize({ controls : false, center: true , history: false , progress: &#34;true&#34;</description>
+        <description>幻灯片 全屏 # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___ ## Dinner - Eat spaghetti - Drink wine ___ ## Going to sleep - Get in bed - Count sheep function initSlides() { Reveal.initialize({ controls : false, center: true , history: false ,</description>
       </item>
       
       <item>
-        <title>使用手册</title>
-        <link>https://hou.l0v0.com/zh/updates/help/8ebbb118/</link>
-        <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-        <author>zzossig@gmail.com (zzossig)</author>
-        <guid>https://hou.l0v0.com/zh/updates/help/8ebbb118/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>图标功能支持</title>
+        <title>图表功能支持</title>
         <link>https://hou.l0v0.com/zh/updates/features/9ee9a447/</link>
         <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
