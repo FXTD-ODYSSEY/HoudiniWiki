@@ -29,12 +29,10 @@ if(host.startsWith("localhost")){
         src = $(this).attr("src")
         $(this).attr("src",src.replace(link,host))
         src = $(this).attr("src")
-        console.log(src)
     })
     $("video").each(function () {
         src = $(this).attr("src")
         $(this).attr("src",src.replace(link,host))
         src = $(this).attr("src")
-        console.log(src)
     })
 }

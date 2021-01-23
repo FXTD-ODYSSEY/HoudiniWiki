@@ -7,9 +7,9 @@
 
   [[main]]
     parent = "learning"
-    identifier = "game"
-    name = "游戏"
-    url = "2_game"
+    identifier = "beginner"
+    name = "入门"
+    url = "2_beginner"
     weight = 2
 
   [[main]]
@@ -35,85 +35,92 @@
 
   [[main]]
     parent = "learning"
+    identifier = "procedural"
+    name = "程序化生成"
+    url = "6_procedural"
+    weight = 6
+
+  [[main]]
+    parent = "learning"
     identifier = "FX"
     name = "影视特效"
-    url = "8_FX"
-    weight = 8
+    url = "18_fx"
+    weight = 18
 
   [[main]]
     parent = "learning"
     identifier = "msic"
     name = "杂项"
-    url = "9_msic"
-    weight = 9
+    url = "19_msic"
+    weight = 19
 
 [[main]]
   identifier = "nodes"
   name = "节点"
-  url = "10_nodes"
+  url = "20_nodes"
   weight = 10
 
   [[main]]
     parent = "nodes"
     identifier = "chop"
     name = "CHOP"
-    url = "10_nodes/chop"
+    url = "20_nodes/chop"
     weight = 1
 
   [[main]]
     parent = "nodes"
     identifier = "COP2"
     name = "COP2"
-    url = "10_nodes/cop2"
+    url = "20_nodes/cop2"
     weight = 2
 
   [[main]]
     parent = "nodes"
     identifier = "DOP"
     name = "DOP"
-    url = "10_nodes/dop"
+    url = "20_nodes/dop"
     weight = 3
 
   [[main]]
     parent = "nodes"
     identifier = "LOP"
     name = "LOP"
-    url = "10_nodes/lop"
+    url = "20_nodes/lop"
     weight = 4
 
   [[main]]
     parent = "nodes"
     identifier = "OBJ"
     name = "OBJ"
-    url = "10_nodes/obj"
+    url = "20_nodes/obj"
     weight = 5
 
   [[main]]
     parent = "nodes"
     identifier = "ROP"
     name = "ROP"
-    url = "10_nodes/rop"
+    url = "20_nodes/rop"
     weight = 6
 
   [[main]]
     parent = "nodes"
     identifier = "SOP"
     name = "SOP"
-    url = "10_nodes/sop"
+    url = "20_nodes/sop"
     weight = 7
 
   [[main]]
     parent = "nodes"
     identifier = "TOP"
     name = "TOP"
-    url = "10_nodes/top"
+    url = "20_nodes/top"
     weight = 8
 
   [[main]]
     parent = "nodes"
     identifier = "VOP"
     name = "VOP"
-    url = "10_nodes/vop"
+    url = "20_nodes/vop"
     weight = 9
 
 [[main]]
@@ -167,12 +174,12 @@
     parent = "blog"
     identifier = "translate"
     name = "翻译转载"
-    url = "blog/translate"
+    url = "translate"
     weight = 5
 
 [[main]]
   identifier = "updates"
-  name = "网站记录"
-  url = "updates"
+  name = "关于"
+  url = "updates/log"
   weight = 25
   

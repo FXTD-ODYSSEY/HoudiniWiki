@@ -1,7 +1,20 @@
-<iframe id="slideFrame" src="{{"none.html" | relURL }}" style="width:{{with .Get "width"}}{{.}}{{else}}100%{{end}};height:{{with .Get "height"}}{{.}}{{else}}30em{{end}}; border:0px"></iframe>
+{{ .Page.Scratch.Add "slides" (slice "count") }}
+{{ $id := printf "%s%d" "slideFrame_"  (len (.Page.Scratch.Get `slides`)) }}
+
+
+<iframe id="{{$id}}" src="{{"none.html" | relURL }}" style="width:{{with .Get "width"}}{{.}}{{else}}100%{{end}};height:{{with .Get "height"}}{{.}}{{else}}30em{{end}}; border:0px">
+</iframe>
 
 <div id="slideContent">
-	
+		<span onclick="slideFullScreen();" style="z-index: 999;
+		position: absolute;
+		right: 0;
+		margin:.3rem;
+		cursor:pointer;
+		color:white;
+		text-shadow: 1px 1px 3px #000000;
+		text-decoration: none;">{{T "Revealjs-fullscreen"}}</span>
+			
 		<link rel="stylesheet" defer href="https://unpkg.com/reveal.js@4.0.2/dist/reset.css">
 		<link rel="stylesheet" defer href="https://unpkg.com/reveal.js@4.0.2/dist/reveal.css">
 		<link rel="stylesheet" defer href="https://unpkg.com/reveal.js@4.0.2/dist/theme/{{with .Get "theme"}}{{.|safeHTML}}{{else}}black{{end}}.css" id="theme">
@@ -41,25 +54,25 @@
 
 		      });
 	}
+	toggle = false;
+	function slideFullScreen(){
+		doc = window.top.document
+		frame = doc.getElementById('{{$id}}')
+		toggle = !toggle
+		frame.style.cssText = toggle ? "width: 100vw;position: fixed;top: 0;left: 0;border: 0px;z-index: 999;height: 100vh" : "width: 100%;border: 0px;height: 30em;"
+		doc.body.style.cssText = toggle ? "overflow:hidden" : "overflow:auto"
+	}
 	</script>
 </div>
-<li><a href="#" onclick="slideFullScreen();">{{T "Revealjs-fullscreen"}}</a></li>
 
 <script type="text/javascript">
-
-var toto = document.getElementById('slideContent').innerHTML
-document.getElementById('slideFrame').contentWindow.document.write(document.getElementById('slideContent').innerHTML); 
+document.getElementById('slideContent').innerHTML
+document.getElementById('{{$id}}').contentWindow.document.write(document.getElementById('slideContent').innerHTML); 
 document.getElementById('slideContent').remove();
 document.addEventListener("DOMContentLoaded",function(){
-	  setTimeout(function () {
-      document.getElementById('slideFrame').contentWindow.initSlides() ;
-    }, 2000);
+	setTimeout(function () {
+	document.getElementById('{{$id}}').contentWindow.initSlides() ;
+	}, 2000);
 });
 
-function slideFullScreen() {
-	document.open();
-	document.write(toto);
-	document.close();
-	initSlides()
-}
 </script>

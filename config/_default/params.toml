@@ -6,6 +6,7 @@ custom_js = ["js/fuse.min.js","js/jquery.min.js","js/jquery-ui.min.js","js/main.
 useFaviconGenerator = true # https://www.favicon-generator.org/
 meta_image = ""
 themecolor = ""
+editBaseURL = "https://github.com/FXTD-ODYSSEY/HoudiniWiki/tree/master/content"
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/

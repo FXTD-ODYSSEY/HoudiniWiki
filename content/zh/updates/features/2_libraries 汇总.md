@@ -1,7 +1,7 @@
 ---
-title: 图标功能支持
+title: 图表功能支持
 author: 智伤帝
-description: 网站支持的 图标功能 汇总
+description: 网站支持的 图表功能 汇总
 date: 2021-01-20
 weight: 1
 slug: 9ee9a447
