@@ -1,5 +1,7 @@
 $(".menu__title").each(function(){$(this).attr("title",$(this).text())
-$(".menu").tooltip({track:true,})});$(".related").tooltip({track:true,})
+$(".menu").tooltip({track:true,})});$(".menu__title--collapse-text").each(function(){$(this).attr("title",$(this).text())
+$(this).tooltip({track:true})})
+$(".related").tooltip({track:true,})
 $(".link_container").each(function(){$(this)})
 var name="FXTD-odyssey";var repository="HoudiniWiki";var branch="gh-pages"
 var link="//cdn.jsdelivr.net/gh/"+name+"/"+repository+"@"+branch

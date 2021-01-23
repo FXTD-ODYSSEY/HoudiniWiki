@@ -58,8 +58,23 @@
   </url>
   
   <url>
+    <loc>https://hou.l0v0.com/zh/2_beginner/ddc0b6e3/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hou.l0v0.com/zh/updates/features/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hou.l0v0.com/zh/updates/about/</loc>
+    <lastmod>2021-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hou.l0v0.com/zh/updates/log/</loc>
+    <lastmod>2021-01-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -93,11 +108,6 @@
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/zh/updates/about/</loc>
-    <lastmod>2021-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hou.l0v0.com/zh/tags/houdiniwiki/</loc>
     <lastmod>2021-01-21T00:00:00+00:00</lastmod>
   </url>
@@ -123,13 +133,113 @@
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/zh/updates/log/</loc>
-    <lastmod>2021-01-21T00:00:00+00:00</lastmod>
+    <loc>https://hou.l0v0.com/zh/20_nodes/sop/37b24259/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/zh/20_nodes/sop/37b24259/</loc>
+    <loc>https://hou.l0v0.com/zh/level/beginner/</loc>
     <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hou.l0v0.com/zh/producer/entagma/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hou.l0v0.com/zh/version/houdini18/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hou.l0v0.com/zh/level/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hou.l0v0.com/en/level/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://hou.l0v0.com/zh/level/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hou.l0v0.com/zh/pipeline/modeling/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hou.l0v0.com/zh/nodes/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hou.l0v0.com/en/nodes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://hou.l0v0.com/zh/nodes/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hou.l0v0.com/zh/pipeline/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hou.l0v0.com/en/pipeline/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://hou.l0v0.com/zh/pipeline/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hou.l0v0.com/zh/producer/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hou.l0v0.com/en/producer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://hou.l0v0.com/zh/producer/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hou.l0v0.com/zh/tags/rohan-dalvi/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hou.l0v0.com/zh/nodes/sop/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hou.l0v0.com/zh/version/</loc>
+    <lastmod>2021-01-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hou.l0v0.com/en/version/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://hou.l0v0.com/zh/version/"
+                />
   </url>
   
   <url>
@@ -233,76 +343,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://hou.l0v0.com/zh/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hou.l0v0.com/zh/level/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hou.l0v0.com/en/level/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://hou.l0v0.com/zh/level/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hou.l0v0.com/zh/nodes/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hou.l0v0.com/en/nodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://hou.l0v0.com/zh/nodes/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hou.l0v0.com/zh/pipeline/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hou.l0v0.com/en/pipeline/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://hou.l0v0.com/zh/pipeline/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hou.l0v0.com/zh/producer/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hou.l0v0.com/en/producer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://hou.l0v0.com/zh/producer/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hou.l0v0.com/zh/version/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hou.l0v0.com/en/version/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://hou.l0v0.com/zh/version/"
                 />
   </url>
   

@@ -22,7 +22,7 @@
         <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
         <guid>https://hou.l0v0.com/zh/updates/features/91d7f687/</guid>
-        <description>幻灯片 全屏 # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___ ## Dinner - Eat spaghetti - Drink wine ___ ## Going to sleep - Get in bed - Count sheep function initSlides() { Reveal.initialize({ controls : false, center: true , history: false ,</description>
+        <description>幻灯片 .reveal-viewport span { z-index: 999; position: absolute; right: 0; margin: 0.3rem; cursor: pointer; color: white; text-shadow: 1px 1px 3px #000000; text-decoration: none; opacity:0; transition: opacity .5s; } .reveal-viewport span:hover { transition: opacity .5s; opacity:1; } # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___</description>
       </item>
       
       <item>
@@ -32,6 +32,33 @@
         <author>zzossig@gmail.com (zzossig)</author>
         <guid>https://hou.l0v0.com/zh/updates/features/9ee9a447/</guid>
         <description>wavedrom { &amp;quot;signal&amp;quot;: [ {&amp;quot;name&amp;quot;: &amp;quot;CLK&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;p.....|...&amp;quot;}, {&amp;quot;name&amp;quot;:&amp;quot;DAT&amp;quot;, &amp;quot;wave&amp;quot;:&amp;quot;x.345x|=.x&amp;quot;, &amp;quot;data&amp;quot;:[&amp;quot;A&amp;quot;,&amp;quot;B&amp;quot;,&amp;quot;C&amp;quot;,&amp;quot;D&amp;quot;]}, {&amp;quot;name&amp;quot;: &amp;quot;REQ&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;0.1..0|1.0&amp;quot;}, {}, {&amp;quot;name&amp;quot;: &amp;quot;ACK&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;1.....|01.&amp;quot;} ] } Viz digraph G { subgraph cluster_0 { style=filled; color=lightgrey; node [style=filled,color=white]; a0 -&amp;gt; a1 -&amp;gt; a2 -&amp;gt; a3; label = &amp;quot;process #1&amp;quot;; } subgraph cluster_1 { node [style=filled]; b0 -&amp;gt; b1 -&amp;gt; b2 -&amp;gt; b3; label = &amp;quot;process #2&amp;quot;; color=blue } start -&amp;gt; a0; start -&amp;gt; b0; a1</description>
+      </item>
+      
+      <item>
+        <title>Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsenal</title>
+        <link>https://hou.l0v0.com/zh/2_beginner/ddc0b6e3/</link>
+        <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://hou.l0v0.com/zh/2_beginner/ddc0b6e3/</guid>
+        <description>创建几何体 创建一个集合体面片，我之前看了 Pluarasight 的 Vex 基础教程，有提到。 链接 原来我发的链接挂了，这个是中文翻录的链接~ 通过 Vex 的 API 可以构建集合体。 看教</description>
+      </item>
+      
+      <item>
+        <title>关于网站</title>
+        <link>https://hou.l0v0.com/zh/updates/about/</link>
+        <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://hou.l0v0.com/zh/updates/about/</guid>
+        <description>本网站基于 Hexo 静态网站生成工具构建，借助这个平台整理归纳 Houdini 的知识。 本博客完全开源，欢迎大家参与贡献分享自己关于 Houdini 的经验总结 链接 文章建议以 markdown 投稿</description>
+      </item>
+      
+      <item>
+        <title>更新日志</title>
+        <link>https://hou.l0v0.com/zh/updates/log/</link>
+        <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://hou.l0v0.com/zh/updates/log/</guid>
+        <description>2021-01-23 制作一个卡片页面显示 pan 链接 完善默认 _index.md 罗列 修复幻灯片全屏显示功能 编辑按钮指向 2021-01-22 添加翻译模块 文章显示 video 和 pan 信息 做一个时间轴页面 2021-01-21 CI 支持 跑 python 脚本</description>
       </item>
       
       <item>

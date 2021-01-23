@@ -56,7 +56,7 @@
   
   
     
-    <script defer src="/js/main.min.80c30203749d71212ece30e03dd4ef5647b1b435df426cca04c17b585ee61446.js"></script>
+    <script defer src="/js/main.min.5b2e8b60910ee1369462f4412fae3f1f852f500fad043d736d0d8596c4c5ff93.js"></script>
   
 
   
@@ -1644,8 +1644,7 @@
   
 
 
-    <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="https://hou.l0v0.com/zh/updates/about/index.xml">
-<meta name="description" content="" />
+    <meta name="description" content="" />
 <meta name="keywords" content="">
 <meta name="created" content="2021-01-23T00:00:00&#43;0000">
 <meta name="modified" content="2021-01-23T00:00:00&#43;0000">
@@ -1654,7 +1653,7 @@
 <meta property="og:site_name" content="Houdini Wiki">
 <meta property="og:title" content="关于网站">
 <meta property="og:url" content="https://hou.l0v0.com/zh/updates/about/">
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.80.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
@@ -1683,9 +1682,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
+    "headline": "关于网站",
+    "datePublished": "2021-01-23T00:00:00Z",
+    "dateModified": "2021-01-23T00:00:00Z",
     "url" : "https://hou.l0v0.com/zh/updates/about/",
-    "name": "关于网站",
-    "description": "Houdini Wiki - Houdini Summuary \u0026 Tips ",
+    "description": "本网站基于 Hexo 静态网站生成工具构建，借助这个平台整理归纳 Houdini 的知识。 本博客完全开源，欢迎大家参与贡献分享自己关于 Houdini 的经验总结 链接 文章建议以 markdown 投稿",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://hou.l0v0.com"
@@ -1737,7 +1738,7 @@
       关于网站
     
   </h6>
-  <ul>
+  <ul class="menu__list active">
     
     
       
@@ -2343,7 +2344,8 @@
         
   
   
-    <a href="https://github.com/FXTD-ODYSSEY/HoudiniWiki/tree/master/content/zh/zh/updates/about.md" target="_blank" rel="noreferrer">
+    
+    <a href="https://github.com/FXTD-ODYSSEY/HoudiniWiki/tree/master/content/zh/updates/about.md" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Edit This Page Button">
         编辑
       </button>
@@ -2357,11 +2359,11 @@
 
         
   
-  
+
 <div class="mid">
   <div class="divider">
-
-    <nav id="list-menu" class="l" data-dir="ltr">
+    
+    <nav id="single-menu" class="l" data-dir="ltr">
       
         <div class="menu">
   <h6 class="menu__label">
@@ -2369,7 +2371,7 @@
       关于网站
     
   </h6>
-  <ul>
+  <ul class="menu__list active">
     
     
       
@@ -2476,28 +2478,6 @@
 </div>
 
 
-
-<script>
-  var menuTitle = document.querySelectorAll('.menu__title');
-  var modal = document.getElementById("myModal");
-  var drawer = document.getElementById('myDrawer');
-
-  var closeDrawer = function () {
-    setTimeout(function () {
-      modal.style.opacity = 0;
-      drawer.style.left = '-100%';
-      modal.style.left = '-100%';
-    }, 250);
-  }
-
-  menuTitle ? 
-  menuTitle.forEach(function(elem) {
-    elem.onclick = function() {
-      closeDrawer();
-      localStorage.setItem('isDrawerOpen', 'false');
-    }
-  }) : null;
-</script>
       
     </nav>
 
@@ -2527,12 +2507,19 @@
   
 
   
-
+  
+  
+  
+  
 
   <article class="single__contents" data-dir="ltr">
     <blockquote>
 <p>  本网站基于 Hexo 静态网站生成工具构建，借助这个平台整理归纳 Houdini 的知识。<br />
   本博客完全开源，欢迎大家参与贡献分享自己关于 Houdini 的经验总结 <a href="https://github.com/FXTD-ODYSSEY/HoudiniWiki" target="_blank">链接</a></p>
+</blockquote>
+<blockquote>
+<p>  文章建议以 markdown 投稿~<br />
+  网站特性里面展示了，网站支持的一些内容构建，可以点击右上角的编辑按钮在 Github 上查看文章的 Markdown 源码。</p>
 </blockquote>
 
   </article>
@@ -2547,11 +2534,54 @@
   
 </div>
       
+<div class="grow"></div>
+<nav class="pagination-single">
+  
+    
+    <div class="grow"></div>
+    
+      <a href="https://hou.l0v0.com/zh/updates/log/" title="更新日志" class="pagination-single__right">
+        <div class="pagination-single__left-title">更新日志</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
+      </a>
+    
+  
+</nav>
+
+
       
+  
+    
+<div id="vcomments"></div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script>
+  new Valine({
+      el: '#vcomments' ,
+      appId: 'mrRioyNTSEAOvVLAsLgkhr4j-gzGzoHsz',
+      appKey: 'wHDm1kxC2FUpOA7FNdgTOEnx',
+      notify:  true ,
+      verify:  true ,
+      avatar:'mm',
+      placeholder: '说点什么吧...',
+      visitor:  false 
+  });
+</script>
+  
 
     </article>
-
+    
     <section id="list-side" class="r" data-dir="ltr">
+      
+        <div class="toc">
+  <h6 class="toc__label">目录</h6>
+  <div class="toc__body">
+    <nav id="TableOfContents"></nav>
+  </div>
+</div>
+      
     </section>
 
   </div>
@@ -2713,7 +2743,7 @@
     
     if (lib && lib.includes('flowchartjs')) {
       
-      var options = JSON.parse("null");
+      var options = JSON.parse("{\"arrow-end\":\"block\",\"element-color\":\"black\",\"fill\":\"white\",\"flowstate\":{\"approved\":{\"fill\":\"#58C4A3\",\"font-size\":12,\"no-text\":\"n/a\",\"yes-text\":\"APPROVED\"},\"current\":{\"fill\":\"yellow\",\"font-color\":\"red\",\"font-weight\":\"bold\"},\"future\":{\"fill\":\"#FFFF99\"},\"invalid\":{\"fill\":\"#444444\"},\"past\":{\"fill\":\"#CCCCCC\",\"font-size\":12},\"rejected\":{\"fill\":\"#C45879\",\"font-size\":12,\"no-text\":\"REJECTED\",\"yes-text\":\"n/a\"},\"request\":{\"fill\":\"blue\"}},\"font-color\":\"black\",\"font-size\":14,\"line-color\":\"black\",\"line-length\":50,\"line-width\":3,\"no-text\":\"no\",\"scale\":1,\"symbols\":{\"end\":{\"class\":\"end-element\"},\"start\":{\"element-color\":\"green\",\"fill\":\"yellow\",\"font-color\":\"red\"}},\"text-margin\":10,\"x\":0,\"y\":0,\"yes-text\":\"yes\"}");
       var jsonContent = null;
 
       var flowchartPrefix = "language-flowchart";
@@ -2803,66 +2833,66 @@
 </script>
 
 <script>
-  var listMenu = document.getElementById('list-menu');
-  var listMain = document.getElementById('list-main');
+  
   var listSide = document.getElementById('list-side');
+  var listMain = document.getElementById('list-main');
+  var singleMenu = document.getElementById('single-menu');
   var switchElem = document.querySelector('.switch');
   var wideViewAsDefault = JSON.parse("null");
-
+  
   enquire.register("screen and (max-width:1280px)", {
     match: function () {
       if (wideViewAsDefault) {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';  
         listMain.className = 'mr';
         listSide.className = 'hide';
       } else {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'm';
         listSide.className = 'r';
       }
     },
     unmatch: function () {
       if (wideViewAsDefault) {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'mr';
         listSide.className = 'hide';
       } else {
-        listMenu.className = 'l';
         listSide.className = 'r';
         listMain.className = 'm';
+        singleMenu.className = 'l';
       }
     },
   }).register("screen and (max-width:960px)", {
     match: function () {
-      listMenu.className = 'l';
+      singleMenu.className = 'l';
       listMain.className = 'mr';
       listSide.className = 'hide';
       switchElem.className = 'hide';
     },
     unmatch: function () {
       if (wideViewAsDefault) {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'mr';
         listSide.className = 'hide';
       } else {
-        listMenu.className = 'l';
+        singleMenu.className = 'l';
         listMain.className = 'm';
         listSide.className = 'r';
       }
-      
       switchElem.className = 'switch';
     },
   }).register("screen and (max-width:600px)", {
     match: function () {
-      listMenu.className = 'hide';
-      listMain.className = 'lmr';
       listSide.className = 'hide';
+      listMain.className = 'lmr';
+      singleMenu.className = 'hide';
       switchElem.className = 'hide';
     },
     unmatch: function () {
-      listMenu.className = 'l';
-      listMain.className = 'mr';
       listSide.className = 'hide';
+      listMain.className = 'mr';
+      singleMenu.className = 'l';
       switchElem.className = 'hide';
     },
   });
