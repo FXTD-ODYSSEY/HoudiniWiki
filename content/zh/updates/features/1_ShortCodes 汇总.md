@@ -114,11 +114,6 @@ Lorem markdownum insigne...
 {{/*<attachmests />*/}}
 ```
 
-## relink 链接指向
-
-{{< relink node="/zh/1_nodes/sop/37b24259" nodeName="attributeCreate" >}} 
-testAAA
-{{</ relink >}}
 
 
 ## pannel

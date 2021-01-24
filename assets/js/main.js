@@ -30,7 +30,8 @@ var branch = "gh-pages"
 var link = "//cdn.jsdelivr.net/gh/" + name + "/" + repository + "@" + branch
 
 var host = window.location.host
-if(host.startsWith("localhost")){
+var location = window.location
+if(host.startsWith("localhost") || location.startsWith("file")){
     $("img").each(function () {
         src = $(this).attr("src")
         $(this).attr("src",src.replace(link,host))

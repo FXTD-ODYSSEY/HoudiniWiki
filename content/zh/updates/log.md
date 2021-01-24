@@ -6,9 +6,17 @@ draft: false
 weight: 20
 ---
 
+## 2021-01-24
+
+> - [x] relink 支持 slug 路径
+> - [x] relink 支持多个 url
+> - [x] attachments cdn 加速
+> - [x] baseUrl 强制跳转
+
 ## 2021-01-23
 
 > - [ ] ~~制作一个卡片页面显示 pan 链接~~
+> - [X] 修复 anchor 定位被覆盖问题
 > - [X] 完善默认 _index.md 罗列
 > - [x] 修复幻灯片全屏显示功能
 > - [x] 编辑按钮指向

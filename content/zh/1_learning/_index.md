@@ -8,6 +8,8 @@ toc: false
 
 ### Houdini 基础入门  
 
+[官方文档](https://www.sidefx.com/docs/houdini/basics/index.html)
+
 - [x] 基础核心技术训练视频教程 [链接](https://www.bilibili.com/video/BV1pW411H7nV)
 - [ ] Houdini18官方入门教程 [链接](https://www.bilibili.com/video/BV1qf4y1B7D3/)
 - [ ] Entagma AHTYA 系列教程 - Entagma Patreon- Adding Houdini to your Arsenal [链接](https://www.bilibili.com/video/BV137411q7sA)

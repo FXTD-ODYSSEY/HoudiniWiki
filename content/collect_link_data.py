@@ -56,7 +56,7 @@ def main():
 
                 links = {"inner": inner}
 
-                for link in re.findall(r"relink(.*?)\}\}", relink):
+                for link in re.findall(r"relink(.*?)\d*>\d*\}\}", relink):
                     links["id"] = "link_node_%s" % i
                     for section in link.split(" "):
                         if not "=" in section:
@@ -70,12 +70,11 @@ def main():
 
                         links[key] = value
 
-                links.pop("nodeName", None)
-                node = links.pop("node", None)
-                if not node:
-                    continue
-
-                node_links[node].append(links)
+                nodes = links.pop("url", "")
+                for node in nodes.split("|"):
+                    if not node:
+                        continue
+                    node_links[node].append(links)
 
             path = dirpath.replace("\\", "/").split("content")[-1]
             for node, links in node_links.items():

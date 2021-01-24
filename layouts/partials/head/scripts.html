@@ -563,7 +563,7 @@
           this.querySelector('svg').classList.add('expand-icon__right');
           this.querySelector('svg').classList.remove('expand-icon__down');
         } else {
-          content.style.maxHeight = content.scrollHeight + "px";
+          content.style.maxHeight = content.scrollHeight*100 + "px";
           this.querySelector('svg').classList.remove('expand-icon__right');
           this.querySelector('svg').classList.add('expand-icon__down');
         }
@@ -990,7 +990,12 @@
     if (enableSearch) {
       (function initFuse() {
         var xhr = new XMLHttpRequest();
-        //var baseurl = "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages"
+
+        var host = window.location.host
+        var location = window.location
+        if(!host.startsWith("localhost") && !location.startsWith("file"))
+          baseurl = "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages"
+
         xhr.open('GET', baseurl + langprefix + "/index.json");
         xhr.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
         xhr.onload = function () {

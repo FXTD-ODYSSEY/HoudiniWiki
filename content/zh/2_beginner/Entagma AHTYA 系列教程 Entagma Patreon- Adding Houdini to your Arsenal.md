@@ -3,15 +3,15 @@ title: Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsena
 author: 智伤帝
 description: Entagma Houdini 入门系列教程
 date: 2021-01-16
-pan: "https://pan.baidu.com/s/1kW9HBZT 密码: 123"
-video: https://www.bilibili.com/video/BV18z4y1S77y
-weight: 2
+pan: https://pan.baidu.com/s/1ijIw4fILLcAnq9PIeObs-Q
+video: https://www.bilibili.com/video/BV137411q7sA
+weight: 1
 slug: ddc0b6e3
 version: houdini18
 producer: Entagma
 level: beginner
 tags: 
-  - Rohan Dalvi
+  - 基础
 nodes:
   - SOP
 pipeline:
@@ -19,18 +19,32 @@ pipeline:
 
 ---
 
+## 界面教学
+
+{{< relink url="1_learning/basic" >}} 
+
++ 按 空格 键切换到摄像机控制
++ 在节点窗口下按住 A 键拖拽可以对齐节点
++ 在属性编辑面板按鼠标中间可以按不同数量及调整参数
+
+{{</ relink >}}
 
 ## 创建几何体
 
-![alt](//cdn.jsdelivr.net/gh/FXTD-odyssey/FXTD-odyssey.github.io@master/post_img/dd8eb095/00.png)
 
-> &emsp;&emsp;创建一个集合体面片，我之前看了 Pluarasight 的 Vex 基础教程，有提到。 [链接](https://www.bilibili.com/video/BV1Zp411d7Hw) 原来我发的链接挂了，这个是中文翻录的链接~
-> &emsp;&emsp;通过 Vex 的 API 可以构建集合体。
-> &emsp;&emsp;看教程的时候已经记得代码操作了，好歹之前有做过笔记，有点印象的。 [链接](./50174.html)
+{{< relink url="20_nodes/sop/dd4f50e5" pattern="triangle" >}} 
 
-![alt](//cdn.jsdelivr.net/gh/FXTD-odyssey/FXTD-odyssey.github.io@master/post_img/dd8eb095/00_01.png)
+## 构建几何体
 
-```Vex
+![alt](//cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/ddc0b6e3/01.png)
+
+使用 add 构建几何体
+
+
+{{</ relink >}}
+
+
+```vex
 // 创建一个面片
 vector pos1 = set(0,0,0);
 vector pos2 = set(1,0,0);

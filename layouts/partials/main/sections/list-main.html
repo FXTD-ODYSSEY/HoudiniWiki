@@ -64,16 +64,16 @@
   
   <div class="tags">
     <span class="tag__label">{{ T "tags-pan"}}:</span>
-    {{ .Params.pan | markdownify }}
+    <a href="{{.Params.pan}}" target="_blank"> {{.Params.pan}} </a>  &nbsp; 提取码: wiki
   </div>
   {{end}}
 
   {{ if .Params.video }}
   
-  <div class="tags">
-    <span class="tag__label">{{ T "tags-video"}}:</span>
-    {{ .Params.video | markdownify }}
-  </div>
+    <div class="tags">
+      <span class="tag__label">{{ T "tags-video"}}:</span>
+      <a href="{{.Params.video}}" target="_blank"> {{.Params.video}} </a>
+    </div>
   {{end}}
   
   {{ $toc := .Params.toc | default true }}
@@ -86,12 +86,12 @@
     {{ .Content }}
   </article>
 
-  {{ partial "main/component/related.html" . }}
 
   <div class="link_container" style="margin-bottom:5px">
-    {{ if eq .Page.Section "1_nodes" }}
-      {{ $slug := .Page.Params.slug | default ""}}
-      {{ range $post_id, $data := index .Site.Data.links $slug }}
+    {{ $slug := .Page.Params.slug | default .Page.File.BaseFileName}}
+    {{ $data := index .Site.Data.links $slug }}
+    {{ if $data }}
+      {{ range $post_id, $data := $data }}
         {{ $path := path.Join (index $data "path") $post_id}}
         
         <div class="expand">
@@ -107,14 +107,54 @@
               
               {{ $link := add $path (add "#" (index . "id"))}}
 
-              <div class="notices note" style="padding: 0.1rem;margin: 0;">
-                <a href="{{ $link }}" style="margin-right: 0;">
+              <div class="theme__light notices note">
+
+                <div class="link_header">
                   <img src="/logo.png" > 
-                  <span>{{T "Nodes-link"}}</span>
-                </a>
-                <p style="margin-right: 0;">
+                  <span style="position: absolute;">
+                    <a href="{{ $link }}">
+                    {{T "Nodes-link"}}
+                    </a>
+                  </span>
+                </div>
+                
+                
+                <div class="single__contents">
                   {{ index . "inner" | markdownify}}
-                </p>
+
+                  
+                  {{ $pattern := index $data "pattern"}}
+                  {{ if $pattern }}
+                    {{ $slug := (.Page.Params.slug | default "") }}
+                    {{ $target := path.Join "/static/posts" $slug}}
+                    {{ $target := path.Join $target ("files")}}
+                    {{ $posts := "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts"}}
+                    <div class="expand">
+                        <button type="button" class="expand__button" aria-label="Expand Button" style="margin-bottom: 0;">
+                            <span class="expand-icon expand-icon__right" style="position: relative;">
+                                {{ partial "svgs/arrow-right.svg" (dict "width" 24 "height" 24) }}
+                            </span>
+                            {{T "Attachments-title"}}
+                        </button>
+                        <div class="expand__content" style="padding:0;">
+                            {{ range (readDir $target) }}
+                                {{if (findRE $pattern .Name)}}
+                                    <li>
+                                        <a href="{{ (printf "%s/%s/files/%s" $posts $slug .Name)}}" >
+                                            {{.Name}}
+                                        </a>
+                                        ({{div .Size 1024 }} {{T "BinaryPrefix-kilobyte"}})
+                                    </li>
+                                {{end}}
+                            {{ end }}
+                        </div>
+                    </div>
+                  {{ end }}
+                  
+                  
+
+
+                </div>
               </div>
 
             {{end}}
@@ -127,5 +167,6 @@
     {{end}}
   </div>
     
+  {{ partial "main/component/related.html" . }}
   <!-- <div style="margin-bottom:5px"></div> -->
 </div>

@@ -1,11 +1,59 @@
 {{ .Page.Scratch.Add "relinks" (slice "count") }}
 
-<div id="link_node_{{ len (.Page.Scratch.Get `relinks`) }}" class="notices note">
-  <a href="{{ .Get `node` }}" target="_blank">
+
+{{ $urls := split (.Get `url`) "|"}}
+
+
+<div id="link_node_{{ len ($.Page.Scratch.Get `relinks`) }}" class="theme__light notices note">
+  <div class="link_header">
     <img src="/logo.png" > 
-    <span>{{ .Get `nodeName` }}</span>
-  </a>
-  <p>
-    {{ .Inner | markdownify }}
-  </p>
+    <span style="position: absolute;">
+      {{ range $url := $urls}}
+        {{ $slug := path.Split $url}}
+        {{ $slug = printf "%s" $slug.File }}
+        {{ $page := $.Site.GetPage $url}}
+      
+        {{ if not $page}}
+          {{$page = index (where $.Site.RegularPages "Params.slug" $slug) 0}}
+        {{end}}
+          <a href="{{ $url | relLangURL }}" target="_blank">
+            {{$page.Title}}
+          </a>
+      {{end}}
+    </span>
+  </div>
+  <div class="single__contents">
+    {{ (.Inner | markdownify) }}
+    
+
+    {{ $pattern := $.Get "pattern"}}
+    {{ if $pattern }}
+      {{ $slug := (.Page.Params.slug | default "") }}
+      {{ $target := path.Join "/static/posts" $slug}}
+      {{ $target := path.Join $target ("files")}}
+      {{ $posts := "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts"}}
+      <div class="expand">
+          <button type="button" class="expand__button" aria-label="Expand Button" style="margin-bottom: 0;">
+              <span class="expand-icon expand-icon__right" style="position: relative;">
+                  {{ partial "svgs/arrow-right.svg" (dict "width" 24 "height" 24) }}
+              </span>
+              {{T "Attachments-title"}}
+          </button>
+          <div class="expand__content" style="padding:0;">
+              {{ range (readDir $target) }}
+                  {{if (findRE $pattern .Name)}}
+                      <li>
+                          <a href="{{ (printf "%s/%s/files/%s" $posts $slug .Name)}}" >
+                              {{.Name}}
+                          </a>
+                          ({{div .Size 1024 }} {{T "BinaryPrefix-kilobyte"}})
+                      </li>
+                  {{end}}
+              {{ end }}
+          </div>
+      </div>
+    {{ end }}
+
+  </div>
 </div>
+

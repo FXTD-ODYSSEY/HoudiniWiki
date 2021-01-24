@@ -44,8 +44,15 @@
     parent = "learning"
     identifier = "FX"
     name = "影视特效"
-    url = "18_fx"
-    weight = 18
+    url = "15_fx"
+    weight = 15
+
+  [[main]]
+    parent = "learning"
+    identifier = "rendering"
+    name = "渲染"
+    url = "16_rendering"
+    weight = 16
 
   [[main]]
     parent = "learning"

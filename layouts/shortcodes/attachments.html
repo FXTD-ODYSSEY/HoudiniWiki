@@ -1,45 +1,28 @@
-{{.Inner}}
 
-{{.Page}}
 
-<div class="expand" style="border-bottom: 5px solid #8BC34A;
-border-right: 5px solid#8BC34A;
-border-left: 5px solid #8BC34A;
-border-radius:5px;
-">
+{{ $slug := (.Page.Params.slug | default "") }}
+{{ $target := path.Join "/static/posts" $slug}}
+{{ $target := path.Join $target ("files")}}
+{{ $posts := "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts"}}
+<div class="expand">
     <button type="button" class="expand__button" aria-label="Expand Button" style="margin-bottom: 0;">
-        <span class="expand-icon expand-icon__right">
+        <span class="expand-icon expand-icon__right" style="position: relative;">
             {{ partial "svgs/arrow-right.svg" (dict "width" 24 "height" 24) }}
         </span>
         {{T "Attachments-title"}}
     </button>
-    <div class="expand__content">
-        <!-- TODO cdn 加速下载 -->
-        {{ $slug := (.Page.Params.slug | default "") }}
-        {{ $target := path.Join "/static" $slug}}
-        {{ $target := path.Join $target ("files")}}
+    <div class="expand__content" style="padding:0;">
+        {{.Inner}}
         {{ range (readDir $target) }}
-        
-            {{if ($.Get "pattern")}}
-                {{if (findRE ($.Get "pattern") .Name)}}
-                    <li>
-                        <a href="" >
-                            {{.Name}}
-                        </a>
-                        ({{div .Size 1024 }} {{T "BinaryPrefix-kilobyte"}})
-                    </li>
-                {{end}}
-            {{else}}
+            {{if (findRE ($.Get "pattern" | default "") .Name)}}
                 <li>
-                    <a href="{{ (printf "/%s/files/%s" $slug .Name)}}" >
+                    <a href="{{ (printf "%s/%s/files/%s" $posts $slug .Name)}}" >
                         {{.Name}}
                     </a>
                     ({{div .Size 1024 }} {{T "BinaryPrefix-kilobyte"}})
                 </li>
             {{end}}
-        
         {{ end }}
-        
     </div>
 </div>
 
