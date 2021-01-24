@@ -196,7 +196,7 @@
     var makeClipboard = function(elem) {
       var code = elem,
           text = elem.textContent;
-        
+      
       if (text.length > 15) {
         if (!clipInit) {
           var text, clip = new ClipboardJS('.copy-to-clipboard', {
@@ -247,14 +247,14 @@
           }
         }
 
-        if (!isNotAllowedIncluded) {
-          if (curClassName) {
-            var newClipboardElem = document.createElement('span');
-            newClipboardElem.setAttribute('class', 'copy-to-clipboard');
-            newClipboardElem.setAttribute('title', 'Copy to clipboard');
-            elem.parentNode.parentNode.insertBefore(newClipboardElem, elem.parentNode.nextElementSibling);
-          }
-        }
+        
+        
+        
+        
+        
+        
+        
+        
       }
     }
 
@@ -264,6 +264,12 @@
       clipboardSpan.setAttribute('title', 'Copy to clipboard');
       elem.parentNode.parentNode.insertBefore(clipboardSpan, elem.parentNode.nextElementSibling);
     }
+
+    
+    var elem = document.querySelectorAll('code[data-lang="vex"]');
+    elem.forEach(function (codeElem) {
+      makeClipboard(codeElem);
+    });
 
     preChromaElem ? 
     preChromaElem.forEach(function(elem) {
@@ -292,6 +298,9 @@
         makeSymbolClipboard(codeElem);
       });
     }) : null;
+
+    
+
     
   });
 </script>
@@ -504,7 +513,6 @@
       
       newElem.setAttribute('content', block.textContent);
       block.after(newElem);
-      
 
     });
 
@@ -1151,7 +1159,6 @@
         if(!host.startsWith("localhost") && !href.startsWith("file"))
           baseurl = "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages"
         var url = baseurl + langprefix + "/index.json"
-        console.log(url)
         $.ajax({
           url,
           success: function(data){
@@ -2564,7 +2571,7 @@
     <div class="tags">
       <span class="tag__label">标签:</span>
       
-      <a class="tag-link tag_color_6" href="/zh/tags/houdiniwiki">HoudiniWiki</a>
+      <a class="tag-link tag_color_4" href="/zh/tags/houdiniwiki">HoudiniWiki</a>
     </div>
     
   
