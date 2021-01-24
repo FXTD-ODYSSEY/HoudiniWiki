@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>houdini17 on Houdini Wiki</title>
+    <link>https://hou.l0v0.com/zh/version/houdini17/</link>
+    <description>Recent content in houdini17 on Houdini Wiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
+    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://hou.l0v0.com/zh/version/houdini17/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Pluralsight - Houdini VEX Fundamentals</title>
+        <link>https://hou.l0v0.com/zh/3_vex/dbcc6763/</link>
+        <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://hou.l0v0.com/zh/3_vex/dbcc6763/</guid>
+        <description>Pluralsight - Houdini VEX Fundamentals</description>
+      </item>
+      
+    
+  </channel>
+</rss>

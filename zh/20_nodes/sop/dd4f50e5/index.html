@@ -56,7 +56,7 @@
   
   
     
-    <script defer src="/js/main.min.1d0f287281e492363336561911a493c113ea7d82565fbf46cb298e95db5eb369.js"></script>
+    <script defer src="/js/main.min.2d70b2320f4235f4b09df662955bd34b1c5a2bea94254c177babe12992b2c5ff.js"></script>
   
 
   
@@ -2916,17 +2916,17 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
             </span>
             
-            Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsenal &nbsp; <a href="/zh/2_beginner/ddc0b6e3">↩︎</a>
+            Entagma Patreon- Adding Houdini to your Arsenal &nbsp; <a href="/zh/2_beginner/ddc0b6e3">↩︎</a>
           </button>
           <div class="expand__content relink__content">
             
               
               
 
-              <div class="theme__light notices note">
+              <div class="notices note">
 
                 <div class="link_header">
-                  <img src="/logo.png" > 
+                  <img class="logo" src="/logo.png" > 
                   <span style="position: absolute;">
                     <a href="/zh/2_beginner/ddc0b6e3#link_node_2">
                     案例链接
@@ -2939,6 +2939,25 @@
                   <h2 id="构建几何体">构建几何体</h2>
 <p><img src="//cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/ddc0b6e3/01.png" alt="alt" /></p>
 <p>使用 add 构建几何体</p>
+<pre><code class="language-vex" data-lang="vex">// 创建一个面片
+vector pos1 = set(0,0,0);
+vector pos2 = set(1,0,0);
+vector pos3 = set(1,1,0);
+
+
+int p1 = addpoint(0, pos1);
+int p2 = addpoint(0, pos2);
+int p3 = addpoint(0, pos3);
+
+
+int prim1 = addprim(0, &quot;poly&quot;);
+
+// 注意添加顺序
+addvertex(0, prim1, p1);
+addvertex(0, prim1, p3);
+addvertex(0, prim1, p2);
+</code></pre><p>也可以使用 Vex 创建一个三角形的几何体，注意 Wrangle 节点要选择 Detail 模式执行。</p>
+<p>索引自 <a href="/zh/3_vex/dbcc6763">Pluralsight - Houdini VEX Fundamentals</a></p>
 
 
                   
@@ -2958,10 +2977,10 @@
                             
                                 
                                     <li>
-                                        <a href="https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/dd4f50e5/files/triangle.hip" >
-                                            triangle.hip
+                                        <a href="https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/dd4f50e5/files/geometry.hip" >
+                                            geometry.hip
                                         </a>
-                                        (78 kb)
+                                        (76 kb)
                                     </li>
                                 
                             
