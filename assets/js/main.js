@@ -24,17 +24,20 @@ $(".link_container").each(function () {
 
 
 // NOTE 将图片路径改为 jsdelivr 的 cdn 路径
-var name = "FXTD-odyssey";
+var name = "FXTD-ODYSSEY";
 var repository = "HoudiniWiki";
 var branch = "gh-pages"
-var link = "//cdn.jsdelivr.net/gh/" + name + "/" + repository + "@" + branch
+var link = "cdn.jsdelivr.net/gh/" + name + "/" + repository + "@" + branch
+console.log(link)
 
 var host = window.location.host
-var location = window.location
-if(host.startsWith("localhost") || location.startsWith("file")){
+var href = window.location.href
+
+if(host.startsWith("localhost") || href.startsWith("file")){
     $("img").each(function () {
         src = $(this).attr("src")
         $(this).attr("src",src.replace(link,host))
+        console.log(src.replace(link,host))
         src = $(this).attr("src")
     })
     $("video").each(function () {

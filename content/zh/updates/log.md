@@ -8,6 +8,7 @@ weight: 20
 
 ## 2021-01-24
 
+> - [x] 图片未上传自动用 本地路径
 > - [x] relink 支持 slug 路径
 > - [x] relink 支持多个 url
 > - [x] attachments cdn 加速

@@ -992,8 +992,8 @@
         var xhr = new XMLHttpRequest();
 
         var host = window.location.host
-        var location = window.location
-        if(!host.startsWith("localhost") && !location.startsWith("file"))
+        var href = window.location.href
+        if(!host.startsWith("localhost") && !href.startsWith("file"))
           baseurl = "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages"
 
         xhr.open('GET', baseurl + langprefix + "/index.json");
