@@ -56,7 +56,7 @@
   
   
     
-    <script defer src="/js/main.min.5b2e8b60910ee1369462f4412fae3f1f852f500fad043d736d0d8596c4c5ff93.js"></script>
+    <script defer src="/js/main.min.a9c233130d82ad036d87ff041d33a35745d185ad31556968033f2df548dda7f9.js"></script>
   
 
   
@@ -334,9 +334,9 @@
     
     var languagedir = JSON.parse("\"ltr\"");
     
-    var baseurl = JSON.parse("\"https://hou.l0v0.com\"");
+    var baseurl = JSON.parse("\"/\"");
     
-    var permalink = JSON.parse("\"https://hou.l0v0.com/zh/4_python/\"");
+    var permalink = JSON.parse("\"/zh/4_python/\"");
     
     
     
@@ -676,7 +676,7 @@
           this.querySelector('svg').classList.add('expand-icon__right');
           this.querySelector('svg').classList.remove('expand-icon__down');
         } else {
-          content.style.maxHeight = content.scrollHeight + "px";
+          content.style.maxHeight = content.scrollHeight*100 + "px";
           this.querySelector('svg').classList.remove('expand-icon__right');
           this.querySelector('svg').classList.add('expand-icon__down');
         }
@@ -1103,7 +1103,12 @@
     if (enableSearch) {
       (function initFuse() {
         var xhr = new XMLHttpRequest();
-        
+
+        var host = window.location.host
+        var location = window.location
+        if(!host.startsWith("localhost") && !location.startsWith("file"))
+          baseurl = "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages"
+
         xhr.open('GET', baseurl + langprefix + "/index.json");
         xhr.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
         xhr.onload = function () {
@@ -1622,12 +1627,6 @@
   
   
     
-    <link rel="stylesheet" href="/css/layout.min.css">
-  
-
-  
-  
-    
     <link rel="stylesheet" href="/css/jquery-ui.min.min.css">
   
 
@@ -1643,8 +1642,14 @@
     <link rel="stylesheet" href="/scss/_terms.min.css">
   
 
+  
+  
+    
+    <link rel="stylesheet" href="/css/layout.min.css">
+  
 
-    <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="https://hou.l0v0.com/zh/4_python/index.xml">
+
+    <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="/zh/4_python/index.xml">
 <meta name="description" content="" />
 <meta name="keywords" content="">
 <meta name="created" content="2020-01-11T14:09:21&#43;0900">
@@ -1653,13 +1658,13 @@
 
 <meta property="og:site_name" content="Houdini Wiki">
 <meta property="og:title" content="Python">
-<meta property="og:url" content="https://hou.l0v0.com/zh/4_python/">
+<meta property="og:url" content="/zh/4_python/">
 <meta property="og:type" content="website">
 
 <meta name="generator" content="Hugo 0.80.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="https://hou.l0v0.com/zh/4_python/">
+<link rel="canonical" href="/zh/4_python/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1683,17 +1688,17 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "url" : "https://hou.l0v0.com/zh/4_python/",
+    "url" : "/zh/4_python/",
     "name": "Python",
     "description": "Houdini Wiki - Houdini Summuary \u0026 Tips ",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://hou.l0v0.com"
+      "@id": "/"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Houdini Wiki",
-      "url": "https://hou.l0v0.com"
+      "url": "/"
     }
   }
 </script>
@@ -1801,12 +1806,12 @@
       <div class="navbar lmr">
         <div id="siteLogo" class="navbar__logo--wrapper">
   
-    <a href="/zh/" title="主页" rel="home" class="navbar__logo--link">
+    <a href="/zh" title="主页" rel="home" class="navbar__logo--link">
       <img src="/logo.png" alt="Home" class="navbar__logo">
     </a>
   
   
-    <a href="/zh/" title="主页" rel="home" class="navbar__logo--text-link">
+    <a href="/zh" title="主页" rel="home" class="navbar__logo--text-link">
       <h6 class="navbar__logo--text" data-bgimg="false">Hoduini Wiki</h6>
     </a>
   
@@ -1815,7 +1820,7 @@
         <div class="navbar__menu--wrapper">
           <div id="tabletLogo" class="hide">
   
-  <a href="/zh/" rel="home" class="navbar__logo--link">
+  <a href="/zh" rel="home" class="navbar__logo--link">
     <img src="/logo.png" alt="Home" class="navbar__logo">
   </a>
   
@@ -1908,7 +1913,9 @@
       
       <a href="/zh/6_procedural" class="navbar__dropdown--item" dir="ltr">程序化生成</a>
       
-      <a href="/zh/18_fx" class="navbar__dropdown--item" dir="ltr">影视特效</a>
+      <a href="/zh/15_fx" class="navbar__dropdown--item" dir="ltr">影视特效</a>
+      
+      <a href="/zh/16_rendering" class="navbar__dropdown--item" dir="ltr">渲染</a>
       
       <a href="/zh/19_msic" class="navbar__dropdown--item" dir="ltr">杂项</a>
       
@@ -2062,7 +2069,7 @@
         
           
             
-              <a href="https://hou.l0v0.com/zh/4_python/" data-lang="zh" class="lang__dropdown--item active">中文</a>
+              <a href="/zh/4_python/" data-lang="zh" class="lang__dropdown--item active">中文</a>
             
           
         
@@ -2078,7 +2085,7 @@
         
           
             
-              <a href="https://hou.l0v0.com/en/4_python/" data-lang="en" class="lang__dropdown--item">English</a>
+              <a href="/en/4_python/" data-lang="en" class="lang__dropdown--item">English</a>
             
           
         
@@ -2213,7 +2220,7 @@
   
   <li >
     
-      <a href="https://hou.l0v0.com/zh/" class="capitalize">Houdini 百科</a>
+      <a href="/zh/" class="capitalize">Houdini 百科</a>
     
   </li>
   
@@ -2342,13 +2349,15 @@
     
   </article>
 
-  
-
 
   <div class="link_container" style="margin-bottom:5px">
     
+    
+    
   </div>
     
+  
+
   
 </div>
       

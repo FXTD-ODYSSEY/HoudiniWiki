@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Houdini 百科 on Houdini Wiki</title>
-    <link>https://hou.l0v0.com/zh/</link>
+    <link>/zh/</link>
     <description>Recent content in Houdini 百科 on Houdini Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -11,71 +11,107 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hou.l0v0.com/zh/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/zh/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>ShortCodes 汇总</title>
-        <link>https://hou.l0v0.com/zh/updates/features/91d7f687/</link>
+        <link>/zh/updates/features/91d7f687/</link>
         <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>https://hou.l0v0.com/zh/updates/features/91d7f687/</guid>
+        <guid>/zh/updates/features/91d7f687/</guid>
         <description>幻灯片 .reveal-viewport span { z-index: 999; position: absolute; right: 0; margin: 0.3rem; cursor: pointer; color: white; text-shadow: 1px 1px 3px #000000; text-decoration: none; opacity:0; transition: opacity .5s; } .reveal-viewport span:hover { transition: opacity .5s; opacity:1; } # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___</description>
       </item>
       
       <item>
         <title>图表功能支持</title>
-        <link>https://hou.l0v0.com/zh/updates/features/9ee9a447/</link>
+        <link>/zh/updates/features/9ee9a447/</link>
         <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>https://hou.l0v0.com/zh/updates/features/9ee9a447/</guid>
+        <guid>/zh/updates/features/9ee9a447/</guid>
         <description>wavedrom { &amp;quot;signal&amp;quot;: [ {&amp;quot;name&amp;quot;: &amp;quot;CLK&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;p.....|...&amp;quot;}, {&amp;quot;name&amp;quot;:&amp;quot;DAT&amp;quot;, &amp;quot;wave&amp;quot;:&amp;quot;x.345x|=.x&amp;quot;, &amp;quot;data&amp;quot;:[&amp;quot;A&amp;quot;,&amp;quot;B&amp;quot;,&amp;quot;C&amp;quot;,&amp;quot;D&amp;quot;]}, {&amp;quot;name&amp;quot;: &amp;quot;REQ&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;0.1..0|1.0&amp;quot;}, {}, {&amp;quot;name&amp;quot;: &amp;quot;ACK&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;1.....|01.&amp;quot;} ] } Viz digraph G { subgraph cluster_0 { style=filled; color=lightgrey; node [style=filled,color=white]; a0 -&amp;gt; a1 -&amp;gt; a2 -&amp;gt; a3; label = &amp;quot;process #1&amp;quot;; } subgraph cluster_1 { node [style=filled]; b0 -&amp;gt; b1 -&amp;gt; b2 -&amp;gt; b3; label = &amp;quot;process #2&amp;quot;; color=blue } start -&amp;gt; a0; start -&amp;gt; b0; a1</description>
       </item>
       
       <item>
         <title>Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsenal</title>
-        <link>https://hou.l0v0.com/zh/2_beginner/ddc0b6e3/</link>
+        <link>/zh/2_beginner/ddc0b6e3/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>https://hou.l0v0.com/zh/2_beginner/ddc0b6e3/</guid>
-        <description>创建几何体 创建一个集合体面片，我之前看了 Pluarasight 的 Vex 基础教程，有提到。 链接 原来我发的链接挂了，这个是中文翻录的链接~ 通过 Vex 的 API 可以构建集合体。 看教</description>
+        <guid>/zh/2_beginner/ddc0b6e3/</guid>
+        <description>界面教学 Houdini 基础操作案例汇总 按 空格 键切换到摄像机控制 在节点窗口下按住 A 键拖拽可以对齐节点 在属性编辑面板按鼠标中间可以按不同数量及调整参数 创建几</description>
+      </item>
+      
+      <item>
+        <title>Houdini 基础操作案例汇总</title>
+        <link>/zh/1_learning/basic/</link>
+        <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>/zh/1_learning/basic/</guid>
+        <description>官方文档</description>
+      </item>
+      
+      <item>
+        <title>Houdini Python 典型案例汇总</title>
+        <link>/zh/1_learning/python/</link>
+        <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>/zh/1_learning/python/</guid>
+        <description>官方文档</description>
+      </item>
+      
+      <item>
+        <title>Houdini Vex 典型案例汇总</title>
+        <link>/zh/1_learning/vex/</link>
+        <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>/zh/1_learning/vex/</guid>
+        <description>官方文档</description>
       </item>
       
       <item>
         <title>关于网站</title>
-        <link>https://hou.l0v0.com/zh/updates/about/</link>
+        <link>/zh/updates/about/</link>
         <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>https://hou.l0v0.com/zh/updates/about/</guid>
+        <guid>/zh/updates/about/</guid>
         <description>本网站基于 Hexo 静态网站生成工具构建，借助这个平台整理归纳 Houdini 的知识。 本博客完全开源，欢迎大家参与贡献分享自己关于 Houdini 的经验总结 链接 文章建议以 markdown 投稿</description>
       </item>
       
       <item>
         <title>更新日志</title>
-        <link>https://hou.l0v0.com/zh/updates/log/</link>
+        <link>/zh/updates/log/</link>
         <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>https://hou.l0v0.com/zh/updates/log/</guid>
-        <description>2021-01-23 制作一个卡片页面显示 pan 链接 完善默认 _index.md 罗列 修复幻灯片全屏显示功能 编辑按钮指向 2021-01-22 添加翻译模块 文章显示 video 和 pan 信息 做一个时间轴页面 2021-01-21 CI 支持 跑 python 脚本</description>
+        <guid>/zh/updates/log/</guid>
+        <description>2021-01-24 relink 支持 slug 路径 relink 支持多个 url attachments cdn 加速 baseUrl 强制跳转 2021-01-23 制作一个卡片页面显示 pan 链接 修复 anchor 定位被覆盖问题 完善默认 _index.md 罗列 修复幻灯片全屏显示功能 编辑按钮指向</description>
+      </item>
+      
+      <item>
+        <title>Add</title>
+        <link>/zh/20_nodes/sop/dd4f50e5/</link>
+        <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>/zh/20_nodes/sop/dd4f50e5/</guid>
+        <description>https://www.sidefx.com/docs/houdini/nodes/sop/add.html</description>
       </item>
       
       <item>
         <title>Syntax highlighting</title>
-        <link>https://hou.l0v0.com/zh/updates/features/1ffcb410/</link>
+        <link>/zh/updates/features/1ffcb410/</link>
         <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>https://hou.l0v0.com/zh/updates/features/1ffcb410/</guid>
+        <guid>/zh/updates/features/1ffcb410/</guid>
         <description>Code Syntax Highlighting Verify the following code blocks render as code blocks and highlight properly. More about tuning syntax highlighting is the Hugo documentation. Vex vector pos; vector pos_all[]; for(int i = 0; i&amp;lt;npoints(0);i++) { pos = point(0, &amp;quot;P&amp;quot;, i); //将获取到点位置信息存放到数组中 append(pos_all,pos); } //遍历数组 获取数组中</description>
       </item>
       
       <item>
         <title>Attribute Copy</title>
-        <link>https://hou.l0v0.com/zh/20_nodes/sop/37b24259/</link>
+        <link>/zh/20_nodes/sop/37b24259/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>https://hou.l0v0.com/zh/20_nodes/sop/37b24259/</guid>
+        <guid>/zh/20_nodes/sop/37b24259/</guid>
         <description>https://www.sidefx.com/docs/houdini/nodes/sop/attribcopy.html</description>
       </item>
       

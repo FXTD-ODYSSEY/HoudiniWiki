@@ -56,7 +56,7 @@
   
   
     
-    <script defer src="/js/main.min.5b2e8b60910ee1369462f4412fae3f1f852f500fad043d736d0d8596c4c5ff93.js"></script>
+    <script defer src="/js/main.min.a9c233130d82ad036d87ff041d33a35745d185ad31556968033f2df548dda7f9.js"></script>
   
 
   
@@ -334,9 +334,9 @@
     
     var languagedir = JSON.parse("\"ltr\"");
     
-    var baseurl = JSON.parse("\"https://hou.l0v0.com\"");
+    var baseurl = JSON.parse("\"/\"");
     
-    var permalink = JSON.parse("\"https://hou.l0v0.com/zh/producer/entagma/\"");
+    var permalink = JSON.parse("\"/zh/producer/entagma/\"");
     
     
     
@@ -676,7 +676,7 @@
           this.querySelector('svg').classList.add('expand-icon__right');
           this.querySelector('svg').classList.remove('expand-icon__down');
         } else {
-          content.style.maxHeight = content.scrollHeight + "px";
+          content.style.maxHeight = content.scrollHeight*100 + "px";
           this.querySelector('svg').classList.remove('expand-icon__right');
           this.querySelector('svg').classList.add('expand-icon__down');
         }
@@ -1103,7 +1103,12 @@
     if (enableSearch) {
       (function initFuse() {
         var xhr = new XMLHttpRequest();
-        
+
+        var host = window.location.host
+        var location = window.location
+        if(!host.startsWith("localhost") && !location.startsWith("file"))
+          baseurl = "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages"
+
         xhr.open('GET', baseurl + langprefix + "/index.json");
         xhr.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
         xhr.onload = function () {
@@ -1622,12 +1627,6 @@
   
   
     
-    <link rel="stylesheet" href="/css/layout.min.css">
-  
-
-  
-  
-    
     <link rel="stylesheet" href="/css/jquery-ui.min.min.css">
   
 
@@ -1643,8 +1642,14 @@
     <link rel="stylesheet" href="/scss/_terms.min.css">
   
 
+  
+  
+    
+    <link rel="stylesheet" href="/css/layout.min.css">
+  
 
-    <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="https://hou.l0v0.com/zh/producer/entagma/index.xml">
+
+    <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="/zh/producer/entagma/index.xml">
 <meta name="description" content="" />
 <meta name="keywords" content="">
 <meta name="created" content="2021-01-16T00:00:00&#43;0000">
@@ -1653,13 +1658,13 @@
 
 <meta property="og:site_name" content="Houdini Wiki">
 <meta property="og:title" content="Entagma">
-<meta property="og:url" content="https://hou.l0v0.com/zh/producer/entagma/">
+<meta property="og:url" content="/zh/producer/entagma/">
 <meta property="og:type" content="website">
 
 <meta name="generator" content="Hugo 0.80.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="https://hou.l0v0.com/zh/producer/entagma/">
+<link rel="canonical" href="/zh/producer/entagma/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1683,17 +1688,17 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "url" : "https://hou.l0v0.com/zh/producer/entagma/",
+    "url" : "/zh/producer/entagma/",
     "name": "Entagma",
     "description": "Houdini Wiki - Houdini Summuary \u0026 Tips ",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://hou.l0v0.com"
+      "@id": "/"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Houdini Wiki",
-      "url": "https://hou.l0v0.com"
+      "url": "/"
     }
   }
 </script>
@@ -1757,7 +1762,7 @@
   
   
   <li class="active">
-    <a href="https://hou.l0v0.com/zh/producer/entagma/"
+    <a href="/zh/producer/entagma/"
       class="menu__title active">Entagma</a>
   </li>
   
@@ -1824,12 +1829,12 @@
       <div class="navbar lmr">
         <div id="siteLogo" class="navbar__logo--wrapper">
   
-    <a href="/zh/" title="主页" rel="home" class="navbar__logo--link">
+    <a href="/zh" title="主页" rel="home" class="navbar__logo--link">
       <img src="/logo.png" alt="Home" class="navbar__logo">
     </a>
   
   
-    <a href="/zh/" title="主页" rel="home" class="navbar__logo--text-link">
+    <a href="/zh" title="主页" rel="home" class="navbar__logo--text-link">
       <h6 class="navbar__logo--text" data-bgimg="false">Hoduini Wiki</h6>
     </a>
   
@@ -1838,7 +1843,7 @@
         <div class="navbar__menu--wrapper">
           <div id="tabletLogo" class="hide">
   
-  <a href="/zh/" rel="home" class="navbar__logo--link">
+  <a href="/zh" rel="home" class="navbar__logo--link">
     <img src="/logo.png" alt="Home" class="navbar__logo">
   </a>
   
@@ -1931,7 +1936,9 @@
       
       <a href="/zh/6_procedural" class="navbar__dropdown--item" dir="ltr">程序化生成</a>
       
-      <a href="/zh/18_fx" class="navbar__dropdown--item" dir="ltr">影视特效</a>
+      <a href="/zh/15_fx" class="navbar__dropdown--item" dir="ltr">影视特效</a>
+      
+      <a href="/zh/16_rendering" class="navbar__dropdown--item" dir="ltr">渲染</a>
       
       <a href="/zh/19_msic" class="navbar__dropdown--item" dir="ltr">杂项</a>
       
@@ -2085,7 +2092,7 @@
         
           
             
-              <a href="https://hou.l0v0.com/zh/producer/entagma/" data-lang="zh" class="lang__dropdown--item active">中文</a>
+              <a href="/zh/producer/entagma/" data-lang="zh" class="lang__dropdown--item active">中文</a>
             
           
         
@@ -2226,7 +2233,7 @@
           
             <article class="summary-card">
   <header>
-    <h5 class="title h5"><a href='https://hou.l0v0.com/zh/2_beginner/ddc0b6e3/'> Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsenal</a></h5>
+    <h5 class="title h5"><a href='/zh/2_beginner/ddc0b6e3/'> Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsenal</a></h5>
     <div class="subtitle caption">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M4 4H20V8H4z" opacity=".3"/><path d="M6 1H8V5H6zM16 1H18V5H16z"/><path d="M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M19,19H5V9h14V19z M19,7H5V5h14V7z"/></svg><time title="写于">2021年 01月 16日 </time> &nbsp;&nbsp; <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M 9 1 L 9 3 L 15 3 L 15 1 L 9 1 z M 18.958984 2.7929688 L 17.666016 4.3183594 L 20.615234 6.8183594 L 21.908203 5.2929688 L 18.958984 2.7929688 z M 12 4 C 7.0225467 4 3 8.0225467 3 13 C 3 17.977453 7.0225467 22 12 22 C 16.977453 22 21 17.977453 21 13 C 21 8.0225467 16.977453 4 12 4 z M 12 6 C 15.910547 6 19 9.0894533 19 13 C 19 16.910547 15.910547 20 12 20 C 8.0894533 20 5 16.910547 5 13 C 5 9.0894533 8.0894533 6 12 6 z M 11 8 L 11 14 L 13 14 L 13 8 L 11 8 z"/></svg> <span title="阅读时间"> 2 分钟</span> &nbsp;&nbsp; <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16"><path fill="currentColor" d="M 16 5 C 12.144531 5 9 8.144531 9 12 C 9 14.410156 10.230469 16.550781 12.09375 17.8125 C 8.527344 19.34375 6 22.882813 6 27 L 8 27 C 8 22.570313 11.570313 19 16 19 C 20.429688 19 24 22.570313 24 27 L 26 27 C 26 22.882813 23.472656 19.34375 19.90625 17.8125 C 21.769531 16.550781 23 14.410156 23 12 C 23 8.144531 19.855469 5 16 5 Z M 16 7 C 18.773438 7 21 9.226563 21 12 C 21 14.773438 18.773438 17 16 17 C 13.226563 17 11 14.773438 11 12 C 11 9.226563 13.226563 7 16 7 Z"/></svg> <span title="作者">智伤帝</span>
     </div>
@@ -2242,8 +2249,8 @@
   </div>
   <div class="summary-card__links">
     
-      <a href="/zh/tags/rohan-dalvi" class="summary-card__tag">
-        Rohan Dalvi
+      <a href="/zh/tags/%E5%9F%BA%E7%A1%80" class="summary-card__tag">
+        基础
       </a>
     
   </div>
@@ -2271,19 +2278,6 @@
   
   
   
-      
-        
-          <a href="/zh/producer/entagma/" class="tag">
-            <span class="tag__text" style="font-size: 1.3rem;">
-              Entagma
-            </span>
-            <span class="tag__num" style="font-size: 1.3rem;" dir="auto">
-              (1)
-            </span>
-          </a>
-        
-      
-    
   
   
   

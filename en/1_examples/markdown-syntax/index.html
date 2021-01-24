@@ -56,7 +56,7 @@
   
   
     
-    <script defer src="/js/main.min.5b2e8b60910ee1369462f4412fae3f1f852f500fad043d736d0d8596c4c5ff93.js"></script>
+    <script defer src="/js/main.min.a9c233130d82ad036d87ff041d33a35745d185ad31556968033f2df548dda7f9.js"></script>
   
 
   
@@ -334,9 +334,9 @@
     
     var languagedir = JSON.parse("\"ltr\"");
     
-    var baseurl = JSON.parse("\"https://hou.l0v0.com\"");
+    var baseurl = JSON.parse("\"/\"");
     
-    var permalink = JSON.parse("\"https://hou.l0v0.com/en/1_examples/markdown-syntax/\"");
+    var permalink = JSON.parse("\"/en/1_examples/markdown-syntax/\"");
     
     
     
@@ -676,7 +676,7 @@
           this.querySelector('svg').classList.add('expand-icon__right');
           this.querySelector('svg').classList.remove('expand-icon__down');
         } else {
-          content.style.maxHeight = content.scrollHeight + "px";
+          content.style.maxHeight = content.scrollHeight*100 + "px";
           this.querySelector('svg').classList.remove('expand-icon__right');
           this.querySelector('svg').classList.add('expand-icon__down');
         }
@@ -1103,7 +1103,12 @@
     if (enableSearch) {
       (function initFuse() {
         var xhr = new XMLHttpRequest();
-        
+
+        var host = window.location.host
+        var location = window.location
+        if(!host.startsWith("localhost") && !location.startsWith("file"))
+          baseurl = "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages"
+
         xhr.open('GET', baseurl + langprefix + "/index.json");
         xhr.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
         xhr.onload = function () {
@@ -1622,12 +1627,6 @@
   
   
     
-    <link rel="stylesheet" href="/css/layout.min.css">
-  
-
-  
-  
-    
     <link rel="stylesheet" href="/css/jquery-ui.min.min.css">
   
 
@@ -1643,6 +1642,12 @@
     <link rel="stylesheet" href="/scss/_terms.min.css">
   
 
+  
+  
+    
+    <link rel="stylesheet" href="/css/layout.min.css">
+  
+
 
     <meta name="description" content="" />
 <meta name="keywords" content="">
@@ -1652,13 +1657,13 @@
 
 <meta property="og:site_name" content="Houdini Wiki">
 <meta property="og:title" content="Markdown Syntax Guide">
-<meta property="og:url" content="https://hou.l0v0.com/en/1_examples/markdown-syntax/">
+<meta property="og:url" content="/en/1_examples/markdown-syntax/">
 <meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.80.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="https://hou.l0v0.com/en/1_examples/markdown-syntax/">
+<link rel="canonical" href="/en/1_examples/markdown-syntax/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1685,7 +1690,7 @@
     "headline": "Markdown Syntax Guide",
     "datePublished": "2021-01-03T00:00:00Z",
     "dateModified": "2021-01-03T00:00:00Z",
-    "url" : "https://hou.l0v0.com/en/1_examples/markdown-syntax/",
+    "url" : "/en/1_examples/markdown-syntax/",
     "description": "Lorem est tota propiore conpellat pectoribus de pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores …",
     "keywords": ["markdown","css","html","themes"],
     "author": {
@@ -1694,12 +1699,12 @@
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://hou.l0v0.com"
+      "@id": "/"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Houdini Wiki",
-      "url": "https://hou.l0v0.com"
+      "url": "/"
     }
   }
 </script>
@@ -1763,7 +1768,7 @@
   
   
   <li class="active">
-    <a href="https://hou.l0v0.com/en/1_examples/markdown-syntax/"
+    <a href="/en/1_examples/markdown-syntax/"
       class="menu__title active">Markdown Syntax Guide</a>
   </li>
   
@@ -1830,12 +1835,12 @@
       <div class="navbar lmr">
         <div id="siteLogo" class="navbar__logo--wrapper">
   
-    <a href="/en/" title="" rel="home" class="navbar__logo--link">
+    <a href="/en" title="" rel="home" class="navbar__logo--link">
       <img src="/logo.png" alt="Home" class="navbar__logo">
     </a>
   
   
-    <a href="/en/" title="" rel="home" class="navbar__logo--text-link">
+    <a href="/en" title="" rel="home" class="navbar__logo--text-link">
       <h6 class="navbar__logo--text" data-bgimg="false">Hoduini Wiki</h6>
     </a>
   
@@ -1844,7 +1849,7 @@
         <div class="navbar__menu--wrapper">
           <div id="tabletLogo" class="hide">
   
-  <a href="/en/" rel="home" class="navbar__logo--link">
+  <a href="/en" rel="home" class="navbar__logo--link">
     <img src="/logo.png" alt="Home" class="navbar__logo">
   </a>
   
@@ -2039,7 +2044,7 @@
         
           
             
-              <a href="https://hou.l0v0.com/en/1_examples/markdown-syntax/" data-lang="en" class="lang__dropdown--item active">English</a>
+              <a href="/en/1_examples/markdown-syntax/" data-lang="en" class="lang__dropdown--item active">English</a>
             
           
         
@@ -2176,14 +2181,14 @@
   
   <li >
     
-      <a href="https://hou.l0v0.com/en/" class="capitalize">Houdini Wiki</a>
+      <a href="/en/" class="capitalize">Houdini Wiki</a>
     
   </li>
   
   
   <li >
     
-      <a href="https://hou.l0v0.com/en/1_examples/" class="capitalize">Examples</a>
+      <a href="/en/1_examples/" class="capitalize">Examples</a>
     
   </li>
   
@@ -2265,7 +2270,7 @@
   
   
   <li class="active">
-    <a href="https://hou.l0v0.com/en/1_examples/markdown-syntax/"
+    <a href="/en/1_examples/markdown-syntax/"
       class="menu__title active">Markdown Syntax Guide</a>
   </li>
   
@@ -2302,16 +2307,16 @@
     <div class="tags">
       <span class="tag__label">:</span>
       
-      <a class="tag-link tag_color_6" href="/en/tags/markdown">markdown</a>
+      <a class="tag-link tag_color_1" href="/en/tags/markdown">markdown</a>
     </div>
     
-      <a class="tag-link tag_color_1" href="/en/tags/css">css</a>
+      <a class="tag-link tag_color_4" href="/en/tags/css">css</a>
     </div>
     
-      <a class="tag-link tag_color_4" href="/en/tags/html">html</a>
+      <a class="tag-link tag_color_3" href="/en/tags/html">html</a>
     </div>
     
-      <a class="tag-link tag_color_1" href="/en/tags/themes">themes</a>
+      <a class="tag-link tag_color_3" href="/en/tags/themes">themes</a>
     </div>
     
   
@@ -2484,13 +2489,15 @@ caluere tempus</p>
 
   </article>
 
-  
-
 
   <div class="link_container" style="margin-bottom:5px">
     
+    
+    
   </div>
     
+  
+
   
 </div>
       

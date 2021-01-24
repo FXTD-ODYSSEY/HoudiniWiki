@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TOP on Houdini Wiki</title>
-    <link>https://hou.l0v0.com/zh/20_nodes/top/</link>
+    <link>/zh/20_nodes/top/</link>
     <description>Recent content in TOP on Houdini Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -11,7 +11,7 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hou.l0v0.com/zh/20_nodes/top/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/zh/20_nodes/top/index.xml" rel="self" type="application/rss+xml" />
     
     
     

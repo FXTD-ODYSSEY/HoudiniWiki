@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Entagma on Houdini Wiki</title>
-    <link>https://hou.l0v0.com/zh/producer/entagma/</link>
+    <link>/zh/producer/entagma/</link>
     <description>Recent content in Entagma on Houdini Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -11,18 +11,18 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://hou.l0v0.com/zh/producer/entagma/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/zh/producer/entagma/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsenal</title>
-        <link>https://hou.l0v0.com/zh/2_beginner/ddc0b6e3/</link>
+        <link>/zh/2_beginner/ddc0b6e3/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>https://hou.l0v0.com/zh/2_beginner/ddc0b6e3/</guid>
-        <description>创建几何体 创建一个集合体面片，我之前看了 Pluarasight 的 Vex 基础教程，有提到。 链接 原来我发的链接挂了，这个是中文翻录的链接~ 通过 Vex 的 API 可以构建集合体。 看教</description>
+        <guid>/zh/2_beginner/ddc0b6e3/</guid>
+        <description>界面教学 Houdini 基础操作案例汇总 按 空格 键切换到摄像机控制 在节点窗口下按住 A 键拖拽可以对齐节点 在属性编辑面板按鼠标中间可以按不同数量及调整参数 创建几</description>
       </item>
       
     

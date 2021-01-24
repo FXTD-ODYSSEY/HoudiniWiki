@@ -3,220 +3,220 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hou.l0v0.com/en/tags/css/</loc>
+    <loc>/en/tags/css/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/en/1_examples/</loc>
+    <loc>/en/1_examples/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/en/</loc>
-    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://hou.l0v0.com/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hou.l0v0.com/en/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hou.l0v0.com/en/tags/html/</loc>
-    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hou.l0v0.com/en/tags/markdown/</loc>
-    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hou.l0v0.com/en/1_examples/markdown-syntax/</loc>
-    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hou.l0v0.com/en/tags/</loc>
+    <loc>/en/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://hou.l0v0.com/zh/tags/"
+                href="/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hou.l0v0.com/en/tags/"
+                href="/en/"
                 />
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/en/tags/themes/</loc>
+    <loc>/en/tags/html/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/en/blog/</loc>
+    <loc>/en/tags/markdown/</loc>
+    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/1_examples/markdown-syntax/</loc>
+    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tags/</loc>
+    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/themes/</loc>
+    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/blog/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://hou.l0v0.com/zh/blog/"
+                href="/zh/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hou.l0v0.com/en/blog/"
+                href="/en/blog/"
                 />
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/en/2_nodes/</loc>
+    <loc>/en/2_nodes/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/en/4_python/</loc>
-    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://hou.l0v0.com/zh/4_python/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hou.l0v0.com/en/4_python/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hou.l0v0.com/en/updates/</loc>
+    <loc>/en/4_python/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://hou.l0v0.com/zh/updates/"
+                href="/zh/4_python/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hou.l0v0.com/en/updates/"
+                href="/en/4_python/"
                 />
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/en/3_vex/</loc>
+    <loc>/en/updates/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://hou.l0v0.com/zh/3_vex/"
+                href="/zh/updates/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hou.l0v0.com/en/3_vex/"
+                href="/en/updates/"
                 />
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/en/catelog/</loc>
+    <loc>/en/3_vex/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/3_vex/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/3_vex/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/catelog/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/en/categories/</loc>
+    <loc>/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://hou.l0v0.com/zh/categories/"
+                href="/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hou.l0v0.com/en/categories/"
+                href="/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/en/level/</loc>
+    <loc>/en/level/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://hou.l0v0.com/zh/level/"
+                href="/zh/level/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hou.l0v0.com/en/level/"
+                href="/en/level/"
                 />
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/en/nodes/</loc>
+    <loc>/en/nodes/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://hou.l0v0.com/zh/nodes/"
+                href="/zh/nodes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hou.l0v0.com/en/nodes/"
+                href="/en/nodes/"
                 />
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/en/pipeline/</loc>
+    <loc>/en/pipeline/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://hou.l0v0.com/zh/pipeline/"
+                href="/zh/pipeline/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hou.l0v0.com/en/pipeline/"
+                href="/en/pipeline/"
                 />
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/en/producer/</loc>
+    <loc>/en/producer/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://hou.l0v0.com/zh/producer/"
+                href="/zh/producer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hou.l0v0.com/en/producer/"
+                href="/en/producer/"
                 />
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/en/2_nodes/sop/</loc>
+    <loc>/en/2_nodes/sop/</loc>
   </url>
   
   <url>
-    <loc>https://hou.l0v0.com/en/version/</loc>
+    <loc>/en/version/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://hou.l0v0.com/zh/version/"
+                href="/zh/version/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hou.l0v0.com/en/version/"
+                href="/en/version/"
                 />
   </url>
   
