@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nodes on Houdini Wiki</title>
-    <link>./en/nodes/</link>
+    <link>https://hou.l0v0.com/en/nodes/</link>
     <description>Recent content in Nodes on Houdini Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,7 +10,7 @@
     <webMaster>zzossig@gmail.com (zzossig)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     
-        <atom:link href="./en/nodes/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hou.l0v0.com/en/nodes/index.xml" rel="self" type="application/rss+xml" />
     
     
     

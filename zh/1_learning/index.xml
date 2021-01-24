@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>学习路线 on Houdini Wiki</title>
-    <link>./zh/1_learning/</link>
+    <link>https://hou.l0v0.com/zh/1_learning/</link>
     <description>Recent content in 学习路线 on Houdini Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -11,35 +11,35 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 14 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="./zh/1_learning/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hou.l0v0.com/zh/1_learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Houdini 基础操作案例汇总</title>
-        <link>./zh/1_learning/basic/</link>
+        <link>https://hou.l0v0.com/zh/1_learning/basic/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>./zh/1_learning/basic/</guid>
+        <guid>https://hou.l0v0.com/zh/1_learning/basic/</guid>
         <description>官方文档</description>
       </item>
       
       <item>
         <title>Houdini Python 典型案例汇总</title>
-        <link>./zh/1_learning/python/</link>
+        <link>https://hou.l0v0.com/zh/1_learning/python/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>./zh/1_learning/python/</guid>
+        <guid>https://hou.l0v0.com/zh/1_learning/python/</guid>
         <description>官方文档</description>
       </item>
       
       <item>
         <title>Houdini Vex 典型案例汇总</title>
-        <link>./zh/1_learning/vex/</link>
+        <link>https://hou.l0v0.com/zh/1_learning/vex/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>./zh/1_learning/vex/</guid>
+        <guid>https://hou.l0v0.com/zh/1_learning/vex/</guid>
         <description>官方文档</description>
       </item>
       

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>基础 on Houdini Wiki</title>
-    <link>./zh/tags/%E5%9F%BA%E7%A1%80/</link>
+    <link>https://hou.l0v0.com/zh/tags/%E5%9F%BA%E7%A1%80/</link>
     <description>Recent content in 基础 on Houdini Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -11,17 +11,17 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="./zh/tags/%E5%9F%BA%E7%A1%80/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hou.l0v0.com/zh/tags/%E5%9F%BA%E7%A1%80/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsenal</title>
-        <link>./zh/2_beginner/ddc0b6e3/</link>
+        <link>https://hou.l0v0.com/zh/2_beginner/ddc0b6e3/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>./zh/2_beginner/ddc0b6e3/</guid>
+        <guid>https://hou.l0v0.com/zh/2_beginner/ddc0b6e3/</guid>
         <description>界面教学 Houdini 基础操作案例汇总 按 空格 键切换到摄像机控制 在节点窗口下按住 A 键拖拽可以对齐节点 在属性编辑面板按鼠标中间可以按不同数量及调整参数 创建几</description>
       </item>
       
