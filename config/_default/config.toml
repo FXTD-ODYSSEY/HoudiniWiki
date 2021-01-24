@@ -1,4 +1,4 @@
-baseURL = "./"
+baseURL = "https://hou.l0v0.com"
 title = "Houdini Wiki"
 # theme = ["zdoc","zzo"]
 theme = ["zdoc"]
