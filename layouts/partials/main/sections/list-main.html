@@ -123,10 +123,9 @@
                   {{ index . "inner" | markdownify}}
 
                   
-                  {{ $pattern := index $data "pattern"}}
+                  {{ $pattern := index . "pattern"}}
                   {{ if $pattern }}
-                    {{ $slug := (.Page.Params.slug | default "") }}
-                    {{ $target := path.Join "/static/posts" $slug}}
+                    {{ $target := path.Join "/static/posts" $post_id}}
                     {{ $target := path.Join $target ("files")}}
                     {{ $posts := "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts"}}
                     <div class="expand">
