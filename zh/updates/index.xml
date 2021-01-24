@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Updates on Houdini Wiki</title>
-    <link>/zh/updates/</link>
+    <link>./zh/updates/</link>
     <description>Recent content in Updates on Houdini Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -11,36 +11,36 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/zh/updates/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="./zh/updates/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>特性展示</title>
-        <link>/zh/updates/features/</link>
+        <link>./zh/updates/features/</link>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/updates/features/</guid>
+        <guid>./zh/updates/features/</guid>
         <description></description>
       </item>
       
       <item>
         <title>关于网站</title>
-        <link>/zh/updates/about/</link>
+        <link>./zh/updates/about/</link>
         <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/updates/about/</guid>
+        <guid>./zh/updates/about/</guid>
         <description>本网站基于 Hexo 静态网站生成工具构建，借助这个平台整理归纳 Houdini 的知识。 本博客完全开源，欢迎大家参与贡献分享自己关于 Houdini 的经验总结 链接 文章建议以 markdown 投稿</description>
       </item>
       
       <item>
         <title>更新日志</title>
-        <link>/zh/updates/log/</link>
+        <link>./zh/updates/log/</link>
         <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/updates/log/</guid>
-        <description>2021-01-24 relink 支持 slug 路径 relink 支持多个 url attachments cdn 加速 baseUrl 强制跳转 2021-01-23 制作一个卡片页面显示 pan 链接 修复 anchor 定位被覆盖问题 完善默认 _index.md 罗列 修复幻灯片全屏显示功能 编辑按钮指向</description>
+        <guid>./zh/updates/log/</guid>
+        <description>2021-01-24 图片未上传自动用 本地路径 relink 支持 slug 路径 relink 支持多个 url attachments cdn 加速 baseUrl 强制跳转 2021-01-23 制作一个卡片页面显示 pan 链接 修复 anchor 定位被覆盖问题 完善默认 _index.md 罗列 修复幻灯片</description>
       </item>
       
     

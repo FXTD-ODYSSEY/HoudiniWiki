@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Houdini Wiki</title>
-    <link>/en/tags/</link>
+    <link>./en/tags/</link>
     <description>Recent content in Tags on Houdini Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -11,44 +11,44 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 03 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="./en/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>css</title>
-        <link>/en/tags/css/</link>
+        <link>./en/tags/css/</link>
         <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/en/tags/css/</guid>
+        <guid>./en/tags/css/</guid>
         <description></description>
       </item>
       
       <item>
         <title>html</title>
-        <link>/en/tags/html/</link>
+        <link>./en/tags/html/</link>
         <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/en/tags/html/</guid>
+        <guid>./en/tags/html/</guid>
         <description></description>
       </item>
       
       <item>
         <title>markdown</title>
-        <link>/en/tags/markdown/</link>
+        <link>./en/tags/markdown/</link>
         <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/en/tags/markdown/</guid>
+        <guid>./en/tags/markdown/</guid>
         <description></description>
       </item>
       
       <item>
         <title>themes</title>
-        <link>/en/tags/themes/</link>
+        <link>./en/tags/themes/</link>
         <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/en/tags/themes/</guid>
+        <guid>./en/tags/themes/</guid>
         <description></description>
       </item>
       

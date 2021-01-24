@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>特性展示 on Houdini Wiki</title>
-    <link>/zh/updates/features/</link>
+    <link>./zh/updates/features/</link>
     <description>Recent content in 特性展示 on Houdini Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -11,35 +11,35 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
     
-        <atom:link href="/zh/updates/features/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="./zh/updates/features/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>ShortCodes 汇总</title>
-        <link>/zh/updates/features/91d7f687/</link>
+        <link>./zh/updates/features/91d7f687/</link>
         <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/updates/features/91d7f687/</guid>
+        <guid>./zh/updates/features/91d7f687/</guid>
         <description>幻灯片 .reveal-viewport span { z-index: 999; position: absolute; right: 0; margin: 0.3rem; cursor: pointer; color: white; text-shadow: 1px 1px 3px #000000; text-decoration: none; opacity:0; transition: opacity .5s; } .reveal-viewport span:hover { transition: opacity .5s; opacity:1; } # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___</description>
       </item>
       
       <item>
         <title>图表功能支持</title>
-        <link>/zh/updates/features/9ee9a447/</link>
+        <link>./zh/updates/features/9ee9a447/</link>
         <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/updates/features/9ee9a447/</guid>
+        <guid>./zh/updates/features/9ee9a447/</guid>
         <description>wavedrom { &amp;quot;signal&amp;quot;: [ {&amp;quot;name&amp;quot;: &amp;quot;CLK&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;p.....|...&amp;quot;}, {&amp;quot;name&amp;quot;:&amp;quot;DAT&amp;quot;, &amp;quot;wave&amp;quot;:&amp;quot;x.345x|=.x&amp;quot;, &amp;quot;data&amp;quot;:[&amp;quot;A&amp;quot;,&amp;quot;B&amp;quot;,&amp;quot;C&amp;quot;,&amp;quot;D&amp;quot;]}, {&amp;quot;name&amp;quot;: &amp;quot;REQ&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;0.1..0|1.0&amp;quot;}, {}, {&amp;quot;name&amp;quot;: &amp;quot;ACK&amp;quot;, &amp;quot;wave&amp;quot;: &amp;quot;1.....|01.&amp;quot;} ] } Viz digraph G { subgraph cluster_0 { style=filled; color=lightgrey; node [style=filled,color=white]; a0 -&amp;gt; a1 -&amp;gt; a2 -&amp;gt; a3; label = &amp;quot;process #1&amp;quot;; } subgraph cluster_1 { node [style=filled]; b0 -&amp;gt; b1 -&amp;gt; b2 -&amp;gt; b3; label = &amp;quot;process #2&amp;quot;; color=blue } start -&amp;gt; a0; start -&amp;gt; b0; a1</description>
       </item>
       
       <item>
         <title>Syntax highlighting</title>
-        <link>/zh/updates/features/1ffcb410/</link>
+        <link>./zh/updates/features/1ffcb410/</link>
         <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/updates/features/1ffcb410/</guid>
+        <guid>./zh/updates/features/1ffcb410/</guid>
         <description>Code Syntax Highlighting Verify the following code blocks render as code blocks and highlight properly. More about tuning syntax highlighting is the Hugo documentation. Vex vector pos; vector pos_all[]; for(int i = 0; i&amp;lt;npoints(0);i++) { pos = point(0, &amp;quot;P&amp;quot;, i); //将获取到点位置信息存放到数组中 append(pos_all,pos); } //遍历数组 获取数组中</description>
       </item>
       

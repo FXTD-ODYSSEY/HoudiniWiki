@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Houdini Wiki</title>
-    <link>/zh/tags/</link>
+    <link>./zh/tags/</link>
     <description>Recent content in Tags on Houdini Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -11,35 +11,35 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="./zh/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>HoudiniWiki</title>
-        <link>/zh/tags/houdiniwiki/</link>
+        <link>./zh/tags/houdiniwiki/</link>
         <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/tags/houdiniwiki/</guid>
+        <guid>./zh/tags/houdiniwiki/</guid>
         <description></description>
       </item>
       
       <item>
         <title>基础</title>
-        <link>/zh/tags/%E5%9F%BA%E7%A1%80/</link>
+        <link>./zh/tags/%E5%9F%BA%E7%A1%80/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/tags/%E5%9F%BA%E7%A1%80/</guid>
+        <guid>./zh/tags/%E5%9F%BA%E7%A1%80/</guid>
         <description></description>
       </item>
       
       <item>
         <title>知识汇总</title>
-        <link>/zh/tags/%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</link>
+        <link>./zh/tags/%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/tags/%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</guid>
+        <guid>./zh/tags/%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</guid>
         <description></description>
       </item>
       

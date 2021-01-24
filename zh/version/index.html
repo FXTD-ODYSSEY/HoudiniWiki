@@ -56,7 +56,7 @@
   
   
     
-    <script defer src="/js/main.min.a9c233130d82ad036d87ff041d33a35745d185ad31556968033f2df548dda7f9.js"></script>
+    <script defer src="/js/main.min.1d0f287281e492363336561911a493c113ea7d82565fbf46cb298e95db5eb369.js"></script>
   
 
   
@@ -334,9 +334,9 @@
     
     var languagedir = JSON.parse("\"ltr\"");
     
-    var baseurl = JSON.parse("\"/\"");
+    var baseurl = JSON.parse("\"./\"");
     
-    var permalink = JSON.parse("\"/zh/version/\"");
+    var permalink = JSON.parse("\"./zh/version/\"");
     
     
     
@@ -1105,8 +1105,8 @@
         var xhr = new XMLHttpRequest();
 
         var host = window.location.host
-        var location = window.location
-        if(!host.startsWith("localhost") && !location.startsWith("file"))
+        var href = window.location.href
+        if(!host.startsWith("localhost") && !href.startsWith("file"))
           baseurl = "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages"
 
         xhr.open('GET', baseurl + langprefix + "/index.json");
@@ -1649,7 +1649,7 @@
   
 
 
-    <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="/zh/version/index.xml">
+    <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="./zh/version/index.xml">
 <meta name="description" content="" />
 <meta name="keywords" content="">
 <meta name="created" content="2021-01-16T00:00:00&#43;0000">
@@ -1658,13 +1658,13 @@
 
 <meta property="og:site_name" content="Houdini Wiki">
 <meta property="og:title" content="Version">
-<meta property="og:url" content="/zh/version/">
+<meta property="og:url" content="./zh/version/">
 <meta property="og:type" content="website">
 
 <meta name="generator" content="Hugo 0.80.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="/zh/version/">
+<link rel="canonical" href="./zh/version/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1688,17 +1688,17 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "url" : "/zh/version/",
+    "url" : "./zh/version/",
     "name": "Version",
     "description": "Houdini Wiki - Houdini Summuary \u0026 Tips ",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "/"
+      "@id": "./"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Houdini Wiki",
-      "url": "/"
+      "url": "./"
     }
   }
 </script>
@@ -1762,7 +1762,7 @@
   
   
   <li class="">
-    <a href="/zh/version/houdini18/"
+    <a href="./zh/version/houdini18/"
       class="menu__title ">houdini18</a>
   </li>
   
@@ -1829,12 +1829,12 @@
       <div class="navbar lmr">
         <div id="siteLogo" class="navbar__logo--wrapper">
   
-    <a href="/zh" title="主页" rel="home" class="navbar__logo--link">
+    <a href="/zh/" title="主页" rel="home" class="navbar__logo--link">
       <img src="/logo.png" alt="Home" class="navbar__logo">
     </a>
   
   
-    <a href="/zh" title="主页" rel="home" class="navbar__logo--text-link">
+    <a href="/zh/" title="主页" rel="home" class="navbar__logo--text-link">
       <h6 class="navbar__logo--text" data-bgimg="false">Hoduini Wiki</h6>
     </a>
   
@@ -1843,7 +1843,7 @@
         <div class="navbar__menu--wrapper">
           <div id="tabletLogo" class="hide">
   
-  <a href="/zh" rel="home" class="navbar__logo--link">
+  <a href="/zh/" rel="home" class="navbar__logo--link">
     <img src="/logo.png" alt="Home" class="navbar__logo">
   </a>
   
@@ -2092,7 +2092,7 @@
         
           
             
-              <a href="/zh/version/" data-lang="zh" class="lang__dropdown--item active">中文</a>
+              <a href="./zh/version/" data-lang="zh" class="lang__dropdown--item active">中文</a>
             
           
         
@@ -2108,7 +2108,7 @@
         
           
             
-              <a href="/en/version/" data-lang="en" class="lang__dropdown--item">English</a>
+              <a href="./en/version/" data-lang="en" class="lang__dropdown--item">English</a>
             
           
         
@@ -2248,7 +2248,7 @@
       <div class="terms__list">
         
         
-          <a href="/zh/version/houdini18/" class="terms__item is-small">
+          <a href="zh/version/houdini18/" class="terms__item is-small">
             <span class="terms__version">
               houdini18
             </span>

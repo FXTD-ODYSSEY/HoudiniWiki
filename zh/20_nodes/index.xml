@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nodes on Houdini Wiki</title>
-    <link>/zh/20_nodes/</link>
+    <link>./zh/20_nodes/</link>
     <description>Recent content in Nodes on Houdini Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -11,97 +11,97 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
     
-        <atom:link href="/zh/20_nodes/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="./zh/20_nodes/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>CHOP</title>
-        <link>/zh/20_nodes/chop/</link>
+        <link>./zh/20_nodes/chop/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/20_nodes/chop/</guid>
+        <guid>./zh/20_nodes/chop/</guid>
         <description>https://www.sidefx.com/docs/houdini/nodes/chop
 Channel nodes create, filter, and manipulate channel data.</description>
       </item>
       
       <item>
         <title>COP2</title>
-        <link>/zh/20_nodes/cop2/</link>
+        <link>./zh/20_nodes/cop2/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/20_nodes/cop2/</guid>
+        <guid>./zh/20_nodes/cop2/</guid>
         <description>https://www.sidefx.com/docs/houdini/nodes/cop2
 Composite nodes create, filter, and manipulate image data.</description>
       </item>
       
       <item>
         <title>DOP</title>
-        <link>/zh/20_nodes/dop/</link>
+        <link>./zh/20_nodes/dop/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/20_nodes/dop/</guid>
+        <guid>./zh/20_nodes/dop/</guid>
         <description>https://www.sidefx.com/docs/houdini/nodes/dop
 Dynamics nodes set up the conditions and rules for dynamics simulations.</description>
       </item>
       
       <item>
         <title>LOP</title>
-        <link>/zh/20_nodes/lop/</link>
+        <link>./zh/20_nodes/lop/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/20_nodes/lop/</guid>
+        <guid>./zh/20_nodes/lop/</guid>
         <description>https://www.sidefx.com/docs/houdini/nodes/lop
 LOP nodes generate USD describing characters, props, lighting, and rendering.</description>
       </item>
       
       <item>
         <title>OBJ</title>
-        <link>/zh/20_nodes/obj/</link>
+        <link>./zh/20_nodes/obj/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/20_nodes/obj/</guid>
+        <guid>./zh/20_nodes/obj/</guid>
         <description>https://www.sidefx.com/docs/houdini/nodes/obj
 Object nodes represent objects in the scene, such as character parts, geometry objects, lights, cameras, and so on.</description>
       </item>
       
       <item>
         <title>ROP</title>
-        <link>/zh/20_nodes/rop/</link>
+        <link>./zh/20_nodes/rop/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/20_nodes/rop/</guid>
+        <guid>./zh/20_nodes/rop/</guid>
         <description>https://www.sidefx.com/docs/houdini/nodes/out
 Render nodes either render the scene or set up render dependency networks.</description>
       </item>
       
       <item>
         <title>SOP</title>
-        <link>/zh/20_nodes/sop/</link>
+        <link>./zh/20_nodes/sop/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/20_nodes/sop/</guid>
+        <guid>./zh/20_nodes/sop/</guid>
         <description>https://www.sidefx.com/docs/houdini/nodes/sop
 Geometry nodes live inside Geo objects and generate geometry.</description>
       </item>
       
       <item>
         <title>TOP</title>
-        <link>/zh/20_nodes/top/</link>
+        <link>./zh/20_nodes/top/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/20_nodes/top/</guid>
+        <guid>./zh/20_nodes/top/</guid>
         <description>https://www.sidefx.com/docs/houdini/nodes/top
 TOP nodes define a workflow where data is fed into the network, turned into</description>
       </item>
       
       <item>
         <title>VOP</title>
-        <link>/zh/20_nodes/vop/</link>
+        <link>./zh/20_nodes/vop/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/20_nodes/vop/</guid>
+        <guid>./zh/20_nodes/vop/</guid>
         <description>https://www.sidefx.com/docs/houdini/nodes/vop
 VOP nodes let you define a program (such as a shader) by connecting nodes together. Houdini then compiles the node network into executable VEX code.</description>
       </item>

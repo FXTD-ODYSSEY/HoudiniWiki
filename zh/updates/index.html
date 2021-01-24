@@ -56,7 +56,7 @@
   
   
     
-    <script defer src="/js/main.min.a9c233130d82ad036d87ff041d33a35745d185ad31556968033f2df548dda7f9.js"></script>
+    <script defer src="/js/main.min.1d0f287281e492363336561911a493c113ea7d82565fbf46cb298e95db5eb369.js"></script>
   
 
   
@@ -334,9 +334,9 @@
     
     var languagedir = JSON.parse("\"ltr\"");
     
-    var baseurl = JSON.parse("\"/\"");
+    var baseurl = JSON.parse("\"./\"");
     
-    var permalink = JSON.parse("\"/zh/updates/\"");
+    var permalink = JSON.parse("\"./zh/updates/\"");
     
     
     
@@ -1105,8 +1105,8 @@
         var xhr = new XMLHttpRequest();
 
         var host = window.location.host
-        var location = window.location
-        if(!host.startsWith("localhost") && !location.startsWith("file"))
+        var href = window.location.href
+        if(!host.startsWith("localhost") && !href.startsWith("file"))
           baseurl = "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages"
 
         xhr.open('GET', baseurl + langprefix + "/index.json");
@@ -1649,7 +1649,7 @@
   
 
 
-    <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="/zh/updates/index.xml">
+    <link rel="alternate" type="application/rss&#43;xml" title="RSS" href="./zh/updates/index.xml">
 <meta name="description" content="" />
 <meta name="keywords" content="">
 <meta name="created" content="2021-01-23T00:00:00&#43;0000">
@@ -1658,13 +1658,13 @@
 
 <meta property="og:site_name" content="Houdini Wiki">
 <meta property="og:title" content="Updates">
-<meta property="og:url" content="/zh/updates/">
+<meta property="og:url" content="./zh/updates/">
 <meta property="og:type" content="website">
 
 <meta name="generator" content="Hugo 0.80.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="/zh/updates/">
+<link rel="canonical" href="./zh/updates/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1688,17 +1688,17 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "url" : "/zh/updates/",
+    "url" : "./zh/updates/",
     "name": "Updates",
     "description": "Houdini Wiki - Houdini Summuary \u0026 Tips ",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "/"
+      "@id": "./"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Houdini Wiki",
-      "url": "/"
+      "url": "./"
     }
   }
 </script>
@@ -1759,7 +1759,7 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="0" data-permalink="/zh/updates/features/">
+  <li class="menu__title--collapse " data-depth="0" data-permalink="./zh/updates/features/">
     <span class="menu__title--collapse-text">
       特性展示
     </span>
@@ -1769,13 +1769,13 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/features/ data-link=/zh/updates/>
+  <ul class="menu__list " data-data=/features/ data-link=./zh/updates/>
     
       
         
         
         <li>
-          <a href="/zh/updates/features/91d7f687/" class="menu__title " data-depth="0">ShortCodes 汇总</a>
+          <a href="./zh/updates/features/91d7f687/" class="menu__title " data-depth="0">ShortCodes 汇总</a>
         </li>
       
     
@@ -1783,7 +1783,7 @@
         
         
         <li>
-          <a href="/zh/updates/features/9ee9a447/" class="menu__title " data-depth="0">图表功能支持</a>
+          <a href="./zh/updates/features/9ee9a447/" class="menu__title " data-depth="0">图表功能支持</a>
         </li>
       
     
@@ -1791,7 +1791,7 @@
         
         
         <li>
-          <a href="/zh/updates/features/1ffcb410/" class="menu__title " data-depth="0">Syntax highlighting</a>
+          <a href="./zh/updates/features/1ffcb410/" class="menu__title " data-depth="0">Syntax highlighting</a>
         </li>
       
     
@@ -1816,7 +1816,7 @@
   
   
   <li class="">
-    <a href="/zh/updates/about/"
+    <a href="./zh/updates/about/"
       class="menu__title ">关于网站</a>
   </li>
   
@@ -1839,7 +1839,7 @@
   
   
   <li class="">
-    <a href="/zh/updates/log/"
+    <a href="./zh/updates/log/"
       class="menu__title ">更新日志</a>
   </li>
   
@@ -1906,12 +1906,12 @@
       <div class="navbar lmr">
         <div id="siteLogo" class="navbar__logo--wrapper">
   
-    <a href="/zh" title="主页" rel="home" class="navbar__logo--link">
+    <a href="/zh/" title="主页" rel="home" class="navbar__logo--link">
       <img src="/logo.png" alt="Home" class="navbar__logo">
     </a>
   
   
-    <a href="/zh" title="主页" rel="home" class="navbar__logo--text-link">
+    <a href="/zh/" title="主页" rel="home" class="navbar__logo--text-link">
       <h6 class="navbar__logo--text" data-bgimg="false">Hoduini Wiki</h6>
     </a>
   
@@ -1920,7 +1920,7 @@
         <div class="navbar__menu--wrapper">
           <div id="tabletLogo" class="hide">
   
-  <a href="/zh" rel="home" class="navbar__logo--link">
+  <a href="/zh/" rel="home" class="navbar__logo--link">
     <img src="/logo.png" alt="Home" class="navbar__logo">
   </a>
   
@@ -2169,7 +2169,7 @@
         
           
             
-              <a href="/zh/updates/" data-lang="zh" class="lang__dropdown--item active">中文</a>
+              <a href="./zh/updates/" data-lang="zh" class="lang__dropdown--item active">中文</a>
             
           
         
@@ -2185,7 +2185,7 @@
         
           
             
-              <a href="/en/updates/" data-lang="en" class="lang__dropdown--item">English</a>
+              <a href="./en/updates/" data-lang="en" class="lang__dropdown--item">English</a>
             
           
         
@@ -2320,7 +2320,7 @@
   
   <li >
     
-      <a href="/zh/" class="capitalize">Houdini 百科</a>
+      <a href="./zh/" class="capitalize">Houdini 百科</a>
     
   </li>
   
@@ -2399,7 +2399,7 @@
   
   
   
-  <li class="menu__title--collapse " data-depth="0" data-permalink="/zh/updates/features/">
+  <li class="menu__title--collapse " data-depth="0" data-permalink="./zh/updates/features/">
     <span class="menu__title--collapse-text">
       特性展示
     </span>
@@ -2409,13 +2409,13 @@
       
     </span>
   </li>
-  <ul class="menu__list " data-data=/features/ data-link=/zh/updates/>
+  <ul class="menu__list " data-data=/features/ data-link=./zh/updates/>
     
       
         
         
         <li>
-          <a href="/zh/updates/features/91d7f687/" class="menu__title " data-depth="0">ShortCodes 汇总</a>
+          <a href="./zh/updates/features/91d7f687/" class="menu__title " data-depth="0">ShortCodes 汇总</a>
         </li>
       
     
@@ -2423,7 +2423,7 @@
         
         
         <li>
-          <a href="/zh/updates/features/9ee9a447/" class="menu__title " data-depth="0">图表功能支持</a>
+          <a href="./zh/updates/features/9ee9a447/" class="menu__title " data-depth="0">图表功能支持</a>
         </li>
       
     
@@ -2431,7 +2431,7 @@
         
         
         <li>
-          <a href="/zh/updates/features/1ffcb410/" class="menu__title " data-depth="0">Syntax highlighting</a>
+          <a href="./zh/updates/features/1ffcb410/" class="menu__title " data-depth="0">Syntax highlighting</a>
         </li>
       
     
@@ -2456,7 +2456,7 @@
   
   
   <li class="">
-    <a href="/zh/updates/about/"
+    <a href="./zh/updates/about/"
       class="menu__title ">关于网站</a>
   </li>
   
@@ -2479,7 +2479,7 @@
   
   
   <li class="">
-    <a href="/zh/updates/log/"
+    <a href="./zh/updates/log/"
       class="menu__title ">更新日志</a>
   </li>
   
@@ -2547,7 +2547,7 @@
     <div class="list-section">
   
     <div class="list-section__item">
-      <a href="/zh/updates/features/" class="list-section__item--link">
+      <a href="./zh/updates/features/" class="list-section__item--link">
         特性展示
       </a>
       <div class="list-section__item--desc">
@@ -2559,7 +2559,7 @@
       <div class="list-section">
   
     <div class="list-section__item">
-      <a href="/zh/updates/features/91d7f687/" class="list-section__item--link">
+      <a href="./zh/updates/features/91d7f687/" class="list-section__item--link">
         ShortCodes 汇总
       </a>
       <div class="list-section__item--desc">
@@ -2572,7 +2572,7 @@
     </div>
   
     <div class="list-section__item">
-      <a href="/zh/updates/features/9ee9a447/" class="list-section__item--link">
+      <a href="./zh/updates/features/9ee9a447/" class="list-section__item--link">
         图表功能支持
       </a>
       <div class="list-section__item--desc">
@@ -2585,7 +2585,7 @@
     </div>
   
     <div class="list-section__item">
-      <a href="/zh/updates/features/1ffcb410/" class="list-section__item--link">
+      <a href="./zh/updates/features/1ffcb410/" class="list-section__item--link">
         Syntax highlighting
       </a>
       <div class="list-section__item--desc">

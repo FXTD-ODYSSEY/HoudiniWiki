@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Producer on Houdini Wiki</title>
-    <link>/zh/producer/</link>
+    <link>./zh/producer/</link>
     <description>Recent content in Producer on Houdini Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -11,17 +11,17 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/zh/producer/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="./zh/producer/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Entagma</title>
-        <link>/zh/producer/entagma/</link>
+        <link>./zh/producer/entagma/</link>
         <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
-        <guid>/zh/producer/entagma/</guid>
+        <guid>./zh/producer/entagma/</guid>
         <description></description>
       </item>
       
