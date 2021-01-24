@@ -7,6 +7,13 @@
       <div class="list-section__item--desc">
         {{ .Description }}
       </div>
+      {{ $slug := .Params.Slug}}
+      {{ if $slug}}
+        {{ $src := printf "static/posts/%s/cover.png" $slug}}
+        {{ if (fileExists $src) }}
+          <img src="/posts/{{$slug}}/cover.png">
+        {{- end }}
+      {{end}}
       
     {{ $section_to_display :=  .Sections | default .Pages }}
     {{ if $section_to_display}}

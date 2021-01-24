@@ -135,22 +135,28 @@ div.notices .link_header {
 }
 
 
-div.notices img {
+.logo {
 	height: 30px;
-	display: inline;
+	display: inline !important;
+	margin: 0;
 	padding: 5px;
 }
 
 
-div.notices div {
-	background: #e7f2fa;
+div.notices .single__contents {
+	background: #212121;
 	padding: 15px;
 	display: block;
 	font-size: 1rem;
 	margin-top: 0rem;
 	margin-bottom: 0rem;
-	color: #666;
+	color: white;
 	margin-right: 1rem;
+}
+
+.theme__light div.notices .single__contents {
+	background: #f7f8f9;
+	color: gray;
 }
 
 /* expand */
@@ -210,7 +216,6 @@ pre .hljs-vex_comment {
 	margin-top: 1.6rem;
 }
 .hljs::after {
-	background: #262838;
 	position: absolute;
 	top: 2px;
 	right: 0;

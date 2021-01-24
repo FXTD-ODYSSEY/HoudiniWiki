@@ -8,6 +8,8 @@ weight: 20
 
 ## 2021-01-24
 
+> - [x] 封面在 tooltip 以及 list.html 罗列
+> - [x] 文章添加封面
 > - [x] 修正 搜索 json
 > - [x] 图片未上传自动用 本地路径
 > - [x] relink 支持 slug 路径

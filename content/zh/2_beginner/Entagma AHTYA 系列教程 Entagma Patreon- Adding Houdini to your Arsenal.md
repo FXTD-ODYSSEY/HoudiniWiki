@@ -1,7 +1,7 @@
 ---
-title: Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsenal 
+title: Entagma Patreon- Adding Houdini to your Arsenal 
 author: 智伤帝
-description: Entagma Houdini 入门系列教程
+description: Entagma AHTYA 入门系列教程 
 date: 2021-01-16
 pan: https://pan.baidu.com/s/1ijIw4fILLcAnq9PIeObs-Q
 video: https://www.bilibili.com/video/BV137411q7sA
@@ -11,7 +11,7 @@ version: houdini18
 producer: Entagma
 level: beginner
 tags: 
-  - 基础
+  - foundation
 nodes:
   - SOP
 pipeline:
@@ -32,17 +32,13 @@ pipeline:
 ## 创建几何体
 
 
-{{< relink url="20_nodes/sop/dd4f50e5" pattern="triangle" >}} 
+{{< relink url="20_nodes/sop/dd4f50e5|1_learning/vex|3_vex/dbcc6763" pattern="geometry.hip" >}} 
 
 ## 构建几何体
 
 ![alt](//cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/ddc0b6e3/01.png)
 
 使用 add 构建几何体
-
-
-{{</ relink >}}
-
 
 ```vex
 // 创建一个面片
@@ -64,7 +60,11 @@ addvertex(0, prim1, p3);
 addvertex(0, prim1, p2);
 ```
 
-> &emsp;&emsp;通过上面的代码可以创建一个三角形的几何体，注意 Wrangle 节点要选择 Detail 模式执行。
+也可以使用 Vex 创建一个三角形的几何体，注意 Wrangle 节点要选择 Detail 模式执行。
+
+索引自 [Pluralsight - Houdini VEX Fundamentals](/zh/3_vex/dbcc6763)
+
+{{</ relink >}}
 
 ---
 

@@ -107,10 +107,10 @@
               
               {{ $link := add $path (add "#" (index . "id"))}}
 
-              <div class="theme__light notices note">
+              <div class="notices note">
 
                 <div class="link_header">
-                  <img src="/logo.png" > 
+                  <img class="logo" src="/logo.png" > 
                   <span style="position: absolute;">
                     <a href="{{ $link }}">
                     {{T "Nodes-link"}}

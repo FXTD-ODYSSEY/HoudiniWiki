@@ -4,9 +4,9 @@
 {{ $urls := split (.Get `url`) "|"}}
 
 
-<div id="link_node_{{ len ($.Page.Scratch.Get `relinks`) }}" class="theme__light notices note">
+<div id="link_node_{{ len ($.Page.Scratch.Get `relinks`) }}" class="notices note">
   <div class="link_header">
-    <img src="/logo.png" > 
+    <img class="logo" src="/logo.png" > 
     <span style="position: absolute;">
       {{ range $url := $urls}}
         {{ $slug := path.Split $url}}

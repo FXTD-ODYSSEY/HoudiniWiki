@@ -1,46 +1,53 @@
 {
-    "37b24259": {
-        "32dbb101": {
+    "basic": {
+        "ddc0b6e3": {
             "links": [
                 {
-                    "inner": "12341",
-                    "id": "link_node_1"
-                },
-                {
-                    "inner": "a213t42",
-                    "id": "link_node_2"
-                }
-            ],
-            "path": "/zh/1_learning/1_beginner",
-            "title": "Entagma AHTYA 系列教程 Entagma Patreon- Adding Houdini to your Arsenal"
-        },
-        "7943b98e": {
-            "links": [
-                {
-                    "inner": "testAAA",
-                    "id": "link_node_1"
-                },
-                {
-                    "inner": "",
-                    "id": "link_node_2"
-                },
-                {
-                    "inner": "testAAA124141",
-                    "id": "link_node_3"
-                }
-            ],
-            "path": "/zh/1_learning/1_beginner",
-            "title": "Houdini18 入门教程 Introduction to Houdini"
-        },
-        "91d7f687": {
-            "links": [
-                {
-                    "inner": "testAAA",
+                    "inner": "+ 按 空格 键切换到摄像机控制\n+ 在节点窗口下按住 A 键拖拽可以对齐节点\n+ 在属性编辑面板按鼠标中间可以按不同数量及调整参数",
                     "id": "link_node_1"
                 }
             ],
-            "path": "/zh/updates/features",
-            "title": "ShortCodes 汇总"
+            "path": "/zh/2_beginner",
+            "title": "Entagma Patreon- Adding Houdini to your Arsenal"
+        }
+    },
+    "dd4f50e5": {
+        "ddc0b6e3": {
+            "links": [
+                {
+                    "inner": "## 构建几何体\n\n![alt](//cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/ddc0b6e3/01.png)\n\n使用 add 构建几何体\n\n```vex\n// 创建一个面片\nvector pos1 = set(0,0,0);\nvector pos2 = set(1,0,0);\nvector pos3 = set(1,1,0);\n\n\nint p1 = addpoint(0, pos1);\nint p2 = addpoint(0, pos2);\nint p3 = addpoint(0, pos3);\n\n\nint prim1 = addprim(0, \"poly\");\n\n// 注意添加顺序\naddvertex(0, prim1, p1);\naddvertex(0, prim1, p3);\naddvertex(0, prim1, p2);\n```\n\n\n也可以使用 Vex 构建一个简单的几何体 索引自 [Pluralsight - Houdini VEX Fundamentals](/zh/3_vex/dbcc6763)",
+                    "id": "link_node_2",
+                    "pattern": "geometry.hip"
+                }
+            ],
+            "path": "/zh/2_beginner",
+            "title": "Entagma Patreon- Adding Houdini to your Arsenal"
+        }
+    },
+    "vex": {
+        "ddc0b6e3": {
+            "links": [
+                {
+                    "inner": "## 构建几何体\n\n![alt](//cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/ddc0b6e3/01.png)\n\n使用 add 构建几何体\n\n```vex\n// 创建一个面片\nvector pos1 = set(0,0,0);\nvector pos2 = set(1,0,0);\nvector pos3 = set(1,1,0);\n\n\nint p1 = addpoint(0, pos1);\nint p2 = addpoint(0, pos2);\nint p3 = addpoint(0, pos3);\n\n\nint prim1 = addprim(0, \"poly\");\n\n// 注意添加顺序\naddvertex(0, prim1, p1);\naddvertex(0, prim1, p3);\naddvertex(0, prim1, p2);\n```\n\n\n也可以使用 Vex 构建一个简单的几何体 索引自 [Pluralsight - Houdini VEX Fundamentals](/zh/3_vex/dbcc6763)",
+                    "id": "link_node_2",
+                    "pattern": "geometry.hip"
+                }
+            ],
+            "path": "/zh/2_beginner",
+            "title": "Entagma Patreon- Adding Houdini to your Arsenal"
+        }
+    },
+    "dbcc6763": {
+        "ddc0b6e3": {
+            "links": [
+                {
+                    "inner": "## 构建几何体\n\n![alt](//cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/ddc0b6e3/01.png)\n\n使用 add 构建几何体\n\n```vex\n// 创建一个面片\nvector pos1 = set(0,0,0);\nvector pos2 = set(1,0,0);\nvector pos3 = set(1,1,0);\n\n\nint p1 = addpoint(0, pos1);\nint p2 = addpoint(0, pos2);\nint p3 = addpoint(0, pos3);\n\n\nint prim1 = addprim(0, \"poly\");\n\n// 注意添加顺序\naddvertex(0, prim1, p1);\naddvertex(0, prim1, p3);\naddvertex(0, prim1, p2);\n```\n\n\n也可以使用 Vex 构建一个简单的几何体 索引自 [Pluralsight - Houdini VEX Fundamentals](/zh/3_vex/dbcc6763)",
+                    "id": "link_node_2",
+                    "pattern": "geometry.hip"
+                }
+            ],
+            "path": "/zh/2_beginner",
+            "title": "Entagma Patreon- Adding Houdini to your Arsenal"
         }
     }
 }
