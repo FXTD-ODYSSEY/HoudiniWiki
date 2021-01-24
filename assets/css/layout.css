@@ -234,7 +234,13 @@ pre .hljs-vex_comment {
 /* for block of code */
 .single__contents pre:not(.chroma) {
 	padding: 0;
+	margin: 1rem;
 }
+
+.highlight {
+	margin: 1rem;
+}
+
 .theme__dark .header {
 	background: mediumpurple;
 }

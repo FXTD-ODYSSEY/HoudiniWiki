@@ -8,6 +8,7 @@ weight: 20
 
 ## 2021-01-24
 
+> - [ ] 查 复制不起作用 BUG
 > - [x] 封面在 tooltip 以及 list.html 罗列
 > - [x] 文章添加封面
 > - [x] 修正 搜索 json

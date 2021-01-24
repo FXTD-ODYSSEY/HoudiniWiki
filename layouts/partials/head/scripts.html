@@ -350,7 +350,6 @@
       // 用来 copy
       newElem.setAttribute('content', block.textContent);
       block.after(newElem);
-      //$(block).append('<span class="copy-to-clipboard" title="Copy to clipboard"></span>');
 
     });
 
@@ -997,7 +996,6 @@
         if(!host.startsWith("localhost") && !href.startsWith("file"))
           baseurl = "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages"
         var url = baseurl + langprefix + "/index.json"
-        console.log(url)
         $.ajax({
           url,
           success: function(data){
