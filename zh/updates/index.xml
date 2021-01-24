@@ -40,7 +40,7 @@
         <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
         <author>zzossig@gmail.com (zzossig)</author>
         <guid>https://hou.l0v0.com/zh/updates/log/</guid>
-        <description>2021-01-24 图片未上传自动用 本地路径 relink 支持 slug 路径 relink 支持多个 url attachments cdn 加速 baseUrl 强制跳转 2021-01-23 制作一个卡片页面显示 pan 链接 修复 anchor 定位被覆盖问题 完善默认 _index.md 罗列 修复幻灯片</description>
+        <description>2021-01-24 修正 搜索 json 图片未上传自动用 本地路径 relink 支持 slug 路径 relink 支持多个 url attachments cdn 加速 baseUrl 强制跳转 2021-01-23 制作一个卡片页面显示 pan 链接 修复 anchor 定位被覆盖问题 完善默认 _index.md 罗列</description>
       </item>
       
     

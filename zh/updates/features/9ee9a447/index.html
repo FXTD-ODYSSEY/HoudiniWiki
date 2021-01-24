@@ -1143,19 +1143,18 @@
 
     if (enableSearch) {
       (function initFuse() {
+        
         var xhr = new XMLHttpRequest();
 
         var host = window.location.host
         var href = window.location.href
         if(!host.startsWith("localhost") && !href.startsWith("file"))
           baseurl = "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages"
-
-        xhr.open('GET', baseurl + langprefix + "/index.json");
-        xhr.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
-        xhr.onload = function () {
-          if (xhr.status === 200) {
-            var data = JSON.parse(xhr.response.toString('utf-8'))
-            
+        var url = baseurl + langprefix + "/index.json"
+        console.log(url)
+        $.ajax({
+          url,
+          success: function(data){
             fuse = new Fuse(data, {
               keys: ['title', 'description', 'content'],
               includeMatches: enableSearchHighlight,
@@ -1171,11 +1170,9 @@
               minMatchCharLength: 1,
             });
           }
-          else {
-            console.error(`[${xhr.status}]Error:`, xhr.statusText);
-          }
-        };
-        xhr.send();
+        })
+        
+
       })();
     }
     
@@ -1328,7 +1325,7 @@
           
           let indexContent = result.item.content.toLowerCase().indexOf(searchText.toLowerCase())
           
-          console.log(result.item.content.toLowerCase(),indexContent)
+          
           if (result.matches && result.matches.length) {
             for (var i = 0; i < result.matches.length; i++) {
               if ('title' === result.matches[i].key) {
