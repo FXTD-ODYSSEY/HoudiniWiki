@@ -1,8 +1,19 @@
 logoText = "Hoduini Wiki"
 logoType = "short" # long, short
 description = "Houdini Wiki - Houdini Summuary & Tips "
-custom_css = ["css/jquery-ui.min.css","css/tags.css","scss/_terms.scss","css/layout.css"]
-custom_js = ["js/fuse.min.js","js/jquery.min.js","js/jquery-ui.min.js","js/main.js","js/vex.js"]
+custom_css = [
+  "css/vs2015.min.css",
+  "css/jquery-ui.min.css",
+  "css/tags.css",
+  "scss/_terms.scss",
+  "css/layout.css"]
+custom_js = [
+  "js/highlight.min.js",
+  "js/highlightjs-line-numbers.min.js",
+  "js/jquery.min.js",
+  "js/jquery-ui.min.js",
+  "js/main.js",
+  "js/vex.js"]
 useFaviconGenerator = true # https://www.favicon-generator.org/
 meta_image = ""
 themecolor = ""

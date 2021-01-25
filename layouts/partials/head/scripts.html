@@ -22,10 +22,6 @@
 <meta name="360-site-verification" content="{{$qihu}}">
 {{ end }}
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/styles/vs2015.min.css">
-<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/highlight.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
-
 {{ if .Site.Params.custom_js }}
 {{ range .Site.Params.custom_js }}
   {{ $custom_template := resources.Get . }}
@@ -995,7 +991,7 @@
         var href = window.location.href
         if(!host.startsWith("localhost") && !href.startsWith("file"))
           baseurl = "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages"
-        var url = baseurl + langprefix + "/index.json"
+        var url = baseurl + langprefix.slice(1) + "/index.json"
         $.ajax({
           url,
           success: function(data){
@@ -1013,6 +1009,9 @@
               maxPatternLength: 32,
               minMatchCharLength: 1,
             });
+          },
+          error:function (res) {
+            console.log(res)
           }
         })
         

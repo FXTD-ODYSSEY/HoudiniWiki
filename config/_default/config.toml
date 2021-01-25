@@ -1,9 +1,12 @@
-baseURL = "https://hou.l0v0.com"
+baseURL = "/"
 title = "Houdini Wiki"
 # theme = ["zdoc","zzo"]
 theme = ["zdoc"]
 # theme = ["zzo"]
 enableInlineShortcodes = true
+
+# relativeURLs = true
+# uglyURLs = true
 
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = true
@@ -25,7 +28,8 @@ enableEditBtn = true
 
 publishDir = "docs"
 # disableKinds = ["taxonomyTerm"]
-minify = false
+minify = true
+
 
 [markup]
 [markup.goldmark]
@@ -45,9 +49,6 @@ startLevel = 2
 
 [outputs]
 home = ["HTML", "RSS", "SearchIndex"]
-# section = ["HTML", "RSS", "SearchIndex"]
-# taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
-# taxonomy = ["HTML", "RSS", "SearchIndex"]
 
 [outputFormats]
 [outputFormats.SearchIndex]
