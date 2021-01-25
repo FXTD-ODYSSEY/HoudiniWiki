@@ -5,7 +5,7 @@ theme = ["zdoc"]
 # theme = ["zzo"]
 enableInlineShortcodes = true
 
-# relativeURLs = true
+relativeURLs = true
 # uglyURLs = true
 
 defaultContentLanguage = "zh"
