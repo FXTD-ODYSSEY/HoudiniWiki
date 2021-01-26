@@ -187,6 +187,6 @@
 [[main]]
   identifier = "updates"
   name = "关于"
-  url = "updates/log"
+  url = "updates/about"
   weight = 25
   

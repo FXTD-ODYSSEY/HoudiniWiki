@@ -12,26 +12,37 @@ function UrlExists(url, cb) {
     });
 }
 
-_tooltip_func = function () {
-    text = $(this).text()
+_tooltip_func = function (index, elem) {
+    this.text = $(elem).text()
+    $(elem).attr("title", this.text)
+
     href = $(this).attr("href")
+    if (!href) return
     links = href.split("/")
     post_id = links[links.length - 2]
     host = window.location.host
-    
-    cover = "//" + host + "/posts/" + post_id + "/cover.png"
-    UrlExists(cover,(status) => {
-        $(this).attr("title", text)
-        content = status === 200 ? '<img src="'+ cover +'" />' + text : text
-        $(".menu").tooltip({
-            content: content,
+
+    this.cover = "//" + host + "/posts/" + post_id + "/cover.png"
+    fn = function(xhr) {
+        status = xhr.status
+        content = status == 200 ? '<img src="' + this.cover + '" />' + this.text : this.text
+        $(this).tooltip({
+            content,
             track: true,
         })
-    })
+    }
+    $.ajax({
+        url: this.cover,
+        dataType: 'text',
+        type: 'GET',
+        complete: fn.bind(this)
+    });
+
+
 }
 
 $(".menu__title").each(_tooltip_func);
-$(".menu__title--collapse-text").each(_tooltip_func)
+// $(".menu__title--collapse-text").each(_tooltip_func)
 $(".related").tooltip({
     track: true,
 })
@@ -51,15 +62,15 @@ var link = "cdn.jsdelivr.net/gh/" + name + "/" + repository + "@" + branch
 var host = window.location.host
 var href = window.location.href
 
-if(host.startsWith("localhost") || href.startsWith("file")){
+if (host.startsWith("localhost") || href.startsWith("file")) {
     $("img").each(function () {
         src = $(this).attr("src")
-        $(this).attr("src",src.replace(link,host))
+        $(this).attr("src", src.replace(link, host))
         src = $(this).attr("src")
     })
     $("video").each(function () {
         src = $(this).attr("src")
-        $(this).attr("src",src.replace(link,host))
+        $(this).attr("src", src.replace(link, host))
         src = $(this).attr("src")
     })
 }
