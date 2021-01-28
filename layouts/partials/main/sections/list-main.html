@@ -37,8 +37,8 @@
       <span class="tag__label">{{ T "tags-nodes"}}:</span>
       {{range .Params.nodes}}
       <a class="tag-link tag_color_{{ index (seq 6 | shuffle ) 1 }}" href="{{ "nodes/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+      {{end}}
     </div>
-    {{end}}
   {{end}}
 
   {{ if .Params.pipeline }}
@@ -46,8 +46,8 @@
       <span class="tag__label">{{ T "tags-pipeline"}}:</span>
       {{range .Params.pipeline}}
       <a class="tag-link tag_color_{{ index (seq 6 | shuffle ) 1 }}" href="{{ "pipeline/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+      {{end}}
     </div>
-    {{end}}
   {{end}}
 
   {{ if .Params.tags }}
@@ -55,8 +55,8 @@
       <span class="tag__label">{{ T "tags"}}:</span>
       {{range .Params.tags}}
       <a class="tag-link tag_color_{{ index (seq 6 | shuffle ) 0 }}" href="{{ "tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+      {{end}}
     </div>
-    {{end}}
   {{end}}
   
 

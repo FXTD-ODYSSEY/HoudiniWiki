@@ -6,9 +6,17 @@ draft: false
 weight: 20
 ---
 
+## 2021-01-26
+
+> - [x] 修复 tooltip 文字显示问题
+> - [x] 修复多标签生成多个 `</div>` 的 BUG
+
+## 2021-01-25
+
+> - [x] 使用相对路径 支持 Github Pages 访问
 ## 2021-01-24
 
-> - [ ] 查 复制不起作用 BUG
+> - [x] 查 复制不起作用 BUG 
 > - [x] 封面在 tooltip 以及 list.html 罗列
 > - [x] 文章添加封面
 > - [x] 修正 搜索 json
