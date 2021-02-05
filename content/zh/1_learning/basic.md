@@ -18,3 +18,5 @@ pipeline:
 
 [官方文档](https://www.sidefx.com/docs/houdini/basics/index.html)
 
+![alt](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/f5e65036/01.jpg)
+

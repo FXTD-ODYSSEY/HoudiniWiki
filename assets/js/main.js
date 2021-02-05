@@ -65,12 +65,16 @@ var href = window.location.href
 if (host.startsWith("localhost") || href.startsWith("file")) {
     $("img").each(function () {
         src = $(this).attr("src")
-        $(this).attr("src", src.replace(link, host))
+        src = src.replace(link, host)
+        src = src.replace("https", "http")
+        $(this).attr("src", src)
         src = $(this).attr("src")
     })
     $("video").each(function () {
         src = $(this).attr("src")
-        $(this).attr("src", src.replace(link, host))
+        src = src.replace(link, host)
+        src = src.replace("https", "http")
+        $(this).attr("src", src)
         src = $(this).attr("src")
     })
 }

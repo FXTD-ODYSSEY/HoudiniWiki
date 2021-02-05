@@ -7,7 +7,7 @@ pan: https://pan.baidu.com/s/1ijIw4fILLcAnq9PIeObs-Q
 video: https://www.bilibili.com/video/BV137411q7sA
 weight: 1
 slug: ddc0b6e3
-version: houdini17
+version: houdini17+
 producer: Entagma
 level: beginner
 tags: 
