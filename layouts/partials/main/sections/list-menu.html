@@ -9,7 +9,7 @@
   <ul class="menu__list active">
     {{ $root := . }}
     {{ range (.Site.GetPage "section" .Type).Pages }}
-      {{ template "render-menu" (dict "ctx" . "root" $root "depth" 0)}}
+      {{ template "render-menu" (dict "ctx" . "root" $root "depth" 1)}}
     {{ end }}
   </ul>
 </div>
