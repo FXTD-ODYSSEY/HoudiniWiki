@@ -26,13 +26,13 @@ https://www.aboutcg.org/courseDetails/221/introduce
 
 https://www.sidefx.com/docs/houdini/shelf/constraintpath.html
 
-![alt](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/f5e65036/01.png)
+![alt](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/7479ed24/01.png)
 
 路径跟随也和视频里的方式不一样了， Houdini 18 新版本会添加 Constraint 节点网络(CHOP)。
 
 # DOP 缓存限制
 
-![alt](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/f5e65036/02.jpg)
+![alt](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/7479ed24/02.jpg)
 
 DOP network 有最大缓存限制，如果 内存 超标了，自动缓存会将旧的缓存清理。
 

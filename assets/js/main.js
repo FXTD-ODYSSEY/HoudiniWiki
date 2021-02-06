@@ -42,7 +42,7 @@ _tooltip_func = function (index, elem) {
 }
 
 $(".menu__title").each(_tooltip_func);
-// $(".menu__title--collapse-text").each(_tooltip_func)
+$(".menu__title--collapse-text").each(_tooltip_func)
 $(".related").tooltip({
     track: true,
 })
