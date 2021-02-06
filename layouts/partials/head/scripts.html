@@ -334,8 +334,21 @@
     // =================================================================
     
     // =========================== vex for highlight.js ============================
-    var vex = "language-vex";
-    Array.prototype.forEach.call(document.querySelectorAll("[class^=" + vex + "]"), function (block) {
+    Array.prototype.forEach.call(document.querySelectorAll("[class^=language-vex]"), function (block) {
+
+      hljs.initHighlightingOnLoad();
+      hljs.lineNumbersBlock(block);
+      var newElem = document.createElement('span');
+      newElem.className = 'copy-to-clipboard';
+      newElem.text = 'copy-to-clipboard';
+      newElem.setAttribute('title', 'Copy to clipboard');
+      // 用来 copy
+      newElem.setAttribute('content', block.textContent);
+      block.after(newElem);
+
+    });
+
+    Array.prototype.forEach.call(document.querySelectorAll("[class^=language-HScript]"), function (block) {
 
       hljs.initHighlightingOnLoad();
       hljs.lineNumbersBlock(block);
