@@ -12,7 +12,8 @@ fn=function(xhr){status=xhr.status
 content=status==200?'<img src="'+this.cover+'" />'+this.text:this.text
 $(this).tooltip({content,track:true,})}
 $.ajax({url:this.cover,dataType:'text',type:'GET',complete:fn.bind(this)});}
-$(".menu__title").each(_tooltip_func);$(".related").tooltip({track:true,})
+$(".menu__title").each(_tooltip_func);$(".menu__title--collapse-text").each(_tooltip_func)
+$(".related").tooltip({track:true,})
 $(".link_container").each(function(){$(this)})
 var name="FXTD-ODYSSEY";var repository="HoudiniWiki";var branch="gh-pages"
 var link="cdn.jsdelivr.net/gh/"+name+"/"+repository+"@"+branch
