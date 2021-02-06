@@ -7,7 +7,7 @@ pan: https://pan.baidu.com/s/1ijIw4fILLcAnq9PIeObs-Q
 video: https://www.bilibili.com/video/BV137411q7sA
 weight: 1
 slug: ddc0b6e3
-version: houdini17+
+version: Houdini 17+
 producer: Entagma
 level: beginner
 tags: 
@@ -49,7 +49,7 @@ pipeline:
 使用 add 构建几何体
 生成面片需要勾选 `closed` 选项
 
-```vex
+```VEX
 // 创建一个面片
 vector pos1 = set(0,0,0);
 vector pos2 = set(1,0,0);
@@ -91,7 +91,7 @@ addvertex(0, prim1, p2);
 
 > &emsp;&emsp;创建属性属性随机可以用 Vex 更简单来实现。
 
-```vex
+```VEX
 f@weight = rand(@primnum);
 
 ```

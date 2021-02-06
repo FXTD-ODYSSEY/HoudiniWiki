@@ -1,20 +1,21 @@
 ---
 title: 从Maya学Houdini零起点入门极速教学
 author: 智伤帝
-description: aboucg 的免费课程
+description: aboutcg 的免费课程
 date: 2021-02-05
 pan: 
 video: https://www.bilibili.com/video/BV1DW411273N
 weight: 1
 slug: 7479ed24
-version: houdini15
+version: Houdini 15
 producer: Official
 level: beginner
 tags: 
-  - foundation
+  - maya
 pipeline:
   - all
-
+# nodes:
+#   - SOP
 ---
 
 

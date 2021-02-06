@@ -7,14 +7,15 @@ pan: https://pan.baidu.com/s/1cx21iOtBQazf6Cmw2wMH7g
 video: https://www.bilibili.com/video/BV1P54y1C7xn
 weight: 1
 slug: 0cde720b
-version: houdini17+
+version: Houdini 17+
 producer: Official
 level: beginner
 tags: 
-  - foundation
+  - maya
 pipeline:
   - all
-
+# nodes:
+#   - SOP
 ---
 
 {{< relink url="1_learning/basic" >}} 

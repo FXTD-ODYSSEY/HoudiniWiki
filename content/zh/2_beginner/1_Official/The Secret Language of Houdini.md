@@ -7,14 +7,15 @@ pan: https://pan.baidu.com/s/1dEyUW4VVaOdQ5V-yzN8LgQ
 video: https://www.bilibili.com/video/BV1SK4y1h72h
 weight: 1
 slug: f7f755c5
-version: houdini17+
+version: Houdini 17+
 producer: Official
 level: beginner
 tags: 
   - foundation
 pipeline:
   - all
-
+# nodes:
+#   - SOP
 ---
 
 > &emsp;&emsp;教程通过简单一个足球的案例。
