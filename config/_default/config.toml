@@ -30,6 +30,17 @@ publishDir = "docs"
 # disableKinds = ["taxonomyTerm"]
 minify = true
 
+[permalinks]
+  1_learning = "/:slug"
+  2_beginner = "/:slug"
+  3_vex = "/:slug"
+  4_python = "/:slug"
+  5_math = "/:slug"
+  6_game = "/:slug"
+  15_fx = "/:slug"
+  16_rendering = "/:slug"
+  19_msic = "/:slug"
+  20_nodes = "/:slug"
 
 [markup]
 [markup.goldmark]

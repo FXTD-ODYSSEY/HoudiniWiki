@@ -16,7 +16,11 @@
         {{ if not $page}}
           {{$page = index (where $.Site.RegularPages "Params.slug" $slug) 0}}
         {{end}}
-          <a href="{{ $url | relLangURL }}" target="_blank">
+          {{ $target_url := $page.Params.slug }}
+          {{ if not $target_url }}
+            {{ $target_url = $page.Params.url }}
+          {{ end }}
+          <a href="{{ ($target_url | default ``) | relLangURL }}" target="_blank">
             {{$page.Title}}
           </a>
       {{end}}

@@ -6,5 +6,8 @@ draft: false
 toc: true
 collapsible: true
 weight: 1
+url: "beginner/official"
 ---
+
+https://www.sidefx.com/learn/getting_started/
 

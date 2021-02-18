@@ -4,6 +4,7 @@ title: "学习路线"
 date: 2021-01-14
 draft: false
 toc: false
+url: "learning"
 ---
 
 ### Houdini 基础入门  
@@ -11,8 +12,8 @@ toc: false
 [官方文档](https://www.sidefx.com/docs/houdini/basics/index.html)
 
 - [x] 基础核心技术训练视频教程 [链接](https://www.bilibili.com/video/BV1pW411H7nV)
-- [ ] Houdini18官方入门教程 [链接](https://www.bilibili.com/video/BV1qf4y1B7D3/)
-- [ ] Entagma AHTYA 系列教程 - Entagma Patreon- Adding Houdini to your Arsenal [链接](https://www.bilibili.com/video/BV137411q7sA)
+- [x] Houdini18官方入门教程 [链接](https://www.bilibili.com/video/BV1qf4y1B7D3/)
+- [x] Entagma AHTYA 系列教程 - Entagma Patreon- Adding Houdini to your Arsenal [链接](https://www.bilibili.com/video/BV137411q7sA)
 - [ ] 基础训练视频教程 Learn Squared - Houdini Procedural Foundations [链接](https://www.bilibili.com/video/BV1nW411H7rw)
 
 ### Rohan Dalvi 系列教程
@@ -71,6 +72,7 @@ toc: false
 
 ### Vex
 
+- [ ] Vex 基础教程 Pluralsight Houdini VEX Fundamentals [链接](https://www.bilibili.com/video/BV1Po4y1Z7Fm)
 - [ ] Entagma VEX 101系列教程 - Entagma Patreon- VEX 101 [链接](https://www.bilibili.com/video/BV1g7411q7BQ)
 - [ ] VEX 基础核心技能训练视频教程 CGSOCIETY - VEX in Houdini [链接](https://www.bilibili.com/video/BV1rW411x7C1)
 - [ ] VEX语言教程 mixtrn - Nature of VEX [链接](https://www.bilibili.com/video/BV1pJ411E76o)
@@ -89,10 +91,12 @@ toc: false
 ### 数学
 
 - [ ] VFX中的数学入门教程 FXPHD - Intro to Math for VFX [链接](https://www.bilibili.com/video/BV1eW41147ur)
+- [ ] 数学技能影视特效视频教程 Pluralsight - Practical Houdini Math Tips [链接](https://www.bilibili.com/video/BV1Hz4y1U7fq)
+- [ ] 矢量应用教学 VECTORS APPLIED: INTRODUCTION [链接](https://www.bilibili.com/video/BV1eE411t7WV)
 - [ ] 数学讲解 Vizy Acky_105 Math In Houdini [链接](https://www.bilibili.com/video/BV1rE41197dY)
 - [ ] 数学在动画模拟中的运用视频教程 Math in Houdini FX Hossam Aldin Alaliwi [链接](https://www.bilibili.com/video/BV1PW41147gA)
 - [ ] 数学在动画模拟中的运用视频教程第二季 Math in Houdini FX VOL 2 Physical Parameters [链接](https://www.bilibili.com/video/BV1wW41147q5)
-- [ ] 矢量应用教学 VECTORS APPLIED: INTRODUCTION [链接](https://www.bilibili.com/video/BV1eE411t7WV)
+- [ ] Houdini最强VEX算法教程 - VEX for Algorithmic Design [链接](https://www.bilibili.com/video/BV12K4y1p7wi)
 
 ### 空余时间
 

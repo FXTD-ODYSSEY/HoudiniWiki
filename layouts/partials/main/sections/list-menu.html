@@ -29,6 +29,7 @@
   
   {{ if $ctx.Params.Collapsible }}
   <li class="menu__title--collapse {{ if $active }}active{{ end }}" data-depth="{{ $depth }}">
+    <a href="{{ $ctx.Permalink }}">☛</a>
     <span class="menu__title--collapse-text">
       {{ $ctx.Title }}
     </span>
@@ -52,7 +53,7 @@
     <li>
       <a href="{{ .Permalink }}"
         class="menu__title {{ if and (eq $lastUrlElement1 $lastUrlElement2) (eq $sectionName1 $sectionName2) }}active{{ end }}"
-        data-depth="{{ $depth }}">{{ .Title }}</a>
+        data-depth="{{ $depth }}" description="{{.Description}}">{{ .Title }}</a>
     </li>
     {{ end }}
     {{ end }}

@@ -2,132 +2,132 @@
 [[main]]
   identifier = "learning"
   name = "学习路线"
-  url = "1_learning"
+  url = "learning"
   weight = 1
 
   [[main]]
     parent = "learning"
     identifier = "beginner"
     name = "入门"
-    url = "2_beginner"
+    url = "beginner"
     weight = 2
 
   [[main]]
     parent = "learning"
     identifier = "vex"
     name = "Vex"
-    url = "3_vex"
+    url = "vex"
     weight = 3
     
   [[main]]
     parent = "learning"
     identifier = "python"
     name = "Python"
-    url = "4_python"
+    url = "python"
     weight = 4
 
   [[main]]
     parent = "learning"
     identifier = "math"
     name = "数学"
-    url = "5_math"
+    url = "math"
     weight = 5
 
   [[main]]
     parent = "learning"
-    identifier = "procedural"
-    name = "程序化生成"
-    url = "6_procedural"
+    identifier = "game"
+    name = "游戏引擎"
+    url = "game"
     weight = 6
 
   [[main]]
     parent = "learning"
     identifier = "FX"
     name = "影视特效"
-    url = "15_fx"
+    url = "fx"
     weight = 15
 
   [[main]]
     parent = "learning"
     identifier = "rendering"
     name = "渲染"
-    url = "16_rendering"
+    url = "rendering"
     weight = 16
 
   [[main]]
     parent = "learning"
     identifier = "msic"
     name = "杂项"
-    url = "19_msic"
+    url = "msic"
     weight = 19
 
 [[main]]
   identifier = "nodes"
   name = "节点"
-  url = "20_nodes"
+  url = "nodes"
   weight = 10
 
   [[main]]
     parent = "nodes"
     identifier = "chop"
     name = "CHOP"
-    url = "20_nodes/chop"
+    url = "nodes/chop"
     weight = 1
 
   [[main]]
     parent = "nodes"
     identifier = "COP2"
     name = "COP2"
-    url = "20_nodes/cop2"
+    url = "nodes/cop2"
     weight = 2
 
   [[main]]
     parent = "nodes"
     identifier = "DOP"
     name = "DOP"
-    url = "20_nodes/dop"
+    url = "nodes/dop"
     weight = 3
 
   [[main]]
     parent = "nodes"
     identifier = "LOP"
     name = "LOP"
-    url = "20_nodes/lop"
+    url = "nodes/lop"
     weight = 4
 
   [[main]]
     parent = "nodes"
     identifier = "OBJ"
     name = "OBJ"
-    url = "20_nodes/obj"
+    url = "nodes/obj"
     weight = 5
 
   [[main]]
     parent = "nodes"
     identifier = "ROP"
     name = "ROP"
-    url = "20_nodes/rop"
+    url = "nodes/rop"
     weight = 6
 
   [[main]]
     parent = "nodes"
     identifier = "SOP"
     name = "SOP"
-    url = "20_nodes/sop"
+    url = "nodes/sop"
     weight = 7
 
   [[main]]
     parent = "nodes"
     identifier = "TOP"
     name = "TOP"
-    url = "20_nodes/top"
+    url = "nodes/top"
     weight = 8
 
   [[main]]
     parent = "nodes"
     identifier = "VOP"
     name = "VOP"
-    url = "20_nodes/vop"
+    url = "nodes/vop"
     weight = 9
 
 [[main]]
@@ -190,3 +190,16 @@
   url = "updates/about"
   weight = 25
   
+  [[main]]
+    parent = "updates"
+    identifier = "log"
+    name = "更新日志"
+    url = "updates/log"
+    weight = 1
+  
+  [[main]]
+    parent = "updates"
+    identifier = "todo"
+    name = "待办列表"
+    url = "updates/todo"
+    weight = 2

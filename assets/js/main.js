@@ -13,8 +13,9 @@ function UrlExists(url, cb) {
 }
 
 _tooltip_func = function (index, elem) {
-    this.text = $(elem).text()
-    $(elem).attr("title", this.text)
+    description = $(elem).attr("description")
+    $(elem).attr("title", $(elem).text())
+    this.text = $(elem).text() + "<br>" + description
 
     href = $(this).attr("href")
     if (!href) return
@@ -68,13 +69,21 @@ if (host.startsWith("localhost") || href.startsWith("file")) {
         src = src.replace(link, host)
         src = src.replace("https", "http")
         $(this).attr("src", src)
-        src = $(this).attr("src")
+
+        src = $(this).attr("data-src")
+        if(src){
+            src = src.replace(link, host)
+            src = src.replace("https", "http")
+            $(this).attr("data-src", src)
+        }
     })
     $("video").each(function () {
         src = $(this).attr("src")
-        src = src.replace(link, host)
-        src = src.replace("https", "http")
+        src = src.replace(link, host).replace("https", "http")
         $(this).attr("src", src)
-        src = $(this).attr("src")
     })
 }
+
+// NOTE lazyload
+// $("img.lazyload").lazyload();
+lazyload();

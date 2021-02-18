@@ -93,6 +93,8 @@ footer:
           link: https://www.sidefx.com/docs/houdini/hom/intro.html
         - title: Python hou 参考文档
           link: https://www.sidefx.com/docs/houdini/hom/hou/index.html
+        - title: HScript 全局变量
+          link: https://www.sidefx.com/docs/houdini/network/expressions.html#globals
         - title: 官方资源
           link: https://www.sidefx.com/docs/
     - title: Houdini 官方资源

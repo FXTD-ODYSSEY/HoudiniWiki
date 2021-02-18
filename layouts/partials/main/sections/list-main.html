@@ -76,16 +76,15 @@
     </div>
   {{end}}
   
+  <article class="single__contents" data-dir="{{ $.Param " languagedir" | default "ltr" }}">
+    {{ .Content }}
+  </article>
+
   {{ $toc := .Params.toc | default true }}
   {{ $section_to_display :=  .Pages }}
   {{ if and $section_to_display $toc }}
     {{ partial "main/sections/list-section.html" (dict "context" . "section_to_display" $section_to_display) }}
   {{ end }}
-
-  <article class="single__contents" data-dir="{{ $.Param " languagedir" | default "ltr" }}">
-    {{ .Content }}
-  </article>
-
 
   <div class="link_container" style="margin-bottom:5px">
     {{ $slug := .Page.Params.slug | default .Page.File.BaseFileName}}

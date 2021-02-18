@@ -3,6 +3,7 @@ title: Houdini 基础操作案例汇总
 author: 智伤帝
 description: 
 date: 2021-01-16
+slug: 56c557a6
 pan: 
 video: 
 weight: 1
