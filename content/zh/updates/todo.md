@@ -1,6 +1,6 @@
 ---
 title: "待办列表"
-# description: "test post index"
+description: "教程完成进度"
 date: 2021-02-13
 draft: false
 weight: 20

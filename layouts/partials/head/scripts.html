@@ -1000,7 +1000,7 @@
         var host = window.location.host
         var href = window.location.href
         if(!host.startsWith("localhost") && !href.startsWith("file"))
-          baseurl = "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages"
+          baseurl = "https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/"
         var url = baseurl + langprefix.slice(1) + "/index.json"
         $.ajax({
           url,

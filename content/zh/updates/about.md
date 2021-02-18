@@ -1,6 +1,6 @@
 ---
 title: "关于网站"
-# description: "test post index"
+description: "建站初衷"
 date: 2021-01-23
 draft: false
 weight: 15

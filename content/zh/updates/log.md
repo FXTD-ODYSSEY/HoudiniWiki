@@ -1,6 +1,6 @@
 ---
 title: "更新日志"
-# description: "test post index"
+description: "记录网站更新"
 date: 2021-01-21
 draft: false
 weight: 20
