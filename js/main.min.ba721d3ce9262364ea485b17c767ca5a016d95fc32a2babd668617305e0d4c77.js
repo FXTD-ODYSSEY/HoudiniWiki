@@ -2,7 +2,7 @@ function UrlExists(url,cb){jQuery.ajax({url:url,dataType:'text',type:'GET',compl
 cb.apply(this,[xhr.status]);}});}
 _tooltip_func=function(index,elem){description=$(elem).attr("description")
 $(elem).attr("title",$(elem).text())
-this.text=$(elem).text()+"<br>"+description
+this.content=$(elem).text()+"<br>"+description
 href=$(this).attr("href")
 if(!href)return
 links=href.split("/")
@@ -10,7 +10,7 @@ post_id=links[links.length-2]
 host=window.location.host
 this.cover="//"+host+"/posts/"+post_id+"/cover.png"
 fn=function(xhr){status=xhr.status
-content=status==200?'<img src="'+this.cover+'" />'+this.text:this.text
+content=status==200?'<img src="'+this.cover+'" />'+this.content:this.content
 $(this).tooltip({content,track:true,})}
 $.ajax({url:this.cover,dataType:'text',type:'GET',complete:fn.bind(this)});}
 $(".menu__title").each(_tooltip_func);$(".menu__title--collapse-text").each(_tooltip_func)
