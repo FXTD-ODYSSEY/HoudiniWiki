@@ -8,7 +8,7 @@ video: https://www.bilibili.com/video/BV12A41177XR
 weight: 1
 slug: f5e65036
 version: houdini 16+
-producer: Official
+producer: SideFX
 level: beginner
 tags: 
   - maya

@@ -3,7 +3,7 @@
 title: Pluralsight - Houdini VEX Fundamentals
 author: 智伤帝
 description: VEX 入门课程
-date: 2021-02-14
+date: 2021-02-16
 pan: https://pan.baidu.com/s/1St_q-BAkNatFDMXw9n7FGQ
 video: https://www.bilibili.com/video/BV1Po4y1Z7Fm/
 weight: 1
@@ -24,7 +24,6 @@ pipeline:
 
 
 ## 观看笔记
-
 
 ### VEX & HScript 比较 
 

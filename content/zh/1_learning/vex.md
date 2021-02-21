@@ -1,7 +1,7 @@
 ---
 title: Houdini VEX 典型案例汇总
 author: 智伤帝
-description: 
+description: Houdini VEX 典型案例汇总
 date: 2021-01-16
 slug: 2e9f98d1
 pan: 

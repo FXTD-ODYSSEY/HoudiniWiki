@@ -15,7 +15,7 @@ function UrlExists(url, cb) {
 _tooltip_func = function (index, elem) {
     description = $(elem).attr("description")
     $(elem).attr("title", $(elem).text())
-    this.text = $(elem).text() + "<br>" + description
+    this.content = $(elem).text() + "<br>" + description
 
     href = $(this).attr("href")
     if (!href) return
@@ -26,7 +26,7 @@ _tooltip_func = function (index, elem) {
     this.cover = "//" + host + "/posts/" + post_id + "/cover.png"
     fn = function(xhr) {
         status = xhr.status
-        content = status == 200 ? '<img src="' + this.cover + '" />' + this.text : this.text
+        content = status == 200 ? '<img src="' + this.cover + '" />' + this.content : this.content
         $(this).tooltip({
             content,
             track: true,

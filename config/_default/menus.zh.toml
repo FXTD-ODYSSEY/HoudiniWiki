@@ -42,6 +42,13 @@
 
   [[main]]
     parent = "learning"
+    identifier = "procedural"
+    name = "程序化建模"
+    url = "procedural"
+    weight = 7
+
+  [[main]]
+    parent = "learning"
     identifier = "FX"
     name = "影视特效"
     url = "fx"

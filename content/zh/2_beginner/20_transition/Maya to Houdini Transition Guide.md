@@ -8,7 +8,7 @@ video: https://www.bilibili.com/video/BV1P54y1C7xn
 weight: 1
 slug: 0cde720b
 version: houdini 16+
-producer: Official
+producer: SideFX
 level: beginner
 tags: 
   - maya

@@ -1,5 +1,5 @@
 ---
-title: Entagma Patreon- Adding Houdini to your Arsenal 
+title: Entagma Patreon - Adding Houdini to your Arsenal 
 author: 智伤帝
 description: Entagma AHTYA 入门系列教程 
 date: 2021-02-13

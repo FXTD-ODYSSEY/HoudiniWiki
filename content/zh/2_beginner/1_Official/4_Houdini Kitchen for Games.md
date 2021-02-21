@@ -2,7 +2,7 @@
 title: Houdini Kitchen for Games
 author: 智伤帝
 description: Houdini Kitchen 系列教程
-date: 2021-02-14
+date: 2021-02-18
 pan: https://pan.baidu.com/s/1FVaGiMdLCsf2mIHutMB2WQ
 video: https://www.bilibili.com/video/BV1iV41127nj
 weight: 4

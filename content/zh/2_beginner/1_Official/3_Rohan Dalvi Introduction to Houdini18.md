@@ -25,9 +25,8 @@ https://www.sidefx.com/learn/collections/introduction-to-houdini-1/
 
 ## 总结
 
-
-
-> &emsp;&emsp;
+> &emsp;&emsp;这个教程算是挺长的，对于入门来说难度曲线不算太大，讲得也很通俗易懂。
+> &emsp;&emsp;主要围绕 SOP 进行讲解，实现的案例挺有意思的，适合初学者上手。
 
 ## 观看笔记
 

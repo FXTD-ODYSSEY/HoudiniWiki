@@ -1,14 +1,14 @@
 ---
 title: 从Maya学Houdini零起点入门极速教学
 author: 智伤帝
-description: aboutcg 的免费课程
+description: ABOUTCG 的免费课程
 date: 2021-02-05
 pan: 
 video: https://www.bilibili.com/video/BV12W411t7Ra
 weight: 1
 slug: 7479ed24
 version: Houdini 14
-producer: Official
+producer: ABOUTCG
 level: beginner
 tags: 
   - maya

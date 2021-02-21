@@ -37,6 +37,7 @@ minify = true
   4_python = "/:slug"
   5_math = "/:slug"
   6_game = "/:slug"
+  7_procedural = "/:slug"
   15_fx = "/:slug"
   16_rendering = "/:slug"
   19_msic = "/:slug"

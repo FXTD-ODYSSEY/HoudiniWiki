@@ -8,7 +8,7 @@ video: https://www.bilibili.com/video/BV1SK4y1h72h
 weight: 1
 slug: f7f755c5
 version: houdini 16+
-producer: Official
+producer: SideFX
 level: beginner
 tags: 
   - foundation

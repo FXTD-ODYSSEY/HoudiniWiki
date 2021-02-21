@@ -1,13 +1,21 @@
 ---
-title: "tips & tricks"
-# description: "test post index"
-date: 2021-02-12
-draft: false
-toc: false
-url: "learning/tips"
+title: Houdini Tips
+author: 智伤帝
+description: Houdini Tips
+date: 2021-02-20
+slug: 018aff2a
+pan: 
+video: 
+weight: 3
+version: 
+producer:
+level: 
+tags: 
+  - 知识汇总
+nodes: 
+pipeline: 
+
 ---
-
-
 
 LearnDay Episode 53: is HScript DEAD?
 https://www.youtube.com/watch?v=HGMO23Ik1yc
