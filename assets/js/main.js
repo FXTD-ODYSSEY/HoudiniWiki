@@ -86,4 +86,8 @@ if (host.startsWith("localhost") || href.startsWith("file")) {
 
 // NOTE lazyload
 // $("img.lazyload").lazyload();
-lazyload();
+// lazyload();
+var lazyLoadInstance = new LazyLoad({
+    // Your custom settings go here
+});
+lazyLoadInstance.update();

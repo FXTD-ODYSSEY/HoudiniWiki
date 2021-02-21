@@ -1,1 +1,3 @@
-<img class="lazyload" src="/logo.png" data-src="{{ .Destination | default `` }}"  alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+<div class="image-wrapper">
+    <img class="lazy image" src="/logo.png" data-src="{{ .Destination | default `` }}"  alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+</div>

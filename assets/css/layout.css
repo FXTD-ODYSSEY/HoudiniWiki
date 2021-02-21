@@ -295,3 +295,21 @@ pre .hljs-vex_comment {
 .tag_color_7:before {
 	border-color: transparent #343a40 transparent transparent !important;
 }
+
+
+/* fix image lazy loading height */
+
+.image-wrapper {
+	width: 100%;
+	height: 0;
+	padding-bottom: 57%;
+	/* 👆 image height / width * 100% */
+	position: relative;
+  }
+  .image {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	padding: 0px 10px;
+  }
+
