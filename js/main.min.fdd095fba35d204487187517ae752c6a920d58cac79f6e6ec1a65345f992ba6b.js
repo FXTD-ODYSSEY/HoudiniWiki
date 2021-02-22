@@ -31,4 +31,4 @@ $(this).attr("data-src",src)}})
 $("video").each(function(){src=$(this).attr("src")
 src=src.replace(link,host).replace("https","http")
 $(this).attr("src",src)})}
-lazyload();
+var lazyLoadInstance=new LazyLoad({});lazyLoadInstance.update();
