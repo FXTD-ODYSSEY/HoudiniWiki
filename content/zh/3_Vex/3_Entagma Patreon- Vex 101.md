@@ -25,13 +25,12 @@ pipeline:
 
 ## 观看笔记
 
+### 02 - SOP Wrangle Basics
 ![02](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/554149d6/01.jpg)
 
 > &emsp;&emsp;wrangle 节点可以设置为 Number 类型自定义执行的次数。
 
----
-
-09 - chladni pattern
+### 09 - Creating Chladni Patterns
 
 [克拉尼图形](https://baike.baidu.com/item/%E5%85%8B%E6%8B%89%E5%B0%BC%E5%9B%BE%E5%BD%A2)
 
@@ -53,7 +52,7 @@ s(x, y) = asin(πnx) sin(πmy) + bsin(πmx)sin(πny)
 
 > &emsp;&emsp;使用公式写 VEX 代码比用 Vop 节点复现公式代码来得方便。
 
----
+### 14 - Starting A Function Library
 
 > &emsp;&emsp;Mortiz 推荐 Joy of Vex 出自 CGwiki 的系列文章教程作为额外的学习材料 [链接](https://www.tokeru.com/cgwiki/index.php?title=JoyOfVex)
 
@@ -65,11 +64,23 @@ s(x, y) = asin(πnx) sin(πmy) + bsin(πmx)sin(πny)
 
 > &emsp;&emsp;需要在 Houdini.env 里面引入文件目录。
 
----
+### 15 - A (Not So) Quick Recap & Fake Hanging Wires
 
 ![15](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/554149d6/05.jpg)
 
 > &emsp;&emsp;Houdini 的 foreach 和 compile 都比 wrangle 节点要慢很多。
+
+### 16 - Pixel Sorting
+
+> &emsp;&emsp;`argsort` 可以重新排序数组
+
+### 17 - Intersecting Lines
+
+> &emsp;&emsp;`intersect_all` 可以检测模型的碰撞
+
+### 18 - Transformation Matrix Intuition
+
+> &emsp;&emsp;`dient` 获取 单位矩阵(identity matrix)
 
 
 ## 案例分析
@@ -134,19 +145,17 @@ s(x, y) = asin(πnx) sin(πmy) + bsin(πmx)sin(πny)
 
 {{<attachments pattern="example_09.hip" />}}
 
+### 像素偏移
+
+![17](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/554149d6/example_10.jpg)
+
+> &emsp;&emsp;通过 grid 选择 column 可以竖向线段模型
+> &emsp;&emsp;通过 `attribute from map` 可以将像素映射到模型上
+> &emsp;&emsp;虽然模型没有面，只要离得足够远，就可以看到 贴图 的 效果。
 
 
-what do you think your new keyboard
-i still not very get used to it 
-but right now, it almost fine at that moment.
 
-我尝试打些中文，试试我的新键盘，感觉非常良好。
-打字还很安静，不会有噼里啪啦的敲键盘声音。
-
-而且这个键盘还是蓝牙键盘，可以无线远程连接。
-总体感觉稍微适应一下，感觉非常良好~
-终于摆脱了以前的垃圾旧键盘的使用了_(:з」∠)_。
-
+{{<attachments pattern="example_10.hip" />}}
 
 
 

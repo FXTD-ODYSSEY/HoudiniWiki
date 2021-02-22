@@ -15,7 +15,7 @@ landing:
   textColor:
   spaceBetweenTitleText: 25
   buttons:
-    - link: 1_learning
+    - link: learning
       text: 进入百科
       color: primary
     # - link: updates/help/
