@@ -32,23 +32,25 @@ https://www.sidefx.com/learn/collections/houdini-kitchen-for-games/
 
 ## 观看笔记
 
+### 02 Transform Node
+
 ![02](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/4c3b6b79/01.jpg)
 
 > &emsp;&emsp;右键可以创建 reference copy 的节点，所以的通道都和源节点相连接。
 
----
+### 04 Introduction to VOPs
 
 ![04](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/4c3b6b79/02.jpg)
 
 > &emsp;&emsp;Vop 节点里面 Pattern 目录可以输出固定的图案的节点。
 
----
+### 07 Group Nodes
 
 ![07](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/4c3b6b79/03.jpg)
 
 > &emsp;&emsp;通过 Prim Vop 获取面的位置生成中心点。
 
----
+### 08 All about Houdini Digital Assets
 
 ![08](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/4c3b6b79/04.jpg)
 
@@ -58,13 +60,13 @@ g`substr(chs("../../Rook_1"),0,1))`
 > &emsp;&emsp;`chs` 获取 HDA 上层字符串， `substr` 对字符串进行裁切，提取字符串第一个字母。
 > &emsp;&emsp;最后组合输出的 `gA` 的效果
 
----
+### 09 Attribute Transfer Node
 
 ![09](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/4c3b6b79/05.jpg)
 
 > &emsp;&emsp;属性传递可以勾选 `Match P Attribute` 实现吸附效果
 
----
+### 10 Introduction Volumes and VDBs
 
 ![10](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/4c3b6b79/06.jpg)
 ![10](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/4c3b6b79/07.jpg)
@@ -88,7 +90,7 @@ g`substr(chs("../../Rook_1"),0,1))`
 
 > &emsp;&emsp;VDB 可以将一堆穿插的小球合为一体。
 
----
+### 12 Copy Stamping and the foreach loops
 
 ![12](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/4c3b6b79/11.jpg)
 
@@ -99,7 +101,8 @@ https://vimeo.com/142534639
 
 > &emsp;&emsp;教程推荐看上面的 官方教程 深入了解 Houdini 的 foreach 功能
 
----
+### 13 UV Tools
+
 
 ![13](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/4c3b6b79/12.jpg)
 
@@ -107,7 +110,7 @@ https://vimeo.com/142534639
 > &emsp;&emsp;再使用 uv flatten 可以自动展开 UV
 > &emsp;&emsp;再使用 UV Layout 将 UV 空间充分利用好。
 
----
+### 13 L-system
 
 http://algorithmicbotany.org/papers/#abop
 

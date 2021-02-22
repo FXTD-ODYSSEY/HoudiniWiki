@@ -1,7 +1,7 @@
 ---
 title: Rohan Dalvi - Introduction to Houdini18
 author: 智伤帝
-description: Houdini18 入门教程
+description: Rohan Dalvi - Houdini 18 入门教程
 date: 2021-02-09
 pan: https://pan.baidu.com/s/1MYcVtIJH6bgmPeGbI4b91A
 video: https://www.bilibili.com/video/BV1qf4y1B7D3

@@ -18,6 +18,10 @@ pipeline:
 ---
 
 [官方文档](https://www.sidefx.com/docs/houdini/basics/index.html)
+
+[Vex 101 Popular Builtin Vex Attribute PDF](https://cdn.jsdelivr.net/gh/FXTD-ODYSSEY/HoudiniWiki@gh-pages/posts/2e9f98d1/VEX101.pdf)
+
+
 ## 模型渐变方案
 
 > + 使用 BoundingBox - rohan 入门教程
