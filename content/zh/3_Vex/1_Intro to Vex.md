@@ -19,6 +19,8 @@ pipeline:
   - modeling
 ---
 
+https://www.sidefx.com/tutorials/intro-to-vex/
+
 ## 总结
 
 > &emsp;&emsp;这个教程对于入门 Vex 来说还算不错。

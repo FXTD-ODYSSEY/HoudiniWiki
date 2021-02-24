@@ -1,14 +1,14 @@
 ---
 title: 
 author: 智伤帝
-description: 游戏相关快速入门
+description: 
 date: rq
 pan: 
 video: 
 weight: 1
 slug: id
-version: Houdini 18
-producer: Entagma
+version: Houdini 16+
+producer: 
 level: beginner
 tags: 
   - foundation
