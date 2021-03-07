@@ -308,7 +308,7 @@ pre .hljs-vex_comment {
   }
   .image {
 	width: 100%;
-	height: auto;
+	height: 100%;
 	position: absolute;
 	padding: 0px 1rem;
   }
