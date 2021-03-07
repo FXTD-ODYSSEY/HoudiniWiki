@@ -2,10 +2,10 @@
 other = "目录"
 
 [tooltip-written]
-other = "写于"
+other = "发布时间"
 
 [tooltip-modified]
-other = "修改时间"
+other = "上次更新时间"
 
 [tooltip-reading-time]
 other = "阅读时间"
