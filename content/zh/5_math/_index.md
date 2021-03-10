@@ -6,3 +6,7 @@ draft: false
 url: "math"
 ---
 
+https://www.bilibili.com/video/BV1xr4y1A7Cu
+https://www.bilibili.com/video/BV1AW411x7ih
+https://www.bilibili.com/video/BV1ZW41147gn
+https://www.bilibili.com/video/BV1eW41147ur

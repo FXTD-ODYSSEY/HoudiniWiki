@@ -6,7 +6,7 @@ description: VEX 入门课程
 date: 2021-02-16
 pan: https://pan.baidu.com/s/1St_q-BAkNatFDMXw9n7FGQ
 video: https://www.bilibili.com/video/BV1Po4y1Z7Fm/
-weight: 2
+weight: 4
 slug: dbcc6763
 version: houdini 16+
 producer: Pluralsight
@@ -22,6 +22,10 @@ pipeline:
 
 ## 总结
 
+> &emsp;&emsp;这个教程的前 20 集的新手教学做得很不错。
+> &emsp;&emsp;但是20集之后开始制作科幻走廊，就开始复杂起来了。
+> &emsp;&emsp;而且感觉教程作者的用法有点拉胯，我看不下去，于是我暂停了后续的观看。
+> &emsp;&emsp;打算后面将 Vex 的教程再看多点再回头补完。
 
 ## 观看笔记
 

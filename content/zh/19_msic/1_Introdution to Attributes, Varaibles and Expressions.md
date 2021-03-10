@@ -66,26 +66,6 @@ https://www.sidefx.com/docs/houdini/ref/windows/textport
 
 > &emsp;&emsp;Textport 也可以像操作系统一样执行 echo 命令。
 
-## ~~案例分析~~
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

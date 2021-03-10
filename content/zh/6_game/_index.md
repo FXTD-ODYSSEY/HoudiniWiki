@@ -6,5 +6,3 @@ draft: false
 url: "game"
 ---
 
-https://www.rrcg.cn/thread-16763322-1-1.html    
-https://www.rrcg.cn/thread-16760608-1-1.html

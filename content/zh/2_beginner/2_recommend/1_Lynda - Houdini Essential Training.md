@@ -23,6 +23,8 @@ pipeline:
 
 ---
 
+https://www.lynda.com/Houdini-tutorials/Houdini-Essential-Training/571627-2.html
+
 ## 总结
 
 > &emsp;&emsp;这个教程娓娓道来，蜻蜓点水般介绍了 Houdini 各个主要功能模块。
