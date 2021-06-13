@@ -56,4 +56,4 @@ jobs:
           git clean -fdx
           git checkout gh-pages
           git pull origin gh-pages
-          git push server gh-pages
+          git push server gh-pages -f
