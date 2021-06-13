@@ -33,9 +33,9 @@
 <a class="tag-link tag_color_4" href=../../../zh/level/beginner>beginner</a>
 <span class=tag__label>houdini 版本:</span>
 <a class="tag-link tag_color_3" href=../../../zh/version/houdini-16+>houdini 16+</a></div><div class=tags><span class=tag__label>houdini 模块:</span>
-<a class="tag-link tag_color_3" href=../../../zh/nodes/sop>SOP</a></div><div class=tags><span class=tag__label>流程:</span>
-<a class="tag-link tag_color_2" href=../../../zh/pipeline/modeling>modeling</a></div><div class=tags><span class=tag__label>标签:</span>
-<a class="tag-link tag_color_1" href=../../../zh/tags/python>Python</a></div><div class=tags><span class=tag__label>网盘链接:</span>
+<a class="tag-link tag_color_4" href=../../../zh/nodes/sop>SOP</a></div><div class=tags><span class=tag__label>流程:</span>
+<a class="tag-link tag_color_1" href=../../../zh/pipeline/modeling>modeling</a></div><div class=tags><span class=tag__label>标签:</span>
+<a class="tag-link tag_color_4" href=../../../zh/tags/python>Python</a></div><div class=tags><span class=tag__label>网盘链接:</span>
 <a href=https://pan.baidu.com/s/1zP6oO2AieDgQ50f77CMgfg target=_blank>https://pan.baidu.com/s/1zP6oO2AieDgQ50f77CMgfg</a> &nbsp; 提取码: wiki</div><div class=tags><span class=tag__label>在线视频:</span>
 <a href=https://www.bilibili.com/video/BV1nJ411E7ax/ target=_blank>https://www.bilibili.com/video/BV1nJ411E7ax/</a></div><article class=single__contents data-dir=ltr><h2 id=总结>总结</h2><h2 id=观看笔记>观看笔记</h2><h3 id=01---environment-setup>01 - Environment setup</h3><p><a href=http://cgtoolbox.com/houdini-expression-editor/>http://cgtoolbox.com/houdini-expression-editor/</a></p><blockquote><p>  配置 Expression Editor 以及 VScode</p></blockquote><h3 id=02---help-variables-and-nodes>02 - Help, variables and nodes</h3><p><code>hou.wd()</code> 获取当前 python 节点位置<br><code>hou.selectedNodes()</code> 获取选中的节点</p><blockquote><p>  介绍了 Python 的基础操作，以及 Houdini 相关的模块帮助查找。</p></blockquote><h3 id=03---hom-obj-loader-custom-tool>03 - HOM, OBJ loader custom tool</h3><p><a href=https://www.sidefx.com/docs/houdini/hom/hou/ui#selectFile>https://www.sidefx.com/docs/houdini/hom/hou/ui#selectFile</a></p><p><code>hou.ui.selectFile(title="title")</code> Houdini 的文件选择窗口</p><p><code>hou.expandString</code> 可以将 Houdini 的变量 <code>$HIP</code> 扩展成完完整的路径或名称。</p><h2 id=案例分析>案例分析</h2><h3 id=选择目录-加载目录下所有的模型文件>选择目录 加载目录下所有的模型文件</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
 </span><span class=lnt> 2
