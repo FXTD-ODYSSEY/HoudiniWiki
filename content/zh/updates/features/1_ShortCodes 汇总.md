@@ -116,7 +116,7 @@ Lorem markdownum insigne...
 
 
 
-## pannel
+## panel
 
 {{% panel theme="danger" header="panel title" footer="asdasfq" %}}this is a panel text{{% /panel %}}
 

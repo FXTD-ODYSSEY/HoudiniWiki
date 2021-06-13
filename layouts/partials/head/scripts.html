@@ -344,8 +344,10 @@
         "language-chart",
         "language-mermaid"
       ]
-      if (filter_language.indexOf(block.className) != -1)
+      if (block.className != "language-vex")
         return
+      // if (filter_language.indexOf(block.className) != -1)
+      //   return
         
       hljs.initHighlightingOnLoad();
       hljs.lineNumbersBlock(block);

@@ -198,6 +198,12 @@ pre .hljs-vex_title {
 pre .hljs-vex_comment {
 	color: #b1b15b;
 }
+
+.vex {
+	margin-top: 1.6rem;
+	display: block;
+}
+
 /* pre .vex_number{color:#7163d7} */
 
 /* for block of numbers */
@@ -209,10 +215,6 @@ pre .hljs-vex_comment {
 	color: #666;
 }
 
-[class^="language-"] {
-	margin-top: 1.6rem;
-	display: block;
-}
 .hljs::after {
 	position: absolute;
 	top: 2px;
