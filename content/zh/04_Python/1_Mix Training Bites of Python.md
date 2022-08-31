@@ -1,5 +1,4 @@
 ---
-
 title: Bites of Python
 author: 智伤帝 
 description: Mix Training - Python 入门教程
@@ -12,7 +11,7 @@ version: houdini 16+
 producer: Mix Training
 level: beginner
 tags: 
-  - Python
+  - ࠕPython
 nodes:
   - SOP
 pipeline:

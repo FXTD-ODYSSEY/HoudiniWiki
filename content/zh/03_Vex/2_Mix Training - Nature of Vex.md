@@ -11,7 +11,7 @@ version: Houdini 16+
 producer: MIX Training
 level: beginner
 tags: 
-  - foundation
+  - ࠁHoudini
 nodes:
   - SOP
 pipeline:

@@ -11,8 +11,7 @@ version: Houdini 16.5
 producer: Houdini Kitchen
 level: beginner
 tags:
-  - foundation
-  - L-system
+  - ࠁHoudini/L-system
 nodes:
   - SOP
 pipeline:

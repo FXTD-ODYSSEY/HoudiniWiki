@@ -11,7 +11,7 @@ version: houdini 16.0+
 producer: Junichiro Horikawa
 level: intermediate
 tags: 
-  - math
+  - 🔢数学
 nodes:
   - SOP
 pipeline:

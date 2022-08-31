@@ -1,5 +1,4 @@
 ---
-
 title: Pluralsight - Houdini VEX Fundamentals
 author: 智伤帝
 description: VEX 入门课程
@@ -12,12 +11,11 @@ version: houdini 16+
 producer: Pluralsight
 level: beginner
 tags: 
-  - VEX
+  - ࠁHoudini/VEX
 nodes:
   - SOP
 pipeline:
   - modeling
-
 ---
 
 ## 总结

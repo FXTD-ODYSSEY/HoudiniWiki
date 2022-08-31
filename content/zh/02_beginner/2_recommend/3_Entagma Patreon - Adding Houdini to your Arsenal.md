@@ -11,13 +11,12 @@ version: houdini 16+
 producer: Entagma
 level: beginner
 tags: 
-  - foundation
+  - ࠁHoudini
 nodes:
   - SOP
   - SHOP
 pipeline:
   - modeling
-
 ---
 
 ## 总结

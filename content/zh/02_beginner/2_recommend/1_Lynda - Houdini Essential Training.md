@@ -11,7 +11,7 @@ version: Houdini 16
 producer: Lynda
 level: beginner
 tags: 
-  - foundation
+  - ࠁHoudini
 nodes:
   - SOP
   - DOP
@@ -20,7 +20,6 @@ nodes:
   - ROP
 pipeline:
   - modeling
-
 ---
 
 https://www.lynda.com/Houdini-tutorials/Houdini-Essential-Training/571627-2.html

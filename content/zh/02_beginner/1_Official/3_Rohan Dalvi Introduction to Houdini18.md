@@ -11,7 +11,7 @@ version: Houdini 18
 producer: Rohan Dalvi
 level: beginner
 tags:
-  - foundation
+  - ࠁHoudini
 nodes:
   - SOP
   - SHOP

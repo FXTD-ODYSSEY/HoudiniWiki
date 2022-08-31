@@ -11,7 +11,7 @@ version: Houdini 14
 producer: ABOUTCG
 level: beginner
 tags: 
-  - maya
+  - ࠀMaya
 pipeline:
   - all
 nodes:

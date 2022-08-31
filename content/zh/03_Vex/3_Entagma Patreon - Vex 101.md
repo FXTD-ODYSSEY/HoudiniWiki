@@ -1,5 +1,4 @@
 ---
-
 title: Entagma Patreon - Vex 101
 author: 智伤帝
 description: Entagma VEX 入门课程
@@ -12,14 +11,13 @@ version: houdini 16+
 producer: Entagma
 level: Intermediate
 tags: 
-  - VEX
+  - ࠁHoudini/VEX
 nodes:
   - SOP
   - COP
   - MAT
 pipeline:
   - modeling
-
 ---
 
 ## 总结

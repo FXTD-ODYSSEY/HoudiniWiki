@@ -1,5 +1,4 @@
 ---
-
 title: Rohan Dalvi - INTRO TO VEX
 author: 智伤帝 
 description: Rohan Dalvi VEX 入门课程
@@ -12,7 +11,7 @@ version: houdini 16.0
 producer: Rohan Dalvi
 level: beginner
 tags: 
-  - VEX
+  - ࠁHoudini/VEX
 nodes:
   - SOP
 pipeline:

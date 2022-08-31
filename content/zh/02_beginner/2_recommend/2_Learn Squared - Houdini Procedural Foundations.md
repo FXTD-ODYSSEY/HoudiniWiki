@@ -11,7 +11,7 @@ version: Houdini 15.5
 producer: Learn Squared
 level: beginner
 tags: 
-  - foundation
+  - ࠁHoudini
 nodes:
   - SOP
 pipeline:

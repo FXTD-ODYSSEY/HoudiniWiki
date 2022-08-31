@@ -11,7 +11,7 @@ version: houdini 10
 producer: SideFX
 level: beginner
 tags: 
-  - HScript
+  - ࠁHoudini/HScript
 nodes:
   - SOP
 pipeline:

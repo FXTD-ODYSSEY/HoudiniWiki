@@ -11,11 +11,9 @@ version: houdini 16+
 producer: SideFX
 level: beginner
 tags: 
-  - maya
+  - ࠀMaya
 pipeline:
   - all
-# nodes:
-#   - SOP
 ---
 
 {{< relink url="1_learning/basic" >}} 

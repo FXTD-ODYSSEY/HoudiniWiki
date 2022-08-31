@@ -11,7 +11,7 @@ version: Houdini 18
 producer: Entagma
 level: beginner
 tags: 
-  - foundation
+  - ࠁHoudini
 nodes:
   - SOP
 pipeline:

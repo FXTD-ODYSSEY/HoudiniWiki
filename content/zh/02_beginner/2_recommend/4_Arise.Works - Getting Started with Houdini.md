@@ -11,12 +11,11 @@ version: houdini 18.0
 producer: Arise.Works
 level: beginner
 tags: 
-  - foundation
+  - ࠁHoudini
 nodes:
   - SOP
 pipeline:
   - modeling
-
 ---
 
 https://www.youtube.com/watch?v=axD1ejlaEBA&list=PLFkMNnEYa3AP1ljfLNA4d7lqIgwKbUwHM

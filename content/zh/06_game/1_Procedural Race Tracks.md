@@ -11,7 +11,7 @@ version: Houdini 17.5
 producer: Indie-Pixel
 level: beginner
 tags:
-  - foundation
+  - ࠁHoudini
 nodes:
   - SOP
 pipeline:

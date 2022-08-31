@@ -11,11 +11,9 @@ version: Houdini 15
 producer: Pluralsight
 level: beginner
 tags: 
-  - Math
+  - 🔢数学
 pipeline:
   - all
-# nodes:
-#   - SOP
 ---
 
 

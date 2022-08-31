@@ -11,7 +11,7 @@ version: houdini 16+
 producer: SideFX
 level: beginner
 tags: 
-  - foundation
+  - ࠁHoudini
 nodes:
   - SOP
 pipeline:
