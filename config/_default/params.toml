@@ -5,6 +5,7 @@ custom_css = [
   "css/vs2015.min.css",
   "css/jquery-ui.min.css",
   "css/tags.css",
+  "css/iconfont.css",
   "scss/_terms.scss",
   "css/layout.css"]
 custom_js = [
