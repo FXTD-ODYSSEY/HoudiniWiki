@@ -302,16 +302,16 @@ pre .hljs-vex_comment {
 /* fix image lazy loading height */
 
 .image-wrapper {
-	width: 100%;
-	height: 0;
-	padding-bottom: 57%;
+	/* width: 100%; */
+	/* height: 0; */
+	/* padding-bottom: 57%; */
 	/* 👆 image height / width * 100% */
 	position: relative;
   }
   .image {
-	width: 100%;
-	height: 100%;
-	position: absolute;
+	/* width: 100%; */
+	/* height: 100%; */
+	/* position: absolute; */
 	padding: 0px 1rem;
   }
 
