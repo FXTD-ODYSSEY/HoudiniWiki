@@ -1,3 +1,23 @@
+---
+title: 操作 - 播放条面板
+author: 御琪幽然
+description: 
+date: 2022-10-08
+pan: 
+video: 
+weight: 1
+slug: 0fe0d390
+version: Houdini 19+
+producer: 
+level: 
+tags: 
+  - 
+nodes:
+  - 
+pipeline:
+  - 
+---
+
 # 一、简介
 显示时间轴与关键帧信息，主要与动画功能相关。
 

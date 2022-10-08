@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "05_attribute/index.md",
+            "file": "07_article/index.md",
             "mode": "source",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05_attribute/index.md",
+                "file": "07_article/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05_attribute/index.md",
+                "file": "07_article/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05_attribute/index.md"
+                "file": "07_article/index.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "4b2fc3350cecae54",
   "lastOpenFiles": [
+    "06_other/NodeTypes.md",
     "06_other/index.md",
     "05_attribute/index.md",
+    "04_functions/VEX functions.md",
     "04_functions/index.md",
     "04_functions/expression functions.md",
-    "04_functions/VEX functions.md",
     "03_nodes/index.md",
-    "02_operation/Scene View.md",
-    "02_operation/Render View.md",
-    "02_operation/Parameters.md",
-    "02_operation/Playbar.md"
+    "01_index/index.md",
+    "02_operation/General.md",
+    "02_operation/index.md"
   ]
 }

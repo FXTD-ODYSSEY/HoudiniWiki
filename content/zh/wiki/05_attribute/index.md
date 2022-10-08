@@ -1,3 +1,24 @@
+---
+title: 属性 - 首页
+author: 御琪幽然
+description: 
+date: 2022-10-08
+pan: 
+video: 
+weight: 1
+slug: b91cc732
+version: Houdini 19+
+producer: 
+level: 
+tags: 
+  - 
+nodes: 
+  - 
+pipeline: 
+  - 
+---
+
+
 # 介绍
 在Houdini中，许多元素是自带一些属性（Attribute）的，这些属性Houdini不会为我们显示出来，但是我们在各种情况下可能都会用得到。
 例如常见的`@P`、`@ptnum`、`@id`、`@pscale`等。

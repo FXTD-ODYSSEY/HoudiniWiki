@@ -1,3 +1,23 @@
+---
+title: 操作 - 参数面板
+author: 御琪幽然
+description: 
+date: 2022-10-08
+pan: 
+video: 
+weight: 1
+slug: 9b5d7fdc
+version: Houdini 19+
+producer: 
+level: 
+tags: 
+  - 
+nodes:
+  - 
+pipeline:
+  - 
+---
+
 # 一、简介
 显示节点参数的面板。
 

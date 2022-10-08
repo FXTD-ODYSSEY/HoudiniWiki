@@ -1,3 +1,23 @@
+---
+title: 操作 - 场景视图面板
+author: 御琪幽然
+description: 
+date: 2022-10-08
+pan: 
+video: 
+weight: 1
+slug: ec4c6289
+version: Houdini 19+
+producer: 
+level: 
+tags: 
+  - 
+nodes:
+  - 
+pipeline:
+  - 
+---
+
 # 一、简介
 显示当前场景的视图。
 
@@ -37,13 +57,14 @@
 -   B：切换为类似于3DsMax的四视口模式。
 
 ## 编辑
--   Enter：进入物体编辑模式
+-   Enter：进入物体编辑模式。
 -   S：物体编辑模式下，可以选择物体，再次按下S确认选择。
 -   D：打开显示设置界面，在Network View中则会打开其对应的显示设置界面。
 
 -   T：移动。
 -   R：旋转。
 -   E：缩放。
+
 -   按住Shift调节物体的尺寸时，会从两侧向中心缩放；调节物体位置或旋转物体时，变动值会更小。
 -   在选择元素并显示操控手柄时，可以按M或者右键选择Align Handle，以修改操控手柄的参考系。
 

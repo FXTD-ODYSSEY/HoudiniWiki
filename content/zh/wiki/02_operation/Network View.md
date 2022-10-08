@@ -1,3 +1,23 @@
+---
+title: 操作 - 网络视图面板
+author: 御琪幽然
+description: 
+date: 2022-10-08
+pan: 
+video: 
+weight: 1
+slug: de8c01fa
+version: Houdini 19+
+producer: 
+level: 
+tags: 
+  - 
+nodes:
+  - 
+pipeline:
+  - 
+---
+
 # 一、简介
 显示节点的面板。
 
@@ -40,62 +60,7 @@
 -   对于subnet节点，同样可以在Parameters面板的小齿轮里设置它的参数。
 -   在subnet节点上右键，选择Create Digital Asset可以将其存储为Digital Asset，变成一个hda文件，此时就可以发送给其他人使用它了。
 
-## OBJ网络-父节点按钮
-
-![](https://cdn.nlark.com/yuque/0/2021/png/1695289/1640852886581-d097761e-f7cf-4a0b-a5bc-0f126fa75309.png)
-
-左侧绿色为该节点可选择性，右侧蓝色为该节点可见性。
-
-## OBJ网络-子节点按钮
-
-![](https://cdn.nlark.com/yuque/0/2021/png/1695289/1640916469095-d6f7aa65-16e2-4d7b-80d9-3f6c722797a9.png)
-
-### 左侧
-
-该节点的详细信息。
-
-在节点上按住中键可以快速查看详细信息。
-
-在详细信息窗口中，可以为节点添加注释，也可以将注释显示在节点旁边。
-
-![](https://cdn.nlark.com/yuque/0/2021/png/1695289/1640920035305-c389ba4c-1f5f-4a91-8a18-53fd8c785333.png)
-
-### 左上角
-
-用于跳过该节点。
-
-![](https://cdn.nlark.com/yuque/0/2021/png/1695289/1640918633382-76e8689e-a774-4851-b0f7-0bc8857bab2a.png)![](https://cdn.nlark.com/yuque/0/2021/png/1695289/1640918646837-1277ac79-522d-423d-8fed-7d324ec6448e.png)
-
-### 右上角
-
-![](https://cdn.nlark.com/yuque/0/2021/png/1695289/1640916675740-073b3db4-eab9-47c0-bdf3-dcecf67327d9.png)
-
-是否将该物体显示在视口中。在第二层的节点中，仅有一个节点可以显示在视口中。
-
-按住Ctrl并点击该按钮时，会在渲染时显示该节点，而不在视口中显示该节点。
-
-![](https://cdn.nlark.com/yuque/0/2021/png/1695289/1640917885201-dff9c4e1-ed02-442e-98a0-74e4b3d4d710.png)![](https://cdn.nlark.com/yuque/0/2021/png/1695289/1640917946061-5b4f8f3a-d89c-42f3-9f89-8a5b7085c803.png)
-
-蓝色圆圈代表在视口中显示，紫色圆代表在渲染中显示，同时显示则是右图的效果。
-
-### 左下角
-
-用于锁定该节点。
-
-无法通过直接点击节点上的红色区域来锁定，需要按住Ctrl+左键点击才可以直接锁定。
-
-![](https://cdn.nlark.com/yuque/0/2021/png/1695289/1640918681958-2fa98d09-3448-4bfc-a905-aeec1a41904a.png)![](https://cdn.nlark.com/yuque/0/2021/png/1695289/1640918748112-579fcd76-0193-43a8-b24d-6a6c404a4fc6.png)
-
-### 右下角
-
-![](https://cdn.nlark.com/yuque/0/2021/png/1695289/1640916702242-78a6619d-5503-466a-9843-f1a8598ba61c.png)
-
-以框线模式显示该物体，按住Shift再点击该选项，可以让多个节点同时以该方式显示。
-
-![](https://cdn.nlark.com/yuque/0/2021/png/1695289/1640918534323-5a9d382f-5751-400b-a2bf-9e0ead190695.png)![](https://cdn.nlark.com/yuque/0/2021/png/1695289/1640918558446-022a9504-9c72-4943-8e69-078173229ab9.png)
-
-  
-
+## 节点操作
 -   Q：启用选中节点的By Pass
 -   W：显示选中节点的Template
 -   E：单击或框选择节点设置模板标志。释放键设置选定节点的标志。
@@ -104,6 +69,5 @@
 
 # 三、其他
 
--   Network View最大化后，会自动在右侧显示节点的属性窗口，可以在选项中手动关闭。
+-   Network View最大化后，会自动在右侧显示节点的属性窗口，可以在选项中手动关闭，在`Tools - Show Parameter Dialog When Maximized`。
 -   选择List mode，可以让显示方式更改为列表方式。
--   ![](https://cdn.nlark.com/yuque/0/2021/png/1695289/1640853450936-c952e18e-a01a-4cb8-8641-c6e9c9d765c9.png)

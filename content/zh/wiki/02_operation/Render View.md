@@ -1,3 +1,23 @@
+---
+title: 操作 - 渲染视图面板
+author: 御琪幽然
+description: 
+date: 2022-10-08
+pan: 
+video: 
+weight: 1
+slug: 3519b3c9
+version: Houdini 19+
+producer: 
+level: 
+tags: 
+  - 
+nodes:
+  - 
+pipeline:
+  - 
+---
+
 # 一、简介
 显示渲染效果的面板。
 

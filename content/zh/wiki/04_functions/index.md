@@ -1,3 +1,24 @@
+---
+title: 函数 - 首页
+author: 御琪幽然
+description: 
+date: 2022-10-08
+pan: 
+video: 
+weight: 1
+slug: 18558b13
+version: Houdini 19+
+producer: 
+level: 
+tags: 
+  - 
+nodes:
+  - 
+pipeline:
+  - 
+---
+
+
 # 简介
 在Houdini中，有两种**函数（function）**，分别是**表达式函数（Expression functions）**和**VEX函数（VEX functions）**。
 参考网站：
